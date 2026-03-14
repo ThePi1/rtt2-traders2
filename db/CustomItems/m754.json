@@ -1,0 +1,847 @@
+{
+ "69adc1296e219c567098c450": {
+        "itemTplToClone": "5bfea6e90db834001b7347f3",
+        "parentId": "5447b6254bdc2dc3278b4568",
+        "handbookParentId": "5b5f798886f77447ed5636b5",
+        "overrideProperties":{
+            "Slots": [
+            {
+                "_name": "mod_magazine",
+                "_id": "69adc5e19d71195782478baa",
+                "_parent": "5bfea6e90db834001b7347f3",
+                "_props": {
+                "filters": [
+                    {
+                    "AnimationIndex": 0,
+                    "Filter": [
+                       "69adbff30148982604391644",
+                       "69aee2f2a14a92e1ce7f8176",
+                       "69aee31070b65513cd5325a2",
+                       "69aee319e0208aa69fae51d0",
+                       "69aee32208d51ae544512183",
+                       "69aee32cfb18ae06de5ba7ff",
+                       "69aee35754f2cdb75b365aec",
+                       "69aee35ebcf6a0662846e1f3",
+                       "69aee367532796ab9d09a515"
+                        ]
+                    }
+                ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c394bdc2dae468b4577"
+            },
+            {
+                "_name": "mod_stock",
+                "_id": "69adc5e7d636095ad5dcd69e",
+                "_parent": "5bfea6e90db834001b7347f3",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "5cde739cd7f00c0010373bd3",
+                        "5d25d0ac8abbc3054f3e61f7",
+                        "5bfeb32b0db834001a6694d9",
+                        "5cdeac22d7f00c000f26168f",
+                        "5cf13123d7f00c1085616a50"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": true,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_barrel",
+                "_id": "69adc5f118a48a6ab6867527",
+                "_parent": "5bfea6e90db834001b7347f3",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "69aee706f98823d5d9e77510",
+                        "69aee71dc974ebdbb08bb852",
+                        "69aee72cdb7a6bfc0f33df13",
+                        "69aee736a0c4af2d48adaf61"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": true,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_mount",
+                "_id": "69adc5fac2b78239e2c4c5e0",
+                "_parent": "5bfea6e90db834001b7347f3",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "5cde7b43d7f00c000d36b93e",
+                        "5bfebc5e0db834001a6694e5",
+                        "5bfebc530db834001d23eb65",
+                        "65f064eec4da400cbb0dc1fe"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            }
+            ],
+            "Chambers": [
+                {
+                    "_name": "patron_in_weapon",
+                    "_id": "69adc5cfc70d47baaf70dab7",
+                    "_parent": "5bfea6e90db834001b7347f3",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                        "5e023d34e8a400319a28ed44",
+                        "5e023d48186a883be655e551",
+                        "5e023cf8186a883be655e54f",
+                        "59e77a2386f7742ee578960a",
+                        "5887431f2459777e1612938f",
+                        "560d61e84bdc2da74d8b4571",
+                        "64b8f7b5389d7ffd620ccba2",
+                        "64b8f7968532cf95ee0a0dbf",
+                        "64b8f7c241772715af0f9c3d"
+                        ]
+                        }
+                    ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d4af244bdc2d962f8b4571"
+                }
+                ],
+                "WeaponRecoilSettings": {
+                    "Enable": true,
+                    "Values": [
+                    {
+                        "Enable": true,
+                        "Process": {
+                        "ComponentType": "Y",
+                        "CurveAimingValueMultiply": 1,
+                        "CurveTimeMultiply": 2,
+                        "CurveValueMultiply": 3,
+                        "TransformationCurve": {
+                            "Keys": [
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 0,
+                                "value": 0
+                            },
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 0.1,
+                                "value": 2
+                            },
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 0.3,
+                                "value": -0.75
+                            },
+                            {
+                                "inTangent": 1.60626161,
+                                "outTangent": 1.60626161,
+                                "time": 0.634077549,
+                                "value": 0.1250251
+                            },
+                            {
+                                "inTangent": -0.5015915,
+                                "outTangent": -0.5015915,
+                                "time": 0.8476275,
+                                "value": -0.0453341454
+                            },
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 1,
+                                "value": 0
+                            }
+                            ]
+                        }
+                        },
+                        "Target": "HandsRotation"
+                    },
+                    {
+                        "Enable": true,
+                        "Process": {
+                        "ComponentType": "Y",
+                        "CurveAimingValueMultiply": 0.005,
+                        "CurveTimeMultiply": 2,
+                        "CurveValueMultiply": 0.01,
+                        "TransformationCurve": {
+                            "Keys": [
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 0,
+                                "value": 0
+                            },
+                            {
+                                "inTangent": 18.94057,
+                                "outTangent": 18.94057,
+                                "time": 0.03783655,
+                                "value": -0.894768357
+                            },
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 0.149682611,
+                                "value": 1.3271637
+                            },
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 0.4622925,
+                                "value": -0.797149658
+                            },
+                            {
+                                "inTangent": 2.375359,
+                                "outTangent": 2.375359,
+                                "time": 0.7331178,
+                                "value": -0.09230906
+                            },
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 1,
+                                "value": 0
+                            }
+                            ]
+                        }
+                        },
+                        "Target": "HandsPosition"
+                    },
+                    {
+                        "Enable": true,
+                        "Process": {
+                        "ComponentType": "Z",
+                        "CurveAimingValueMultiply": 0.2,
+                        "CurveTimeMultiply": 0.7,
+                        "CurveValueMultiply": 0.6,
+                        "TransformationCurve": {
+                            "Keys": [
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 0,
+                                "value": 0
+                            },
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 0.0795837343,
+                                "value": 1.93448639
+                            },
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 0.269665539,
+                                "value": -1.39276123
+                            },
+                            {
+                                "inTangent": 4.12492752,
+                                "outTangent": 4.12492752,
+                                "time": 0.541291356,
+                                "value": 0.123177826
+                            },
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 1,
+                                "value": 0
+                            }
+                            ]
+                        }
+                        },
+                        "Target": "CameraRotation"
+                    },
+                    {
+                        "Enable": true,
+                        "Process": {
+                        "ComponentType": "Z",
+                        "CurveAimingValueMultiply": 1,
+                        "CurveTimeMultiply": 2.5,
+                        "CurveValueMultiply": 1.5,
+                        "TransformationCurve": {
+                            "Keys": [
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 0,
+                                "value": 0
+                            },
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 0.0597168,
+                                "value": 0.494358063
+                            },
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 0.213360608,
+                                "value": -0.586212158
+                            },
+                            {
+                                "inTangent": 1.24839318,
+                                "outTangent": 1.24839318,
+                                "time": 0.505218267,
+                                "value": 0.0388129354
+                            },
+                            {
+                                "inTangent": -1.06696379,
+                                "outTangent": -1.06696379,
+                                "time": 0.78112936,
+                                "value": -0.0562798679
+                            },
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 1,
+                                "value": 0
+                            }
+                            ]
+                        }
+                        },
+                        "Target": "HandsRotation"
+                    },
+                    {
+                        "Enable": true,
+                        "Process": {
+                        "ComponentType": "X",
+                        "CurveAimingValueMultiply": 0.3,
+                        "CurveTimeMultiply": 1,
+                        "CurveValueMultiply": 1,
+                        "TransformationCurve": {
+                            "Keys": [
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 0,
+                                "value": 0
+                            },
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 0.08256227,
+                                "value": 1.04574585
+                            },
+                            {
+                                "inTangent": 0.14358829,
+                                "outTangent": 0.14358829,
+                                "time": 0.246997476,
+                                "value": -0.710482836
+                            },
+                            {
+                                "inTangent": 0.2216603,
+                                "outTangent": 0.2216603,
+                                "time": 0.8736555,
+                                "value": 0.0525184721
+                            },
+                            {
+                                "inTangent": 0,
+                                "outTangent": 0,
+                                "time": 1,
+                                "value": 0
+                            }
+                            ]
+                        }
+                        },
+                        "Target": "HandsRotation"
+                    }
+                    ]
+                },
+                "RecoilForceBack": 750,
+                "RecoilForceUp": 287,
+                "ammoCaliber": "Caliber762x54R",
+                "defAmmo": "59e77a2386f7742ee578960a",
+                "defMagType": "69adbff30148982604391644"
+            },
+            "locales": {
+            "en": {
+                "name": "Custom Remingtom 754",
+                "shortName": "Remington M754",
+                "description": "Remington Model 700 Converted to 7.62x54. Apart of the Legs Custom Line."
+            }
+        },
+        "fleaPriceRoubles": 55000,
+        "handbookPriceRoubles": 55000,
+        "addtoBots": false
+        },
+
+    "69adbff30148982604391644": {
+        "itemTplToClone": "5d25a7b88abbc3054f3e60bc",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",   
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "5aaa5dfee5b5b000140293d5",
+            "_parent": "5d25a7b88abbc3054f3e60bc",
+            "_max_count": 10,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                "5e023d34e8a400319a28ed44",
+                "5e023d48186a883be655e551",
+                "5e023cf8186a883be655e54f",
+                "59e77a2386f7742ee578960a",
+                "5887431f2459777e1612938f",
+                "560d61e84bdc2da74d8b4571",
+                "64b8f7c241772715af0f9c3d",
+                "64b8f7968532cf95ee0a0dbf",
+                "64b8f7b5389d7ffd620ccba2"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "M700 7.62x54 Magpul PMAG AC 10-round magazine",
+                "shortName": "7.62x54 PMAG 10R",
+                "description": "M700 PMAG converted to hold 7.62x54 10 Round"
+            }
+        },
+        "fleaPriceRoubles": 6000,
+        "handbookPriceRoubles": 6000,
+        "addtoBots": false
+    },
+    "69aee367532796ab9d09a515": {
+        "itemTplToClone": "5ce69cbad7f00c00b61c5098",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",   
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "5aaa5dfee5b5b000140293d5",
+            "_parent": "5d25a7b88abbc3054f3e60bc",
+            "_max_count": 5,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                "5e023d34e8a400319a28ed44",
+                "5e023d48186a883be655e551",
+                "5e023cf8186a883be655e54f",
+                "59e77a2386f7742ee578960a",
+                "5887431f2459777e1612938f",
+                "560d61e84bdc2da74d8b4571",
+                "64b8f7c241772715af0f9c3d",
+                "64b8f7968532cf95ee0a0dbf",
+                "64b8f7b5389d7ffd620ccba2"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "M700 7.62x54 Magpul PMAG AC 5-round magazine",
+                "shortName": "7.62x54 PMAG 5R",
+                "description": "M700 PMAG converted to hold 7.62x54 5-Round"
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoBots": false
+    },
+    "69aee35ebcf6a0662846e1f3": {
+        "itemTplToClone": "5d25a6a48abbc306c62e6310",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",   
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "5aaa5dfee5b5b000140293d5",
+            "_parent": "5d25a7b88abbc3054f3e60bc",
+            "_max_count": 12,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                "5e023d34e8a400319a28ed44",
+                "5e023d48186a883be655e551",
+                "5e023cf8186a883be655e54f",
+                "59e77a2386f7742ee578960a",
+                "5887431f2459777e1612938f",
+                "560d61e84bdc2da74d8b4571",
+                "64b8f7c241772715af0f9c3d",
+                "64b8f7968532cf95ee0a0dbf",
+                "64b8f7b5389d7ffd620ccba2"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "M700 7.62x54 MDT AICS 12-round magazine",
+                "shortName": "7.62x54 MDT 12R",
+                "description": "M700 MDT converted to hold 7.62x54 12-Round"
+            }
+        },
+        "fleaPriceRoubles": 5000,
+        "handbookPriceRoubles": 5000,
+        "addtoBots": false
+    },
+    "69aee35754f2cdb75b365aec": {
+        "itemTplToClone": "5d25af8f8abbc3055079fec5",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",   
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "5aaa5dfee5b5b000140293d5",
+            "_parent": "5d25a7b88abbc3054f3e60bc",
+            "_max_count": 10,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                "5e023d34e8a400319a28ed44",
+                "5e023d48186a883be655e551",
+                "5e023cf8186a883be655e54f",
+                "59e77a2386f7742ee578960a",
+                "5887431f2459777e1612938f",
+                "560d61e84bdc2da74d8b4571",
+                "64b8f7c241772715af0f9c3d",
+                "64b8f7968532cf95ee0a0dbf",
+                "64b8f7b5389d7ffd620ccba2"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "M700 7.62x54 ProMag AA-70 10-round magazine",
+                "shortName": "7.62x54 Pro 10R",
+                "description": "M700 ProMag AA-70 converted to hold 7.62x54 10-Round"
+            }
+        },
+        "fleaPriceRoubles": 4000,
+        "handbookPriceRoubles": 4000,
+        "addtoBots": false
+    },
+    "69aee32cfb18ae06de5ba7ff": {
+        "itemTplToClone": "5cf12a15d7f00c05464b293f",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",   
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "5aaa5dfee5b5b000140293d5",
+            "_parent": "5d25a7b88abbc3054f3e60bc",
+            "_max_count": 20,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                "5e023d34e8a400319a28ed44",
+                "5e023d48186a883be655e551",
+                "5e023cf8186a883be655e54f",
+                "59e77a2386f7742ee578960a",
+                "5887431f2459777e1612938f",
+                "560d61e84bdc2da74d8b4571",
+                "64b8f7c241772715af0f9c3d",
+                "64b8f7968532cf95ee0a0dbf",
+                "64b8f7b5389d7ffd620ccba2"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "M700 7.62x54 ProMag AA-70 20-round magazine",
+                "shortName": "7.62x54 Pro 20R",
+                "description": "A Remington M700 sniper rifle magazine by ProMag, for the Archangel M700 stock. It accepts 7.62x54 cartridges and has a 20-round capacity."
+            }
+        },
+        "fleaPriceRoubles": 6000,
+        "handbookPriceRoubles": 6000,
+        "addtoBots": false
+    },
+    "69aee32208d51ae544512183": {
+        "itemTplToClone": "5bfeaa0f0db834001b734927",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",   
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "5aaa5dfee5b5b000140293d5",
+            "_parent": "5d25a7b88abbc3054f3e60bc",
+            "_max_count": 10,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                "5e023d34e8a400319a28ed44",
+                "5e023d48186a883be655e551",
+                "5e023cf8186a883be655e54f",
+                "59e77a2386f7742ee578960a",
+                "5887431f2459777e1612938f",
+                "560d61e84bdc2da74d8b4571",
+                "64b8f7c241772715af0f9c3d",
+                "64b8f7968532cf95ee0a0dbf",
+                "64b8f7b5389d7ffd620ccba2"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "M700 7.62x54 Wyatt's Outdoor 10-round magazine",
+                "shortName": "7.62x54 Wyatt's 10R",
+                "description": "A Remington M700 sniper rifle 10-round magazine by Wyatt's Outdoor, for 7.62x54 cartridges."
+            }
+        },
+        "fleaPriceRoubles": 6000,
+        "handbookPriceRoubles": 6000,
+        "addtoBots": false
+    },
+    "69aee319e0208aa69fae51d0": {
+        "itemTplToClone": "5bfea7ad0db834001c38f1ee",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",   
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "5aaa5dfee5b5b000140293d5",
+            "_parent": "5d25a7b88abbc3054f3e60bc",
+            "_max_count": 5,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                "5e023d34e8a400319a28ed44",
+                "5e023d48186a883be655e551",
+                "5e023cf8186a883be655e54f",
+                "59e77a2386f7742ee578960a",
+                "5887431f2459777e1612938f",
+                "560d61e84bdc2da74d8b4571",
+                "64b8f7c241772715af0f9c3d",
+                "64b8f7968532cf95ee0a0dbf",
+                "64b8f7b5389d7ffd620ccba2"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "M700 7.62x54 Wyatt's Outdoor 5-round magazine",
+                "shortName": "7.62x54 Wyatt's 5R",
+                "description": "A Remington M700 sniper rifle 5-round magazine by Wyatt's Outdoor, for 7.62x54 cartridges."
+            }
+        },
+        "fleaPriceRoubles": 6000,
+        "handbookPriceRoubles": 6000,
+        "addtoBots": false
+    },
+    "69aee31070b65513cd5325a2": {
+        "itemTplToClone": "5d25a4a98abbc30b917421a4",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",   
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "5aaa5dfee5b5b000140293d5",
+            "_parent": "5d25a7b88abbc3054f3e60bc",
+            "_max_count": 5,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                "5e023d34e8a400319a28ed44",
+                "5e023d48186a883be655e551",
+                "5e023cf8186a883be655e54f",
+                "59e77a2386f7742ee578960a",
+                "5887431f2459777e1612938f",
+                "560d61e84bdc2da74d8b4571",
+                "64b8f7c241772715af0f9c3d",
+                "64b8f7968532cf95ee0a0dbf",
+                "64b8f7b5389d7ffd620ccba2"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "M700 7.62x54 AI AICS 5-round magazine",
+                "shortName": "7.62x54 AICS 5R",
+                "description": "A 5-round Remington M700 sniper rifle magazine by Accuracy International, for 7.62x54 cartridges."
+            }
+        },
+        "fleaPriceRoubles": 6000,
+        "handbookPriceRoubles": 6000,
+        "addtoBots": false
+    },
+    "69aee2f2a14a92e1ce7f8176": {
+        "itemTplToClone": "5d25a6538abbc306c62e630d",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",   
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "5aaa5dfee5b5b000140293d5",
+            "_parent": "5d25a7b88abbc3054f3e60bc",
+            "_max_count": 10,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                "5e023d34e8a400319a28ed44",
+                "5e023d48186a883be655e551",
+                "5e023cf8186a883be655e54f",
+                "59e77a2386f7742ee578960a",
+                "5887431f2459777e1612938f",
+                "560d61e84bdc2da74d8b4571",
+                "64b8f7c241772715af0f9c3d",
+                "64b8f7968532cf95ee0a0dbf",
+                "64b8f7b5389d7ffd620ccba2"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ] 
+        },
+        "locales": {
+            "en": {
+                "name": "M700 7.62x54 AI AICS 10-round magazine",
+                "shortName": "7.62x54 AICS 10R",
+                "description": "A 10-round Remington M700 sniper rifle magazine by Accuracy International, for 7.62x54 cartridges."
+            }
+        },
+        "fleaPriceRoubles": 4000,
+        "handbookPriceRoubles": 4000,
+        "addtoBots": false
+    },
+    "69aee736a0c4af2d48adaf61": {
+        "itemTplToClone": "5d2702e88abbc31ed91efc44",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties":{},
+        "locales": {
+            "en": {
+                "name": "M700 7.62x51 26 inch stainless steel barrel",
+                "shortName": "M700 Steel 26 Inch",
+                "description": "A 26 inch (660mm) stainless steel barrel for Remington Model 700 sniper rifle chambered in 7.62x54 ammo."
+            }
+        },
+        "fleaPriceRoubles": 25000,
+        "handbookPriceRoubles": 25000,
+        "addtoBots": false
+    },
+    "69aee72cdb7a6bfc0f33df13": {
+        "itemTplToClone": "5bfebc320db8340019668d79",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties":{},
+        "locales": {
+            "en": {
+                "name": "M700 7.62x54 20 inch threaded barrel",
+                "shortName": "M700 26 Inch Threaded",
+                "description": "A 20 inch (508mm) threaded barrel for Remington Model 700 sniper rifle chambered in 7.62x54 ammo."
+            }
+        },
+        "fleaPriceRoubles": 22000,
+        "handbookPriceRoubles": 22000,
+        "addtoBots": false
+    },
+    "69aee71dc974ebdbb08bb852": {
+        "itemTplToClone": "5bfebc250db834001a6694e1",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties":{},
+        "locales": {
+            "en": {
+                "name": "M700 7.62x54 26 inch barrel",
+                "shortName": "M700 26 Inch",
+                "description": "A 26 inch (660mm) barrel for the Remington Model 700 sniper rifle chambered in 7.62x54 ammo."
+            }
+        },
+        "fleaPriceRoubles": 20000,
+        "handbookPriceRoubles": 20000,
+        "addtoBots": false
+    },
+    "69aee706f98823d5d9e77510": {
+        "itemTplToClone": "5d2703038abbc3105103d94c",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties":{},
+        "locales": {
+            "en": {
+                "name": "M700 7.62x51 20 inch stainless steel threaded barrel",
+                "shortName": "M700 Steel 20 Inch",
+                "description": "A 20 inch (508mm) stainless steel threaded barrel for the Remington Model 700 sniper rifle chambered in 7.62x54 ammo."
+            }
+        },
+        "fleaPriceRoubles": 23000,
+        "handbookPriceRoubles": 23000,
+        "addtoBots": false
+    }
+    }

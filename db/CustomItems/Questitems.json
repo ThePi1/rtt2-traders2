@@ -1,0 +1,350 @@
+{
+  "69afb77d9bd526e56c0c34d7": {
+    "itemTplToClone": "5ac620eb86f7743a8e6e0da0",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Foldable": false,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Wrapped Package",
+        "shortName": "Wrapped Package",
+        "description": "A box taped up from head to toe in duct tape."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4cb785480e8f6a36b20bc": {
+    "itemTplToClone": "591092ef86f7747bb8703422",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Foldable": false,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Secure Folder Case",
+        "shortName": "Secure Case",
+        "description": "A folder case that requires a key to open."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4cc2fef45c79424f2cb06": {
+    "itemTplToClone": "5ac620eb86f7743a8e6e0da0",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Foldable": false,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Wrapped Package",
+        "shortName": "Wrapped Package",
+        "description": "A box taped up from head to toe in duct tape."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4ccf02212c2e699d6652d": {
+    "itemTplToClone": "5ac620eb86f7743a8e6e0da0",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Foldable": false,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Wrapped Package",
+        "shortName": "Wrapped Package",
+        "description": "A box taped up from head to toe in duct tape."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4cd55c28d7079a2e4372e": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Foldable": false,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Secure Flash Drive",
+        "shortName": "Secure Flash Drive",
+        "description": "Flash Drive found at the crashed helicopter on lighthouse."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4cdc223d83be3907d58d5": {
+    "itemTplToClone": "5ac620eb86f7743a8e6e0da0",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Foldable": false,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Wrapped Package",
+        "shortName": "Wrapped Package",
+        "description": "A box taped up from head to toe in duct tape."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4d1d5beca6d110b3d3dfb": {
+    "itemTplToClone": "5938878586f7741b797c562f",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Foldable": false,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Secure Folder 0052",
+        "shortName": "Secure Folder 0052",
+        "description": "A folder case that requires a key to open."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4d15ea9ee50f56157c0cd": {
+    "itemTplToClone": "666879d498b97e3a8f09f1ae",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Foldable": false,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "LEDX Skin Transilluminator (US Version)",
+        "shortName": "Red LEDX",
+        "description": "You can argue endlessly that different factories of the same company provide comparable quality, but at the critical moment everyone chooses the original.... Perhaps TerraGroup had special arrangements with the American factory to supply a newer model of LEDX."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4d10f4891aa1c80b12b78": {
+    "itemTplToClone": "5a29284f86f77463ef3db363",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Foldable": false,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Reinforced Laptop",
+        "shortName": "Reinforced Laptop",
+        "description": "A laptop from Terragroup."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4d0c58cef59c5c553c4be": {
+    "itemTplToClone": "6575a6ca8778e96ded05a802",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Foldable": false,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Terragroup Scientist's Hardrive",
+        "shortName": "Terragroup Hardrive",
+        "description": "A Scientist's Hardrive. May have R&D secrets."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4d251b8dba3688eda785f": {
+    "itemTplToClone": "5910922b86f7747d96753483",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Foldable": false,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Carbon Case",
+        "shortName": "Carbon Case",
+        "description": "This is the case that will hold the secrets to our never ending Hell."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4d3bf669a409073138bb1": {
+    "itemTplToClone": "5d357d6b86f7745b606e3508",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Foldable": false,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "My Photo Album",
+        "shortName": "My Photo Album",
+        "description": "This cant be right... I never scrapbooked. I am no middle class housewife. These pictures though are almost all me. My... Memories? The last page is covered in blood..."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4d5c725998b5696dcaf77": {
+    "itemTplToClone": "67499b3eeca8acb2d2061636",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Foldable": false,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Case For Atlas",
+        "shortName": "Case For Atlas",
+        "description": "A weapon case, sounds like a bunch of rattling junk if you ask me but that weirdo wants whatever is inside."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4d88a6b6e47c7c6093cc1": {
+    "itemTplToClone": "5ac78a9b86f7741cca0bbd8d",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Signal Booster",
+        "shortName": "Signal Booster",
+        "description": "Reworked Signal jammer to boost signals instead of jam them."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  }
+}

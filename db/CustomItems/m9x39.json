@@ -1,0 +1,1009 @@
+{
+    "694335c757b4898c5ea65ce0": {
+        "itemTplToClone": "5447a9cd4bdc2dbd208b4567",
+        "parentId": "5447b5f14bdc2d61278b4567",
+        "handbookParentId": "5b5f78fc86f77409407a7f90",
+        "overrideProperties":{
+                "Slots": [
+                {
+                    "_name": "mod_pistol_grip",
+                    "_id": "69433a7a1ccdc9c1241204e0",
+                    "_parent": "694335c757b4898c5ea65ce0",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "5c0e2ff6d174af02a1659d4a",
+                            "5a33e75ac4a2826c6e06d759",
+                            "55d4b9964bdc2d1d4e8b456e",
+                            "571659bb2459771fb2755a12",
+                            "602e71bd53a60014f9705bfa",
+                            "6113c3586c780c1e710c90bc",
+                            "6113cc78d3a39d50044c065a",
+                            "6113cce3d92c473c770200c7",
+                            "5cc9bcaed7f00c011c04e179",
+                            "5bb20e18d4351e00320205d5",
+                            "5bb20e0ed4351e3bac1212dc",
+                            "6193dcd0f8ee7e52e4210a28",
+                            "5d025cc1d7ad1a53845279ef",
+                            "5c6d7b3d2e221600114c9b7d",
+                            "57c55efc2459772d2c6271e7",
+                            "57af48872459771f0b2ebf11",
+                            "57c55f092459772d291a8463",
+                            "57c55f112459772d28133310",
+                            "57c55f172459772d27602381",
+                            "5a339805c4a2826c6e06d73d",
+                            "55802f5d4bdc2dac148b458f",
+                            "5d15cf3bd7ad1a67e71518b2",
+                            "59db3a1d86f77429e05b4e92",
+                            "5fbcbd6c187fea44d52eda14",
+                            "59db3acc86f7742a2c4ab912",
+                            "59db3b0886f77429d72fb895",
+                            "615d8faecabb9b7ad90f4d5d",
+                            "5b07db875acfc40dc528a5f6",
+                            "63f5feead259b42f0b4d6d0f",
+                            "652911675ae2ae97b80fdf3c"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_magazine",
+                    "_id": "694339f773b3979ebba5e4ba",
+                    "_parent": "694335c757b4898c5ea65ce0",
+                    "_props": {
+                    "filters": [
+                        {
+                        
+                        "Filter": [
+                            "69485dd1d0f1bdfb9a031113",
+                            "69adbb3795ba8ac7c3814893",
+                            "69b2eec179172349e4fbfee1",
+                            "69b2eeb01faf8bca7b634497",
+                            "69b2ee4c3280c9b6e2789ff0",
+                            "69b2ee46777f25ea2d45101a",
+                            "69b2ed5bb047b24ba00cede2",
+                            "69b2f21c043c2dd95a6a1e34"
+                        ]
+                        }
+                    ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c394bdc2dae468b4577"
+                },
+                {
+                    "_name": "mod_reciever",
+                    "_id": "694339c946f7d874a8b91700",
+                    "_parent": "694335c757b4898c5ea65ce0",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "6943620e3db1f3f9f5893884"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_stock",
+                    "_id": "694339bab5513de0b7fe9f2d",
+                    "_parent": "694335c757b4898c5ea65ce0",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "5a33ca0fc4a282000d72292f",
+                            "5c0faeddd174af02a962601f",
+                            "5649be884bdc2d79388b4577",
+                            "5d120a10d7ad1a4e1026ba85",
+                            "5b0800175acfc400153aebd4",
+                            "5947e98b86f774778f1448bc",
+                            "5947eab886f77475961d96c5",
+                            "602e3f1254072b51b239f713",
+                            "5c793fb92e221644f31bfb64",
+                            "5c793fc42e221600114ca25d",
+                            "591aef7986f774139d495f03",
+                            "591af10186f774139d495f0e",
+                            "627254cc9c563e6e442c398f",
+                            "638de3603a1a4031d8260b8c",
+                            "6761777a1f08ed5e8800b7ac"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_charge",
+                    "_id": "69433996b00cfc52ec2fa508",
+                    "_parent": "694335c757b4898c5ea65ce0",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "5c0faf68d174af02a96260b8",
+                            "56ea7165d2720b6e518b4583",
+                            "55d44fd14bdc2d962f8b456e",
+                            "5ea16d4d5aad6446a939753d",
+                            "5bb20dbcd4351e44f824c04e",
+                            "6033749e88382f4fab3fd2c5",
+                            "5b2240bf5acfc40dc528af69",
+                            "5d44334ba4b9362b346d1948",
+                            "5f633ff5c444ce7e3c30a006",
+                            "651bf5617b3b552ef6712cb7"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_charge_001",
+                    "_id": "69433957b15f920a4e0338f0",
+                    "_parent": "694335c757b4898c5ea65ce0",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "675307301f7c19a9780f2668"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+                ],
+                "Chambers": [
+                {
+                    "_name": "patron_in_weapon",
+                    "_id": "694338db4db9bdeddcfdd016",
+                    "_parent": "5447a9cd4bdc2dbd208b4567",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "5c0d688c86f77413ae3407b2",
+                            "61962d879bb3d20b0946d385",
+                            "57a0dfb82459774d3078b56c",
+                            "57a0e5022459774d1673f889",
+                            "5c0d668f86f7747ccb7f13b2",
+                            "6576f96220d53a5b8f3e395e"
+                        ]
+                        }
+                    ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d4af244bdc2d962f8b4571"
+                }
+                ],
+                "Ergonomics": 48,
+                "HeatFactorByShot": 1.435,
+                "HeatFactorGun": 1,
+                "HipAccuracyRestorationDelay": 0.2,
+                "HipAccuracyRestorationSpeed": 7,
+                "HipInnaccuracyGain": 0.16,
+                "RecoilAngle": 90,
+                "RecoilCamera": 0.04,
+                "RecoilCategoryMultiplierHandRotation": 0.19,
+                "RecoilCenter": {
+                "x": 0,
+                "y": -0.24,
+                "z": 0
+                },
+                "RecoilForceBack": 230,
+                "RecoilForceUp": 50,
+                "RecoilPosZMult": 1,
+                "RecolDispersion": 10,
+                "ReloadMode": "ExternalMagazine",
+                "RepairComplexity": 0,
+                "SightingRange": 100,
+                "SingleFireRate": 600,
+                "SizeReduceRight": 0,
+                "WeaponRecoilSettings": {
+                "Enable": true,
+                "Values": [
+                    {
+                        "Enable": true,
+                        "Target": "HandsRotation",
+                        "Process": {
+                            "ComponentType": "Y",
+                            "CurveTimeMultiply": 2,
+                            "CurveValueMultiply": 0.7,
+                            "CurveAimingValueMultiply": 0.4,
+                            "TransformationCurve": {
+                            "Keys": [
+                                {
+                                "time": 0,
+                                "value": 0,
+                                "inTangent": 0,
+                                "outTangent": 0
+                                },
+                                {
+                                "time": 0.1,
+                                "value": 2,
+                                "inTangent": 0,
+                                "outTangent": 0
+                                },
+                                {
+                                "time": 0.3,
+                                "value": -0.75,
+                                "inTangent": 0,
+                                "outTangent": 0
+                                },
+                                {
+                                "time": 1,
+                                "value": 0,
+                                "inTangent": 0,
+                                "outTangent": 0
+                                }
+                            ]
+                            }
+                        }
+                        },
+                        {
+                        "Enable": true,
+                        "Target": "HandsPosition",
+                        "Process": {
+                            "ComponentType": "Y",
+                            "CurveTimeMultiply": 4,
+                            "CurveValueMultiply": 0.003,
+                            "CurveAimingValueMultiply": 0.002,
+                            "TransformationCurve": {
+                            "Keys": [
+                                {
+                                "time": 0,
+                                "value": 0,
+                                "inTangent": 0,
+                                "outTangent": 0
+                                },
+                                {
+                                "time": 0.1,
+                                "value": 2,
+                                "inTangent": 0,
+                                "outTangent": 0
+                                },
+                                {
+                                "time": 0.3,
+                                "value": -0.75,
+                                "inTangent": 0,
+                                "outTangent": 0
+                                },
+                                {
+                                "time": 1,
+                                "value": 0,
+                                "inTangent": 0,
+                                "outTangent": 0
+                                }
+                            ]
+                            }
+                        }
+                    },
+                    {
+                    "Enable": true,
+                    "Target": "CameraRotation",
+                    "Process": {
+                        "ComponentType": "Z",
+                        "CurveTimeMultiply": 1,
+                        "CurveValueMultiply": 0.15,
+                        "CurveAimingValueMultiply": 0.09,
+                        "TransformationCurve": {
+                        "Keys": [
+                            {
+                            "time": 0,
+                            "value": 0,
+                            "inTangent": 0,
+                            "outTangent": 0
+                            },
+                            {
+                            "time": 0.1,
+                            "value": 2,
+                            "inTangent": 0,
+                            "outTangent": 0
+                            },
+                            {
+                            "time": 0.3,
+                            "value": -0.75,
+                            "inTangent": 0,
+                            "outTangent": 0
+                            },
+                            {
+                            "time": 1,
+                            "value": 0,
+                            "inTangent": 0,
+                            "outTangent": 0
+                            }
+                        ]
+                        }
+                    }
+                    }
+                ]
+                },
+                "WithAnimatorAiming": false,
+                "ammoCaliber": "Caliber9x39",
+                "bEffDist": 500,
+                "bFirerate": 850,
+                "bHearDist": 80,
+                "blockLeftStance": false,
+                "chamberAmmoCount": 1,
+                "defAmmo": "5c0d688c86f77413ae3407b2",
+                "defMagType": "69485dd1d0f1bdfb9a031113",
+                "durabSpawnMax": 75,
+                "durabSpawnMin": 25,
+                "weapClass": "assaultRifle",
+                "weapFireType": [
+                "single",
+                "fullauto"
+                ],
+                "weapUseType": "primary"
+            },
+            "locales": {
+            "en": {
+                "name": "M4A1 Custom 9x39",
+                "shortName": "M4A1 C9",
+                "description": "9x39 chamber and refitted M4A1 put together by Legs. "
+            }
+        },
+        "fleaPriceRoubles": 55000,
+        "handbookPriceRoubles": 55000,
+        "addtoBots": false
+        },
+
+    "6943620e3db1f3f9f5893884": {
+        "itemTplToClone": "5c07a8770db8340023300450",
+        "parentId": "55818a304bdc2db5418b457d",
+        "handbookParentId": "5b5f764186f77447ec5d7714",
+        "overrideProperties":{
+            "Slots":[
+                {
+                "_name": "mod_scope",
+                "_id": "6943647aefca81a862a1adb9",
+                "_parent": "6943620e3db1f3f9f5893884",
+                "_props": {
+                "filters": [
+                    {
+                            "Filter": [
+                                "57ac965c24597706be5f975c",
+                                "57aca93d2459771f2c7e26db",
+                                "544a3f024bdc2d1d388b4568",
+                                "544a3a774bdc2d3a388b4567",
+                                "5d2dc3e548f035404a1a4798",
+                                "57adff4f24597737f373b6e6",
+                                "5c0517910db83400232ffee5",
+                                "591c4efa86f7741030027726",
+                                "570fd79bd2720bc7458b4583",
+                                "570fd6c2d2720bc6458b457f",
+                                "558022b54bdc2dac148b458d",
+                                "5c07dd120db834001c39092d",
+                                "5c0a2cec0db834001b7ce47d",
+                                "58491f3324597764bc48fa02",
+                                "584924ec24597768f12ae244",
+                                "5b30b0dc5acfc400153b7124",
+                                "6165ac8c290d254f5e6b2f6c",
+                                "60a23797a37c940de7062d02",
+                                "5d2da1e948f035477b1ce2ba",
+                                "5c0505e00db834001b735073",
+                                "609a63b6e2ff132951242d09",
+                                "584984812459776a704a82a6",
+                                "59f9d81586f7744c7506ee62",
+                                "570fd721d2720bc5458b4596",
+                                "57ae0171245977343c27bfcf",
+                                "5dfe6104585a0c3e995c7b82",
+                                "544a3d0a4bdc2d1b388b4567",
+                                "5d1b5e94d7ad1a2b865a96b0",
+                                "609bab8b455afd752b2e6138",
+                                "58d39d3d86f77445bb794ae7",
+                                "616554fe50224f204c1da2aa",
+                                "5c7d55f52e221644f31bff6a",
+                                "616584766ef05c2ce828ef57",
+                                "5b3b6dc75acfc47a8773fb1e",
+                                "615d8d878004cc50514c3233",
+                                "5b2389515acfc4771e1be0c0",
+                                "577d128124597739d65d0e56",
+                                "618b9643526131765025ab35",
+                                "618bab21526131765025ab3f",
+                                "5c86592b2e2216000e69e77c",
+                                "5a37ca54c4a282000d72296a",
+                                "5d0a29fed7ad1a002769ad08",
+                                "5c064c400db834001d23f468",
+                                "58d2664f86f7747fec5834f6",
+                                "57c69dd424597774c03b7bbc",
+                                "5b3b99265acfc4704b4a1afb",
+                                "5aa66a9be5b5b0214e506e89",
+                                "5aa66c72e5b5b00016327c93",
+                                "5c1cdd302e221602b3137250",
+                                "61714b2467085e45ef140b2c",
+                                "6171407e50224f204c1da3c5",
+                                "61713cc4d8e3106d9806c109",
+                                "5b31163c5acfc400153b71cb",
+                                "5a33b652c4a28232996e407c",
+                                "5a33b2c9c4a282000c5a9511",
+                                "59db7eed86f77461f8380365",
+                                "5a1ead28fcdbcb001912fa9f",
+                                "5dff77c759400025ea5150cf",
+                                "626bb8532c923541184624b4",
+                                "62811f461d5df4475f46a332",
+                                "63fc449f5bd61c6cf3784a88",
+                                "6477772ea8a38bb2050ed4db",
+                                "6478641c19d732620e045e17",
+                                "64785e7c19d732620e045e15",
+                                "65392f611406374f82152ba5",
+                                "653931da5db71d30ab1d6296",
+                                "655f13e0a246670fb0373245",
+                                "6567e751a715f85433025998",
+                                "6761759e7ee06333f108bf86",
+                                "67641a851b2899700609901a"
+                            ],
+                            "Shift": 0
+                            }
+                        ]
+                        },
+                        "_required": false,
+                        "_mergeSlotWithChildren": false,
+                        "_proto": "55d30c4c4bdc2db4468b457e"
+                    },
+                    {
+                        "_name": "mod_barrel",
+                        "_id": "6943647e57267f00b5e15a80",
+                        "_parent": "6943620e3db1f3f9f5893884",
+                        "_props": {
+                        "filters": [
+                            {
+                            "Filter": [
+                                "69436a98627437674fea7173",
+                                "694365bdf3fb0496b90091f5"
+                            ],
+                            "Shift": 0
+                            }
+                        ]
+                        },
+                        "_required": true,
+                        "_mergeSlotWithChildren": false,
+                        "_proto": "55d30c4c4bdc2db4468b457e"
+                    },
+                    {
+                        "_name": "mod_handguard",
+                        "_id": "694364884918f1357fa6fbf8",
+                        "_parent": "6943620e3db1f3f9f5893884",
+                        "_props": {
+                        "filters": [
+                    {
+                    "Filter": [ 
+                        "619b5db699fb192e7430664f",
+                        "5b2cfa535acfc432ff4db7a0",
+                        "55d459824bdc2d892f8b4573",
+                        "5d122e7bd7ad1a07102d6d7f",
+                        "5c78f26f2e221601da3581d1",                     
+                        "5c78f2612e221600114c9f0d", 
+                        "6087e0336d0bd7580617bb7a",                       
+                        "595cf16b86f77427440c32e2"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_sight_rear",
+                "_id": "5c07a8770db8340023300455",
+                "_parent": "6943649059b3fb9c3c283ece",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "5bb20e49d4351e3bac1212de",
+                        "5ba26b17d4351e00367f9bdd",
+                        "5dfa3d7ac41b2312ea33362a",
+                        "5c1780312e221602b66cc189",
+                        "5fb6564947ce63734e3fa1da",
+                        "5bc09a18d4351e003562b68e",
+                        "5c18b9192e2216398b5a8104",
+                        "5fc0fa957283c4046c58147e",
+                        "5894a81786f77427140b8347",
+                        "55d5f46a4bdc2d1b198b4567",
+                        "5ae30bad5acfc400185c2dc4"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            }
+
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 Noveske Gen.3 9x39 upper receiver",
+                "shortName": "Gen.3 C9",
+                "description": "Upper Reciever for Legs' custom made 9x39 M4."
+            }
+        },
+        "fleaPriceRoubles": 15000,
+        "handbookPriceRoubles": 15000,
+        "addtoBots": false
+    },
+
+        "694365bdf3fb0496b90091f5": {
+        "itemTplToClone": "55d35ee94bdc2d61338b4568",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties":{
+            "Slots" :  [
+                {
+                    "_name": "mod_muzzle",
+                    "_id": "564afddf4bdc2d1b2b8b4592",
+                    "_parent": "694365bdf3fb0496b90091f5",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "5b3a16655acfc40016387a2a",
+                            "5c7e5f112e221600106f4ede",
+                            "5c0fafb6d174af02a96260ba",
+                            "612e0cfc8004cc50514c2d9e",
+                            "5cf6937cd7f00c056c53fb39",
+                            "544a38634bdc2d58388b4568",
+                            "5cff9e5ed7ad1a09407397d4",
+                            "5c48a2a42e221602b66d1e07",
+                            "5f6372e2865db925d54f3869",
+                            "615d8e2f1cb55961fa0fd9a4",
+                            "56ea8180d2720bf2698b456a",
+                            "5d02676dd7ad1a049e54f6dc",
+                            "56ea6fafd2720b844b8b4593",
+                            "5943ee5a86f77413872d25ec",
+                            "609269c3b0e443224b421cc1",
+                            "5c7fb51d2e2216001219ce11",
+                            "5ea172e498dacb342978818e",
+                            "5c6d710d2e22165df16b81e7",
+                            "612e0e55a112697a4b3a66e7",
+                            "5d440625a4b9361eec4ae6c5",
+                            "5cc9b815d7f00c000e2579d6",
+                            "5a7c147ce899ef00150bd8b8",
+                            "5c7954d52e221600106f4cc7",
+                            "59bffc1f86f77435b128b872",
+                            "5a9fbb84a2750c00137fa685",
+                            "626667e87379c44d557b7550",
+                            "62669bccdb9ebb4daa44cd14",
+                            "626a74340be03179a165e30c",
+                            "6386120cd6baa055ad1e201c",
+                            "63ac5c9658d0485fc039f0b8",
+                            "6405ff6bd4578826ec3e377a",
+                            "64943b74e9998d641b0412ed",
+                            "6621455e3aceea9e2b0b01e7",
+                            "664301213dd83ddae20dda18",
+                            "57c44dd02459772d2e0ae249"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                },
+                {
+                    "_name": "mod_gas_block",
+                    "_id": "56ea8e15d2720bf2698b456b",
+                    "_parent": "694365bdf3fb0496b90091f5",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "56eabcd4d2720b66698b4574",
+                            "5d00ec68d7ad1a04a067e5be",
+                            "56ea8d2fd2720b7c698b4570",
+                            "63d3ce281fe77d0f2801859e"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_required": true,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+                ]
+        },
+        "locales": {
+            "en": {
+                "name": "M4A1 C9 10.3' Barrel",
+                "shortName": "C9 10.3",
+                "description": "Barrel for the custom made M4A1 C9 from Legs."
+            }
+        },
+        "fleaPriceRoubles": 15000,
+        "handbookPriceRoubles": 15000,
+        "addtoBots": false
+    },
+    "69436a98627437674fea7173": {
+        "itemTplToClone": "57c44dd02459772d2e0ae249",
+        "parentId": "550aa4cd4bdc2dd8348b456c",
+        "handbookParentId": "5b5f731a86f774093e6cb4f9",
+        "overrideProperties":{
+           "Slots":[
+                {
+                    "_name": "mod_mount_000",
+                    "_id": "58246acc24597753c0717aa2",
+                    "_parent": "57c44dd02459772d2e0ae249",
+                    "_props": {
+                    "filters": [
+                        {
+                        "Filter": [
+                            "57a3459f245977764a01f703"
+                        ],
+                        "Shift": 0
+                        }
+                    ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+           ]
+        },
+        "locales": {
+            "en": {
+                "name": "M4A1 C9 10.3' Barrel",
+                "shortName": "C9 10.3",
+                "description": "Barrel for the custom made M4A1 C9 from Legs."
+            }
+        },
+        "fleaPriceRoubles": 15000,
+        "handbookPriceRoubles": 15000,
+        "addtoBots": false
+    },
+    "69485dd1d0f1bdfb9a031113": {
+        "itemTplToClone": "5d1340cad7ad1a0b0b249869",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "5aaa5dfee5b5b000140293d5",
+            "_parent": "5aaa5dfee5b5b000140293d3",
+            "_max_count": 30,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                    "5c0d688c86f77413ae3407b2",
+                    "61962d879bb3d20b0946d385",
+                    "57a0dfb82459774d3078b56c",
+                    "57a0e5022459774d1673f889",
+                    "5c0d668f86f7747ccb7f13b2",
+                    "6576f96220d53a5b8f3e395e"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "M4C9 9x39 PMag Conversion (FDE)",
+                "shortName": "9x39 PMag",
+                "description": "A converted 5.56 PMag to hold 9x39 rounds"
+            }
+        },
+        "fleaPriceRoubles": 5000,
+        "handbookPriceRoubles": 5000,
+        "addtoBots": false
+    },
+        "69adbb3795ba8ac7c3814893": {
+        "itemTplToClone": "55802d5f4bdc2dac148b458e",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{  
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "5aaa5dfee5b5b000140293d5",
+            "_parent": "55802d5f4bdc2dac148b458e",
+            "_max_count": 30,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                    "5c0d688c86f77413ae3407b2",
+                    "61962d879bb3d20b0946d385",
+                    "57a0dfb82459774d3078b56c",
+                    "57a0e5022459774d1673f889",
+                    "5c0d668f86f7747ccb7f13b2",
+                    "6576f96220d53a5b8f3e395e"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "M4C9 9x39 PMag Conversion (Black)",
+                "shortName": "9x39 PMag",
+                "description": "A converted 5.56 PMag to hold 9x39 rounds"
+            }
+        },
+        "fleaPriceRoubles": 5000,
+        "handbookPriceRoubles": 5000,
+        "addtoBots": false
+    },
+        "69b2ed5bb047b24ba00cede2": {
+        "itemTplToClone": "5c6d450c2e221600114c997d",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",   
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "69b2edfaa3c3ac1c4df55843",
+            "_parent": "55802d5f4bdc2dac148b458e",
+            "_max_count": 30,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                    "5c0d688c86f77413ae3407b2",
+                    "61962d879bb3d20b0946d385",
+                    "57a0dfb82459774d3078b56c",
+                    "57a0e5022459774d1673f889",
+                    "5c0d668f86f7747ccb7f13b2",
+                    "6576f96220d53a5b8f3e395e"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 9x39 HK PM Gen.2 STANAG 30-round magazine",
+                "shortName": "9x39 HK Gen.2",
+                "description": "A converted 5.56 HK Gen.2 Magazine to hold 9x39 rounds"
+            }
+        },
+        "fleaPriceRoubles": 5000,
+        "handbookPriceRoubles": 5000,
+        "addtoBots": false
+    },
+        "69b2ee46777f25ea2d45101a": {
+        "itemTplToClone": "5c6d42cb2e2216000e69d7d1",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",   
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "69b2ee023bb9de8f56a1c5e2",
+            "_parent": "55802d5f4bdc2dac148b458e",
+            "_max_count": 30,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                    "5c0d688c86f77413ae3407b2",
+                    "61962d879bb3d20b0946d385",
+                    "57a0dfb82459774d3078b56c",
+                    "57a0e5022459774d1673f889",
+                    "5c0d668f86f7747ccb7f13b2",
+                    "6576f96220d53a5b8f3e395e"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 9x39 HK 30 STANAG polymer 30-round magazine",
+                "shortName": "9x39 HK 30",
+                "description": "A converted 5.56 HK 30 Magazine to hold 9x39 rounds"
+            }
+        },
+        "fleaPriceRoubles": 5000,
+        "handbookPriceRoubles": 5000,
+        "addtoBots": false
+    },
+        "69b2ee4c3280c9b6e2789ff0": {
+        "itemTplToClone": "59c1383d86f774290a37e0ca",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",   
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "69b2eebc79fad7926aab2c02",
+            "_parent": "55802d5f4bdc2dac148b458e",
+            "_max_count": 60,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                    "5c0d688c86f77413ae3407b2",
+                    "61962d879bb3d20b0946d385",
+                    "57a0dfb82459774d3078b56c",
+                    "57a0e5022459774d1673f889",
+                    "5c0d668f86f7747ccb7f13b2",
+                    "6576f96220d53a5b8f3e395e"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 9x39 Magpul PMAG D-60 STANAG 60-round magazine",
+                "shortName": "9x39 PMAG D-60",
+                "description": "A converted 5.56 PMAG D-60 Magazine to hold 9x39 rounds"
+            }
+        },
+        "fleaPriceRoubles": 5000,
+        "handbookPriceRoubles": 5000,
+        "addtoBots": false
+    },
+        "69b2eeb01faf8bca7b634497": {
+        "itemTplToClone": "5aaa5dfee5b5b000140293d3",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",   
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "69b2eeb3839692e7e66ec8a5",
+            "_parent": "55802d5f4bdc2dac148b458e",
+            "_max_count": 30,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                    "5c0d688c86f77413ae3407b2",
+                    "61962d879bb3d20b0946d385",
+                    "57a0dfb82459774d3078b56c",
+                    "57a0e5022459774d1673f889",
+                    "5c0d668f86f7747ccb7f13b2",
+                    "6576f96220d53a5b8f3e395e"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 9x39 Magpul PMAG 30 GEN M3 STANAG 30-round magazine",
+                "shortName": "9x39 GEN M3",
+                "description": "A converted 9x39 GEN M3 Magazine to hold 9x39 rounds"
+            }
+        },
+        "fleaPriceRoubles": 5000,
+        "handbookPriceRoubles": 5000,
+        "addtoBots": false
+    },
+        "69b2eec179172349e4fbfee1": {
+        "itemTplToClone": "5d1340b3d7ad1a0b52682ed7",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",   
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "69b2eec80ef0c045546105d6",
+            "_parent": "55802d5f4bdc2dac148b458e",
+            "_max_count": 30,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                    "5c0d688c86f77413ae3407b2",
+                    "61962d879bb3d20b0946d385",
+                    "57a0dfb82459774d3078b56c",
+                    "57a0e5022459774d1673f889",
+                    "5c0d668f86f7747ccb7f13b2",
+                    "6576f96220d53a5b8f3e395e"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 9x39 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (FDE)",
+                "shortName": "9x39 GEN M3(FDE)",
+                "description": "A converted 9x39 GEN M3 Magazine to hold 9x39 rounds"
+            }
+        },
+        "fleaPriceRoubles": 5000,
+        "handbookPriceRoubles": 5000,
+        "addtoBots": false
+    },
+        "69b2f21c043c2dd95a6a1e34": {
+        "itemTplToClone": "6761765f1f08ed5e8800b7a6",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties":{
+        "BackgroundColor": "yellow",
+        "CanSellOnRagfair": true,   
+        "Cartridges": [
+            {
+            "_name": "cartridges",
+            "_id": "69b2f21feb0ac703f13c6ba5",
+            "_parent": "55802d5f4bdc2dac148b458e",
+            "_max_count": 100,
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                    "5c0d688c86f77413ae3407b2",
+                    "61962d879bb3d20b0946d385",
+                    "57a0dfb82459774d3078b56c",
+                    "57a0e5022459774d1673f889",
+                    "5c0d668f86f7747ccb7f13b2",
+                    "6576f96220d53a5b8f3e395e"
+                ]
+                }
+            ]
+            },
+            "_proto": "5748538b2459770af276a261"
+            }
+        ]   
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 9x39 Beta C-Mag 100-round drum magazine",
+                "shortName": "9x39 Beta C-Mag",
+                "description": "A converted 9x39 Beta C-Mag Magazine to hold 9x39 rounds"
+            }
+        },
+        "fleaPriceRoubles": 5000,
+        "handbookPriceRoubles": 5000,
+        "addtoBots": false
+    }
+}

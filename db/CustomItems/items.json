@@ -1,0 +1,110 @@
+{
+    "6765d79148caecc924f38301": {
+        "itemTplToClone": "5b40e61f5acfc4001a599bec",
+        "parentId": "5a341c4086f77401f2541505",
+        "handbookParentId": "5b47574386f77428ca22b330",
+        "overrideProperties":{
+            "Prefab": {
+                "path": "bear_hat.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "BEAR 5-Panel",
+                "shortName": "BEAR Hat",
+                "description": "5 Panel hat designed for BEAR PMCs"
+            }
+        },
+        "fleaPriceRoubles": 100,
+        "handbookPriceRoubles": 100,
+        "addtoBots": true
+    },
+
+    "679de71c3b47fe7f7537f7ff": {
+        "itemTplToClone": "5b40e61f5acfc4001a599bec",
+        "parentId": "5a341c4086f77401f2541505",
+        "handbookParentId": "5b47574386f77428ca22b330",
+        "overrideProperties":{
+            "Prefab": {
+                "path": "usec_hat.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "USEC 5-Panel",
+                "shortName": "USEC Hat",
+                "description": "5 Panel hat designed for USEC PMCs"
+            }
+        },
+        "fleaPriceRoubles": 100,
+        "handbookPriceRoubles": 100,
+        "addtoBots": true
+    },
+    "679d31ae779c471efb063dba": {
+        "itemTplToClone": "5b40e61f5acfc4001a599bec",
+        "parentId": "5a341c4086f77401f2541505",
+        "handbookParentId": "5b47574386f77428ca22b330",
+        "overrideProperties":{
+            "Prefab": {
+                "path": "usec_beanie.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "USEC Beanie",
+                "shortName": "USEC Beanie",
+                "description": "Beanie designed for USEC PMCs"
+            }
+        },
+        "fleaPriceRoubles": 100,
+        "handbookPriceRoubles": 100,
+        "addtoBots": true
+    },
+    "67e343112c5ed0143e3c74eb": {
+        "itemTplToClone": "5b40e61f5acfc4001a599bec",
+        "parentId": "5a341c4086f77401f2541505",
+        "handbookParentId": "5b47574386f77428ca22b330",
+        "overrideProperties":{
+            "Prefab": {
+                "path": "bear_beanie.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "BEAR Beanie",
+                "shortName": "BEAR Beanie",
+                "description": "Beanie designed for BEAR PMCs"
+            }
+        },
+        "fleaPriceRoubles": 100,
+        "handbookPriceRoubles": 100,
+        "addtoBots": true
+    },
+    "679d31db3d176182a2adfd86": {
+        "itemTplToClone": "66b5f247af44ca0014063c02",
+        "parentId": "5448e53e4bdc2d60728b4567",
+        "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
+        "overrideProperties":{
+            "Prefab": {
+                "path": "leather_backpack.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "Legs' Trusty Backpack",
+                "shortName": "Leather Backpack",
+                "description": "A old leather backpack. Was used by legs often before the contract wars."
+            }
+        },
+        "fleaPriceRoubles": 20000,
+        "handbookPriceRoubles": 20000,
+        "addtoBots": false
+    }
+    
+}
+

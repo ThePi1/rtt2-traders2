@@ -144,7 +144,9 @@ public class rtt2trader(
         var assembly = Assembly.GetExecutingAssembly();
 
         await wttCommon.CustomQuestService.CreateCustomQuests(assembly);
-        //await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
+        await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
+
+
 
         // Save the data we loaded above into the trader we've made
         addCustomTraderHelper.OverwriteTraderAssort(traderBase_xm.Id, assort_xm);

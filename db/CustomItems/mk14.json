@@ -1,0 +1,269 @@
+{
+ "69aef128af73d73b4e0ce546": {
+        "itemTplToClone": "5aafa857e5b5b00018480968",
+        "parentId": "5447b6194bdc2d67278b4567",
+        "handbookParentId": "5b5f791486f774093f2ed3be",
+        "overrideProperties":{
+            "WeaponRecoilSettings": {
+                "Enable": true,
+                "Values": [
+                {
+                    "Enable": true,
+                    "Process": {
+                    "ComponentType": "Y",
+                    "CurveAimingValueMultiply": 1,
+                    "CurveTimeMultiply": 2,
+                    "CurveValueMultiply": 3,
+                    "TransformationCurve": {
+                        "Keys": [
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0,
+                            "value": 0
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0.1,
+                            "value": 2
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0.3,
+                            "value": -0.75
+                        },
+                        {
+                            "inTangent": 1.60626161,
+                            "outTangent": 1.60626161,
+                            "time": 0.634077549,
+                            "value": 0.1250251
+                        },
+                        {
+                            "inTangent": -0.5015915,
+                            "outTangent": -0.5015915,
+                            "time": 0.8476275,
+                            "value": -0.0453341454
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 1,
+                            "value": 0
+                        }
+                        ]
+                    }
+                    },
+                    "Target": "HandsRotation"
+                },
+                {
+                    "Enable": true,
+                    "Process": {
+                    "ComponentType": "Y",
+                    "CurveAimingValueMultiply": 0.005,
+                    "CurveTimeMultiply": 2,
+                    "CurveValueMultiply": 0.01,
+                    "TransformationCurve": {
+                        "Keys": [
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0,
+                            "value": 0
+                        },
+                        {
+                            "inTangent": 18.94057,
+                            "outTangent": 18.94057,
+                            "time": 0.03783655,
+                            "value": -0.894768357
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0.149682611,
+                            "value": 1.3271637
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0.4622925,
+                            "value": -0.797149658
+                        },
+                        {
+                            "inTangent": 2.375359,
+                            "outTangent": 2.375359,
+                            "time": 0.7331178,
+                            "value": -0.09230906
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 1,
+                            "value": 0
+                        }
+                        ]
+                    }
+                    },
+                    "Target": "HandsPosition"
+                },
+                {
+                    "Enable": true,
+                    "Process": {
+                    "ComponentType": "Z",
+                    "CurveAimingValueMultiply": 0.2,
+                    "CurveTimeMultiply": 0.7,
+                    "CurveValueMultiply": 0.6,
+                    "TransformationCurve": {
+                        "Keys": [
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0,
+                            "value": 0
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0.0795837343,
+                            "value": 1.93448639
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0.269665539,
+                            "value": -1.39276123
+                        },
+                        {
+                            "inTangent": 4.12492752,
+                            "outTangent": 4.12492752,
+                            "time": 0.541291356,
+                            "value": 0.123177826
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 1,
+                            "value": 0
+                        }
+                        ]
+                    }
+                    },
+                    "Target": "CameraRotation"
+                },
+                {
+                    "Enable": true,
+                    "Process": {
+                    "ComponentType": "Z",
+                    "CurveAimingValueMultiply": 1,
+                    "CurveTimeMultiply": 2.5,
+                    "CurveValueMultiply": 1.5,
+                    "TransformationCurve": {
+                        "Keys": [
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0,
+                            "value": 0
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0.0597168,
+                            "value": 0.494358063
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0.213360608,
+                            "value": -0.586212158
+                        },
+                        {
+                            "inTangent": 1.24839318,
+                            "outTangent": 1.24839318,
+                            "time": 0.505218267,
+                            "value": 0.0388129354
+                        },
+                        {
+                            "inTangent": -1.06696379,
+                            "outTangent": -1.06696379,
+                            "time": 0.78112936,
+                            "value": -0.0562798679
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 1,
+                            "value": 0
+                        }
+                        ]
+                    }
+                    },
+                    "Target": "HandsRotation"
+                },
+                {
+                    "Enable": true,
+                    "Process": {
+                    "ComponentType": "X",
+                    "CurveAimingValueMultiply": 0.3,
+                    "CurveTimeMultiply": 1,
+                    "CurveValueMultiply": 1,
+                    "TransformationCurve": {
+                        "Keys": [
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0,
+                            "value": 0
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 0.08256227,
+                            "value": 1.04574585
+                        },
+                        {
+                            "inTangent": 0.14358829,
+                            "outTangent": 0.14358829,
+                            "time": 0.246997476,
+                            "value": -0.710482836
+                        },
+                        {
+                            "inTangent": 0.2216603,
+                            "outTangent": 0.2216603,
+                            "time": 0.8736555,
+                            "value": 0.0525184721
+                        },
+                        {
+                            "inTangent": 0,
+                            "outTangent": 0,
+                            "time": 1,
+                            "value": 0
+                        }
+                        ]
+                    }
+                    },
+                    "Target": "HandsRotation"
+                }
+                ]
+            },
+            "RecoilForceBack": 405,
+            "RecoilForceUp": 214,
+            "weapFireType": [
+            "single",
+            "fullauto"
+            ],
+            "bFirerate": 750
+            },
+            "locales": {
+            "en": {
+                "name": "Springfield Armory M14 7.62x51 rifle",
+                "shortName": "Springfield M14",
+                "description": "The Springfield Armory M14 rifle is a gas-operated, 7.62×51mm NATO battle rifle adopted by the U.S. military in 1959, featuring select-fire capability (semi-automatic and full-automatic)"
+            }
+        },
+        "fleaPriceRoubles": 65000,
+        "handbookPriceRoubles": 65000,
+        "addtoBots": false
+        }
+}
