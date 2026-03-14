@@ -7,7 +7,7 @@
       "ExaminedByDefault": true,
       "Foldable": false,
       "BackgroundColor": "yellow",
-      "Weight": 0.2,
+      "Weight": 2,
       "Height": 1,
       "Width": 2,
       "StackMaxSize": 1,
@@ -57,7 +57,7 @@
       "ExaminedByDefault": true,
       "Foldable": false,
       "BackgroundColor": "yellow",
-      "Weight": 0.2,
+      "Weight": 2,
       "Height": 1,
       "Width": 2,
       "StackMaxSize": 1,
@@ -82,7 +82,7 @@
       "ExaminedByDefault": true,
       "Foldable": false,
       "BackgroundColor": "yellow",
-      "Weight": 0.2,
+      "Weight": 2,
       "Height": 1,
       "Width": 2,
       "StackMaxSize": 1,
@@ -132,7 +132,7 @@
       "ExaminedByDefault": true,
       "Foldable": false,
       "BackgroundColor": "yellow",
-      "Weight": 0.2,
+      "Weight": 2,
       "Height": 1,
       "Width": 2,
       "StackMaxSize": 1,
@@ -182,7 +182,7 @@
       "ExaminedByDefault": true,
       "Foldable": false,
       "BackgroundColor": "yellow",
-      "Weight": 0.2,
+      "Weight": 1,
       "Height": 1,
       "Width": 2,
       "StackMaxSize": 1,
@@ -207,7 +207,7 @@
       "ExaminedByDefault": true,
       "Foldable": false,
       "BackgroundColor": "yellow",
-      "Weight": 0.2,
+      "Weight": 5,
       "Height": 1,
       "Width": 2,
       "StackMaxSize": 1,
@@ -232,7 +232,7 @@
       "ExaminedByDefault": true,
       "Foldable": false,
       "BackgroundColor": "yellow",
-      "Weight": 0.2,
+      "Weight": 1,
       "Height": 1,
       "Width": 2,
       "StackMaxSize": 1,
@@ -257,7 +257,7 @@
       "ExaminedByDefault": true,
       "Foldable": false,
       "BackgroundColor": "yellow",
-      "Weight": 0.2,
+      "Weight": 3,
       "Height": 1,
       "Width": 2,
       "StackMaxSize": 1,
@@ -307,7 +307,7 @@
       "ExaminedByDefault": true,
       "Foldable": false,
       "BackgroundColor": "yellow",
-      "Weight": 0.2,
+      "Weight": 8,
       "Height": 1,
       "Width": 2,
       "StackMaxSize": 1,
@@ -342,6 +342,121 @@
         "name": "Signal Booster",
         "shortName": "Signal Booster",
         "description": "Reworked Signal jammer to boost signals instead of jam them."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4eeaf8e3cf3d70d820d11": {
+    "itemTplToClone": "5af04e0a86f7743a532b79e2",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Weight": 5,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Gyroscope #1",
+        "shortName": "Gyroscope #1",
+        "description": "A gyro-thingy."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4eef739f0077489484909": {
+    "itemTplToClone": "5b4c72fb86f7745cef1cffc5",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Weight": 5,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Gyroscope #2",
+        "shortName": "Gyroscope #2",
+        "description": "A gyro-thingy. Nuhmber too."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4efd4696fcee5c85250a4": {
+    "itemTplToClone": "593a87af86f774122f54a951",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Special Chemical",
+        "shortName": "Special Chemical",
+        "description": "Chemical Weiss is looking for. I don't know why he wants me to kill a guy on shoreline but I guess it's work."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4f058d7f63d42ceed6c9b": {
+    "itemTplToClone": "675f7acc4076a741a3061566",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "TerraGroup shipment report",
+        "shortName": "TerraGroup shipment report",
+        "description": "A stack of documents with data on TerraGroup shipments. Contains reports on completed and planned shipments."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69b4f0e63266da01f06b0749": {
+    "itemTplToClone": "5910922b86f7747d96753483",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Weight": 3,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Illegal Medical Instruments",
+        "shortName": "Illegal Medical Instruments",
+        "description": "Case of illegal medical instruments. I assume Weiss has used these a lot."
       }
     },
     "fleaPriceRoubles": 9039,

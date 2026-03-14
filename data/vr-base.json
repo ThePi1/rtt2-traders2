@@ -1,7 +1,7 @@
 ﻿{
     "_id": "69744632183b55cf9702c988",
     "availableInRaid": false,
-    "avatar": "/files/trader/avatar/vrun.jpg",
+    "avatar": "/files/trader/avatar/voron.jpg",
     "balance_dol": 0,
     "balance_eur": 0,
     "balance_rub": 7000000,
@@ -77,7 +77,7 @@
     "medic": false,
     "name": "Unknown",
     "nextResupply": 1631483553,
-    "nickname": "Vrun",
+    "nickname": "Voron",
     "prohibitedTransferableItems": {
       "category": [],
       "id_list": []

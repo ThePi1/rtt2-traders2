@@ -64,7 +64,7 @@ public class rtt2trader(
         var traderImagePath_xm = Path.Combine(pathToMod, "data/xiaoming.jpg");
         var traderImagePath_ch = Path.Combine(pathToMod, "data/chimera.jpg");
         var traderImagePath_st = Path.Combine(pathToMod, "data/storyteller.jpg");
-        var traderImagePath_vr = Path.Combine(pathToMod, "data/vrun.jpg");
+        var traderImagePath_vr = Path.Combine(pathToMod, "data/voron.jpg");
         var traderImagePath_nd = Path.Combine(pathToMod, "data/needle.jpg");
         var traderImagePath_pr = Path.Combine(pathToMod, "data/price.jpg");
         var traderImagePath_at = Path.Combine(pathToMod, "data/atlas.jpg");
@@ -124,7 +124,7 @@ public class rtt2trader(
         addCustomTraderHelper.AddTraderToLocales(traderBase_xm, "Xiaoming", "Chinese bureaucrat representing the CCP in Tarkov. He's more clever than you think, but less clever than he thinks.");
         addCustomTraderHelper.AddTraderToLocales(traderBase_ch, "Chimera", "An old friend. He was dead, previously... but now he's not...?");
         addCustomTraderHelper.AddTraderToLocales(traderBase_st, "Storyteller", "The voice in your head.");
-        addCustomTraderHelper.AddTraderToLocales(traderBase_vr, "Vran", "All will be revealed according to his plan, according to him.");
+        addCustomTraderHelper.AddTraderToLocales(traderBase_vr, "Voron", "All will be revealed according to Its plan, according to It.");
         addCustomTraderHelper.AddTraderToLocales(traderBase_nd, "Needle", "He's got the stuff, if you've got the cash...");
         addCustomTraderHelper.AddTraderToLocales(traderBase_pr, "Price", "He sells cigarettes and cigarette accessories.");
         addCustomTraderHelper.AddTraderToLocales(traderBase_at, "Atlas", "Your friendly, neighborhood, out-of-touch gun enthusiast.");
