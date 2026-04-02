@@ -113,13 +113,29 @@
                     "visibilityConditions": []
                 }
             ],
-            "AvailableForStart": [],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "69cd6372473d11f1646c2271",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "69bdfba39ea015fa709c681f",
+                    "visibilityConditions": []
+                }
+            ],
             "Fail": []
         },
         "declinePlayerMessage": "69cc8e901fda896ea59b50f0 declinePlayerMessage",
         "description": "69cc8e901fda896ea59b50f0 description",
         "failMessageText": "69cc8e901fda896ea59b50f0 failMessageText",
-        "image": "/files/quest/mod_icon/welcome.png",
+        "image": "/files/quest/icon/5d6faf8f86f7743598553dd4.jpg",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
@@ -161,7 +177,7 @@
         "conditions": {
             "AvailableForFinish": [
                 {
-                    "conditionType": "FindItem",
+                    "conditionType": "HandoverItem",
                     "countInRaid": false,
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
@@ -225,7 +241,7 @@
                     "visibilityConditions": []
                 },
                 {
-                    "conditionType": "FindItem",
+                    "conditionType": "HandoverItem",
                     "countInRaid": false,
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
@@ -261,7 +277,7 @@
                     "visibilityConditions": []
                 },
                 {
-                    "conditionType": "FindItem",
+                    "conditionType": "HandoverItem",
                     "countInRaid": false,
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
@@ -269,7 +285,7 @@
                     "id": "69cc91d02e86c03e1e51974e",
                     "index": 0,
                     "inEncoded": false,
-                    "onlyFoundInRaid": false,
+                    "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
 						"5448ff904bdc2d6f028b456e",
@@ -299,13 +315,29 @@
                     "visibilityConditions": []
                 }
             ],
-            "AvailableForStart": [],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "69cd6372473d11f1646c2271",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "69cc8e901fda896ea59b50f0",
+                    "visibilityConditions": []
+                }
+            ],
             "Fail": []
         },
         "declinePlayerMessage": "69cc918b2e86c03e1e51974a declinePlayerMessage",
         "description": "69cc918b2e86c03e1e51974a description",
         "failMessageText": "69cc918b2e86c03e1e51974a failMessageText",
-        "image": "/files/quest/mod_icon/welcome.png",
+        "image": "/files/quest/icon/5eda19f0edce541157209cee.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
@@ -362,13 +394,29 @@
                     "zoneId": "z_q3"
                 }
             ],
-            "AvailableForStart": [],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "69cd6372473d11f1646c2271",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "69cc918b2e86c03e1e51974a",
+                    "visibilityConditions": []
+                }
+            ],
             "Fail": []
         },
         "declinePlayerMessage": "69cc9aaa1c5ce40c22fa3a8a declinePlayerMessage",
         "description": "69cc9aaa1c5ce40c22fa3a8a description",
         "failMessageText": "69cc9aaa1c5ce40c22fa3a8a failMessageText",
-        "image": "/files/quest/mod_icon/welcome.png",
+        "image": "/files/quest/icon/5ac4d8f186f774422237860d.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",

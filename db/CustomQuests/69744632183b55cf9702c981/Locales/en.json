@@ -9,7 +9,7 @@
     "69bdfba39ea015fa709c681f failMessageText": "",
     "69bdfba39ea015fa709c681f startedMessageText": "",
     "69bdfba39ea015fa709c681f successMessageText": "Now the real fun begins.",
-    "69bdfe069ea015fa709c6821": "turn in 1 rub",
+    "69bdfe069ea015fa709c6821": "Turn in 1 RUB",
     "69cc8e901fda896ea59b50f0 name": "Enter Tarkov",
     "69cc8e901fda896ea59b50f0 note": "",
     "69cc8e901fda896ea59b50f0 acceptPlayerMessage": "",
@@ -34,7 +34,6 @@
     "69cc91982e86c03e1e51974c": "Turn in 3 Medical items found in raid",
     "69cc91bf2e86c03e1e51974d": "Turn in 1 Drink item found in raid",
     "69cc91d02e86c03e1e51974e": "Turn in 1 Food item found in raid",
-	
     "69cc9aaa1c5ce40c22fa3a8a name": "Making Contact",
     "69cc9aaa1c5ce40c22fa3a8a note": "",
     "69cc9aaa1c5ce40c22fa3a8a acceptPlayerMessage": "",
@@ -45,5 +44,6 @@
     "69cc9aaa1c5ce40c22fa3a8a failMessageText": "",
     "69cc9aaa1c5ce40c22fa3a8a startedMessageText": "",
     "69cc9aaa1c5ce40c22fa3a8a successMessageText": "Success! We made contact with Chimera.",
-    "69cc9af11c5ce40c22fa3a8e": "Mark the weather station beacon on Reserve"
+    "69cc9af11c5ce40c22fa3a8e": "Mark the weather station beacon on Reserve",
+    "69cd6372473d11f1646c2271": ""
 }
