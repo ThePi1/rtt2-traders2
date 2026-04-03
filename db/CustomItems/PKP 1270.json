@@ -1,0 +1,312 @@
+ {
+ "69c0cffd5e3656870b7a6ae3": {
+        "itemTplToClone": "64ca3d3954fc657e230529cc",
+        "parentId": "5447bed64bdc2d97278b4568",
+        "handbookParentId": "5b5f794b86f77409407a7f92",
+        "overrideProperties":{
+            "CanSellOnRagfair": true,
+            "Slots": [
+            {
+                "_name": "mod_pistolgrip",
+                "_id": "64ca3d3954fc657e230529ce",
+                "_parent": "64ca3d3954fc657e230529cc",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "646371779f5f0ea59a04c204",
+                        "64cbad529f7cf7f75c077fd5",
+                        "5f6341043ada5942720e2dc5",
+                        "6087e663132d4d12c81fd96b",
+                        "623c3be0484b5003161840dc",
+                        "5649ad3f4bdc2df8348b4585",
+                        "5649ade84bdc2d1b2b8b4587",
+                        "59e62cc886f77440d40b52a1",
+                        "5a0071d486f77404e23a12b2",
+                        "5e2192a498a36665e8337386",
+                        "5cf54404d7f00c108840b2ef",
+                        "57e3dba62459770f0c32322b",
+                        "63f4da90f31d4a33b87bd054",
+                        "5b30ac585acfc433000eb79c",
+                        "59e6318286f77444dd62c4cc",
+                        "5cf50850d7f00c056e24104c",
+                        "5cf508bfd7f00c056e24104e",
+                        "628a664bccaab13006640e47",
+                        "628c9ab845c59e5b80768a81",
+                        "5947f92f86f77427344a76b1",
+                        "5947fa2486f77425b47c1a9b",
+                        "5649ae4a4bdc2d1b2b8b4588",
+                        "5c6bf4aa2e2216001219b0ae",
+                        "648ae3e356c6310a830fc291",
+                        "651580dc71a4f10aec4b6056"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": true,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_magazine",
+                "_id": "64ca3d3954fc657e230529cf",
+                "_parent": "64ca3d3954fc657e230529cc",
+                "_props": {
+                "filters": [
+                    {
+                    "AnimationIndex": -1,
+                    "Filter": [
+                        "69c0d0a42d8127ab47ecec78"
+                    ]
+                    }
+                ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c394bdc2dae468b4577"
+            },
+            {
+                "_name": "mod_stock",
+                "_id": "64ca3d3954fc657e230529d0",
+                "_parent": "64ca3d3954fc657e230529cc",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "646371a9f2404ab67905c8e6",
+                        "6492d7847363b8a52206bc52",
+                        "6492e3a97df7d749100e29ee"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_barrel",
+                "_id": "64ca3d3954fc657e230529d1",
+                "_parent": "64ca3d3954fc657e230529cc",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "69c72d3e9c880b68377aab2c"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": true,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_bipod",
+                "_id": "64ca3d3954fc657e230529d2",
+                "_parent": "64ca3d3954fc657e230529cc",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "6464d870bb2c580352070cc4"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_handguard",
+                "_id": "64ca3d3954fc657e230529d3",
+                "_parent": "64ca3d3954fc657e230529cc",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "6491c6f6ef312a876705191b"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_sight_rear",
+                "_id": "64ca3d3954fc657e230529d4",
+                "_parent": "64ca3d3954fc657e230529cc",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "6492fb8253acae0af00a29b6"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_scope",
+                "_id": "64ca3dd78f30beca2606cd07",
+                "_parent": "64ca3d3954fc657e230529cc",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "5947db3f86f77447880cf76f",
+                        "6113d6c3290d254f5e6b27db",
+                        "57486e672459770abd687134",
+                        "618a5d5852ecee1505530b2a",
+                        "5c82342f2e221644f31c060e",
+                        "576fd4ec2459777f0b518431",
+                        "5c82343a2e221644f31c0611",
+                        "5cf638cbd7f00c06595bc936",
+                        "5a7c74b3e899ef0014332c29",
+                        "591ee00d86f774592f7b841e",
+                        "5d0a29ead7ad1a0026013f27",
+                        "618a75c9a3884f56c957ca1b",
+                        "57acb6222459771ec34b5cb0",
+                        "638db77630c4240f9e06f8b6",
+                        "6544d4187c5457729210d277"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            }
+            ],
+        
+            "Chambers": [
+                            {
+                                "_name": "patron_in_weapon",
+                                "_id": "69c0d02841acfbebcc045be5",
+                                "_parent": "64ca3d3954fc657e230529cc",
+                                "_props": {
+                                "filters": [
+                                    {
+                                        "Filter": [
+                                            "560d5e524bdc2d25448b4571",
+                                            "5d6e6772a4b936088465b17c",
+                                            "5d6e67fba4b9361bc73bc779",
+                                            "5d6e6806a4b936088465b17e",
+                                            "5d6e68dea4b9361bcc29e659",
+                                            "5d6e6911a4b9361bd5780d52",
+                                            "5c0d591486f7744c505b416f",
+                                            "58820d1224597753c90aeb13",
+                                            "5d6e68c4a4b9361b93413f79",
+                                            "5d6e68a8a4b9360b6c0d54e2",
+                                            "5d6e68e6a4b9361c140bcfe0",
+                                            "5d6e6869a4b9361c140bcfde",
+                                            "5d6e68b3a4b9361bca7e50b5",
+                                            "5d6e6891a4b9361bd473feea",
+                                            "5d6e689ca4b9361bc8618956",
+                                            "5d6e68d1a4b93622fe60e845",
+                                            "64b8ee384b75259c590fa89b"
+                                        ]
+                                    }
+                                ]
+                                },
+                                "_required": false,
+                                "_mergeSlotWithChildren": false,
+                                "_proto": "55d4af244bdc2d962f8b4571"
+                            }
+                        ],
+                "RecoilForceBack": 450,
+                "RecoilForceUp": 100
+            },
+            "locales": {
+            "en": {
+                "name": "Kalashnikov PKP 12/70 Anti-Infantry machine gun",
+                "shortName": "Custom 12/70 PKP",
+                "description": "A converted PKP to take 12/70 shells. Legs was inspired by similiar automatic shotguns to create the ultimate close quarters anti-infantry solution."
+            }
+        },
+        "fleaPriceRoubles": 65000,
+        "handbookPriceRoubles": 65000,
+        "addtoBots": false
+        },
+        "69c0d0a42d8127ab47ecec78": {
+            "itemTplToClone": "646372518610c40fc20204e8",
+            "parentId": "5448bc234bdc2d3c308b4569",
+            "handbookParentId": "5b5f754a86f774094242f19b",
+            "overrideProperties":{  
+            "Cartridges": [
+                {
+                "_name": "cartridges",
+                "_id": "69c0d0ac85ecd83b6a177401",
+                "_parent": "646372518610c40fc20204e8",
+                "_max_count": 50,
+                "_props": {
+                "filters": [
+                    {
+                        "Filter": [
+                            "560d5e524bdc2d25448b4571",
+                            "5d6e6772a4b936088465b17c",
+                            "5d6e67fba4b9361bc73bc779",
+                            "5d6e6806a4b936088465b17e",
+                            "5d6e68dea4b9361bcc29e659",
+                            "5d6e6911a4b9361bd5780d52",
+                            "5c0d591486f7744c505b416f",
+                            "58820d1224597753c90aeb13",
+                            "5d6e68c4a4b9361b93413f79",
+                            "5d6e68a8a4b9360b6c0d54e2",
+                            "5d6e68e6a4b9361c140bcfe0",
+                            "5d6e6869a4b9361c140bcfde",
+                            "5d6e68b3a4b9361bca7e50b5",
+                            "5d6e6891a4b9361bd473feea",
+                            "5d6e689ca4b9361bc8618956",
+                            "5d6e68d1a4b93622fe60e845",
+                            "64b8ee384b75259c590fa89b"
+                        ]
+                    }
+                ]
+                },
+                "_proto": "5748538b2459770af276a261"
+                }
+            ]   
+            },
+            "locales": {
+                "en": {
+                    "name": "PK 12/70 50-round box",
+                    "shortName": "PK 12/70 50-round box",
+                    "description": "PK 12/70 50-round box"
+                }
+            },
+            "fleaPriceRoubles": 5000,
+            "handbookPriceRoubles": 5000,
+            "addtoBots": false
+        },
+        "69c72d3e9c880b68377aab2c": {
+            "itemTplToClone": "5e848d2eea0a7c419c2f9bfd",
+            "parentId": "555ef6e44bdc2de9068b457e",
+            "handbookParentId": "5b5f75c686f774094242f19f",
+            "overrideProperties":{  
+            },
+            "locales": {
+                "en": {
+                    "name": "PK 12/70 700mm Barrel",
+                    "shortName": "PK 12/70 700mm Barrel",
+                    "description": "PK 12/70 700mm Barrel"
+                }
+            },
+            "fleaPriceRoubles": 5000,
+            "handbookPriceRoubles": 5000,
+            "addtoBots": false
+        }
+    }

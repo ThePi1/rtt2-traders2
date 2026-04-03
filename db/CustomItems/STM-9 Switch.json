@@ -1,0 +1,26 @@
+ {
+ "69c36c0a382b750bcdc01658": {
+        "itemTplToClone": "60339954d62c9b14ed777c06",
+        "parentId": "5447b5e04bdc2d62278b4567",
+        "handbookParentId": "5b5f796a86f774093f2ed3c0",
+        "overrideProperties":{
+            "CanSellOnRagfair": true,
+            "weapFireType": [
+                "single",
+                "fullauto"
+            ],
+            "bFirerate": 750
+            },
+            "locales": {
+            "en": {
+                "name": "Soyuz-TM STM-9 Gen.2 9x19 carbine (Converted)",
+                "shortName": "STM-9 (Converted)",
+                "description": "A PCC carbine with excellent performance already manufactured by Soyuz-TM Arms.  Accuracy, speed, comfort of recoil. Converted to handle full-auto and semi-auto."
+            }
+        },
+        "fleaPriceRoubles": 25000,
+        "handbookPriceRoubles": 25000,
+        "addtoBots": false
+        }
+    
+}
