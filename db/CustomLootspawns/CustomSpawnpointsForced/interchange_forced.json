@@ -1,0 +1,86 @@
+{
+    "Interchange": [
+        {
+        "locationId": "(23.14008 28.30471 -24.65541)",
+        "probability": 1.0,
+            "template": {
+                "Id": "P8_1 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "X": -23.14008,
+                    "Y": 28.30471,
+                    "Z": -24.65541
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "69d0880caa2d77da70bf5c46",
+                "Items": [
+                    {
+                        "_id": "69d08808f8447d8bfc9919c9",
+                        "_tpl": "69b4ccf02212c2e699d6652d",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "69b4ccf02212c2e699d6652d"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        },
+        {
+        "locationId": "(23.14008 28.30471 -24.65541)",
+        "probability": 1.0,
+            "template": {
+                "Id": "P8_2 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "X": -12.70268,
+                    "Y": 28.39686,
+                    "Z": -18.82515
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "69d088be1813a42a7acb18ec",
+                "Items": [
+                    {
+                        "_id": "69d088bb3594c263d5bebc0e",
+                        "_tpl": "69b4ccf02212c2e699d6652d",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "69b4ccf02212c2e699d6652d"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        }
+    ]
+}

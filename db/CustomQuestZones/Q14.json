@@ -1,0 +1,152 @@
+[
+  {
+    "ZoneId": "Q14_1",
+    "ZoneName": "Q14_1",
+    "ZoneLocation": "factory4_day",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-23.52735",
+      "Y": "-3.568869",
+      "Z": "-24.22301",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "-2",
+      "Y": "4",
+      "Z": "-4",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "Q14_2",
+    "ZoneName": "Q14_2",
+    "ZoneLocation": "factory4_day",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "18.18194",
+      "Y": "-0.3050272",
+      "Z": "-46.13261",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "8",
+      "Y": "5",
+      "Z": "5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "Q14_3",
+    "ZoneName": "Q14_3",
+    "ZoneLocation": "factory4_day",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "23.804",
+      "Y": "1.196383",
+      "Z": "62.95872",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "6",
+      "Y": "7",
+      "Z": "6",
+      "W": "0"
+    }
+  },
+    {
+    "ZoneId": "Q14_1",
+    "ZoneName": "Q14_1",
+    "ZoneLocation": "factory4_night",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-23.52735",
+      "Y": "-3.568869",
+      "Z": "-24.22301",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "-2",
+      "Y": "4",
+      "Z": "-4",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "Q14_2",
+    "ZoneName": "Q14_2",
+    "ZoneLocation": "factory4_night",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "18.18194",
+      "Y": "-0.3050272",
+      "Z": "-46.13261",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "8",
+      "Y": "5",
+      "Z": "5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "Q14_3",
+    "ZoneName": "Q14_3",
+    "ZoneLocation": "factory4_night",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "23.804",
+      "Y": "1.196383",
+      "Z": "62.95872",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "6",
+      "Y": "7",
+      "Z": "6",
+      "W": "0"
+    }
+  }
+]

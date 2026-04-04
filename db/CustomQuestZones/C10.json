@@ -1,0 +1,27 @@
+[
+  {
+    "ZoneId": "C10",
+    "ZoneName": "C10",
+    "ZoneLocation": "Labyrinth",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "8.160083",
+      "Y": "1.103946",
+      "Z": "-14.62351",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "6",
+      "Y": "5.9",
+      "Z": "6",
+      "W": "0"
+    }
+  }
+]

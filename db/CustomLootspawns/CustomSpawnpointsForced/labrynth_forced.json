@@ -1,31 +1,31 @@
 {
-    "sandbox": [
+    "Labyrinth": [
         {
-        "locationId": "(49.1024 31.8385 131.6881)",
+        "locationId": "(-10.52513 0.9491997 22.6304)",
         "probability": 1.0,
             "template": {
-                "Id": "V20 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
+                "Id": "Q26 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
                 "IsContainer": false,
                 "useGravity": false,
                 "randomRotation": false,
                 "Position": {
-                    "X": 49.10238,
-                    "Y": 31.8385,
-                    "Z": 131.6881
+                    "X": -10.52513,
+                    "Y": 0.9491997,
+                    "Z": 22.6304
                 },
                 "Rotation": {
-                    "x": 0,
-                    "y": 90,
-                    "z": 90
+                    "X": 0.005347237,
+                    "Y": 0.04447673,
+                    "Z": 0.002382409
                 },
                 "IsGroupPosition": false,
                 "GroupPositions": [],
                 "IsAlwaysSpawn": true,
-                "Root": "69afb1b4b33fd48b5a10affc",
+                "Root": "69d07b879154c8efa89a2e05",
                 "Items": [
                     {
-                        "_id": "69afb6fbe28fc5bf40ec8c5d",
-                        "_tpl": "69afb77d9bd526e56c0c34d7",
+                        "_id": "69d07b7ecd983f5aef4de926",
+                        "_tpl": "69b4d3bf669a409073138bb1",
                         "upd": {
                             "StackObjectsCount": 1
                         }
@@ -35,7 +35,7 @@
             "itemDistribution": [
                 {
                     "composedKey": {
-                        "key": "69afb77d9bd526e56c0c34d7"
+                        "key": "69b4d3bf669a409073138bb1"
                     },
                     "relativeProbability": 1
                 }
