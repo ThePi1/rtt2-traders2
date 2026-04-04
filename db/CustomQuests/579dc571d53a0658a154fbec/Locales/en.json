@@ -1,11 +1,11 @@
 {
     "69cf0b9dd7d2715797a83dac name": "Return to the City",
     "69cf0b9dd7d2715797a83dac note": "",
-    "69cf0b9dd7d2715797a83dac acceptPlayerMessage": "",
+    "69cf0b9dd7d2715797a83dac acceptPlayerMessage": "Good to have you back.",
     "69cf0b9dd7d2715797a83dac changeQuestMessageText": "",
     "69cf0b9dd7d2715797a83dac completePlayerMessage": "",
     "69cf0b9dd7d2715797a83dac declinePlayerMessage": "",
-    "69cf0b9dd7d2715797a83dac description": "Return once more to streets where shadows bite,\nWhere scavs and raiders clash for rusted gain,\nThe market calls you back through smoke and night.",
+    "69cf0b9dd7d2715797a83dac description": "Return to streets where shadows bite,\nWhere scavs and raiders clash,\nThe market calls you back.",
     "69cf0b9dd7d2715797a83dac failMessageText": "",
     "69cf0b9dd7d2715797a83dac startedMessageText": "",
     "69cf0b9dd7d2715797a83dac successMessageText": "Old friend, the city streets know you again.",
