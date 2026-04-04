@@ -29,7 +29,7 @@ public record ModMetadata : AbstractModMetadata
     public override string Name { get; init; } = "RTT2 Traders";
     public override string Author { get; init; } = "RTT 2 Trader Team";
     public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
-    public override Range SptVersion { get; init; } = new("4.0.11");
+    public override Range SptVersion { get; init; } = new("4.0.13");
     public override string License { get; init; } = "MIT";
     public override bool? IsBundleMod { get; init; } = true;
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
