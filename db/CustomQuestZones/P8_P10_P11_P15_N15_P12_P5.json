@@ -1,0 +1,302 @@
+[
+  {
+    "ZoneId": "P8_1",
+    "ZoneName": "P8_1",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-23.14008",
+      "Y": "28.30471",
+      "Z": "-24.65541",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "1",
+      "Y": "1",
+      "Z": "1",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "P8_2",
+    "ZoneName": "P8_2",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-12.70268",
+      "Y": "28.39686",
+      "Z": "-18.82515",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "0.4999999",
+      "Y": "0.3999999",
+      "Z": "0.5999999",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "P10_1",
+    "ZoneName": "P10_1",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "95.54356",
+      "Y": "27.14149",
+      "Z": "-120.7072",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "10",
+      "Y": "11",
+      "Z": "35",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "P10_2",
+    "ZoneName": "P10_2",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-35.00999",
+      "Y": "27.14406",
+      "Z": "25.51147",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "-29",
+      "Y": "-9",
+      "Z": "-14",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "P11",
+    "ZoneName": "P11",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "botkillzone",
+    "FlareType": "",
+    "Position": {
+      "X": "19.80763",
+      "Y": "27.11105",
+      "Z": "-2.468045",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "51",
+      "Y": "9",
+      "Z": "42",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "P15",
+    "ZoneName": "P15",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "64.08253",
+      "Y": "27.13687",
+      "Z": "11.33848",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "25",
+      "Y": "5",
+      "Z": "9",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "N15",
+    "ZoneName": "N15",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "17.0571",
+      "Y": "37.57113",
+      "Z": "-4.221698",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "10",
+      "Y": "3",
+      "Z": "8",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "P12_1",
+    "ZoneName": "P12_1",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-33.30449",
+      "Y": "38.63545",
+      "Z": "-104.1497",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "28",
+      "Y": "4",
+      "Z": "15",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "P5_1",
+    "ZoneName": "P5_1",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "26.43799",
+      "Y": "27.06767",
+      "Z": "-215.7883",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "4",
+      "Y": "4",
+      "Z": "3",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "P5_2",
+    "ZoneName": "P5_2",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "24.43801",
+      "Y": "27.06767",
+      "Z": "-229.2035",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "6",
+      "Y": "4",
+      "Z": "3",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "P5_3",
+    "ZoneName": "P5_3",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "25.04819",
+      "Y": "27.06767",
+      "Z": "-242.6005",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "7",
+      "Y": "3",
+      "Z": "3",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "P5_4",
+    "ZoneName": "P5_4",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "25.04819",
+      "Y": "27.06767",
+      "Z": "-255.7904",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "7",
+      "Y": "4",
+      "Z": "2",
+      "W": "0"
+    }
+  }
+]
