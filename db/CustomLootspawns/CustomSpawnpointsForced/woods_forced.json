@@ -47,7 +47,7 @@
             "template": {
                 "Id": "Q24 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
                 "IsContainer": false,
-                "useGravity": false,
+                "useGravity": true,
                 "randomRotation": false,
                 "Position": {
                     "X": 195.3933,
