@@ -29,7 +29,7 @@ public record ModMetadata : AbstractModMetadata
     public override string Name { get; init; } = "RTT2 Traders";
     public override string Author { get; init; } = "RTT 2 Trader Team";
     public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
-    public override Range SptVersion { get; init; } = new("4.0.11");
+    public override Range SptVersion { get; init; } = new("4.0.13");
     public override string License { get; init; } = "MIT";
     public override bool? IsBundleMod { get; init; } = true;
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
@@ -122,10 +122,10 @@ public class rtt2trader(
 
         // Add localisation text for our trader to the database so it shows to people playing in different languages
         addCustomTraderHelper.AddTraderToLocales(traderBase_xm, "Xiaoming", "Chinese bureaucrat representing the CCP in Tarkov. He's more clever than you think, but less clever than he thinks.");
-        addCustomTraderHelper.AddTraderToLocales(traderBase_ch, "Chimera", "An old friend. He was dead, previously... but now he's not...?");
+        addCustomTraderHelper.AddTraderToLocales(traderBase_ch, "Chimera", "An old friend.");
         addCustomTraderHelper.AddTraderToLocales(traderBase_st, "Storyteller", "The voice in your head.");
-        addCustomTraderHelper.AddTraderToLocales(traderBase_vr, "Voron", "All will be revealed according to Its plan, according to It.");
-        addCustomTraderHelper.AddTraderToLocales(traderBase_nd, "Needle", "He's got the stuff, if you've got the cash...");
+        addCustomTraderHelper.AddTraderToLocales(traderBase_vr, "Voron", "All will be revealed...");
+        addCustomTraderHelper.AddTraderToLocales(traderBase_nd, "Needle", "Wheel and deal.");
         addCustomTraderHelper.AddTraderToLocales(traderBase_pr, "Price", "He sells cigarettes and cigarette accessories.");
         addCustomTraderHelper.AddTraderToLocales(traderBase_at, "Atlas", "Your friendly, neighborhood, out-of-touch gun enthusiast.");
         addCustomTraderHelper.AddTraderToLocales(traderBase_ws, "Weiss", "Unhinged ex-Terragroup researcher.");
