@@ -1,0 +1,102 @@
+[
+  {
+    "ZoneId": "V4",
+    "ZoneName": "V4",
+    "ZoneLocation": "Woods",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-266.9757",
+      "Y": "7.498947",
+      "Z": "-411.3403",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "3",
+      "Y": "4",
+      "Z": "3",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "F11",
+    "ZoneName": "F11",
+    "ZoneLocation": "Woods",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "195.852",
+      "Y": "0.7952795",
+      "Z": "-7.073608",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "4",
+      "Y": "3.5",
+      "Z": "4",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "Q20",
+    "ZoneName": "Q20",
+    "ZoneLocation": "Woods",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-80.69524",
+      "Y": "11.99251",
+      "Z": "-720.6926",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "21",
+      "Y": "11",
+      "Z": "31",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "Q23",
+    "ZoneName": "Q23",
+    "ZoneLocation": "Woods",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "196.1248",
+      "Y": "0.2802778",
+      "Z": "-7.20158",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "5",
+      "Y": "5",
+      "Z": "5",
+      "W": "0"
+    }
+  }
+]
