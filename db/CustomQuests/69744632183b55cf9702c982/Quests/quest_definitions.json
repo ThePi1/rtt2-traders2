@@ -239,7 +239,7 @@
                     "id": "69cd7bc645b0c8b5f47878b1",
                     "index": 0,
                     "inEncoded": false,
-                    "onlyFoundInRaid": true,
+                    "onlyFoundInRaid": false,
                     "parentId": "",
                     "target": [
                         "69b4d0c58cef59c5c553c4be"
@@ -255,7 +255,7 @@
                     "id": "69cd7bd945b0c8b5f47878b2",
                     "index": 0,
                     "inEncoded": false,
-                    "onlyFoundInRaid": true,
+                    "onlyFoundInRaid": false,
                     "parentId": "",
                     "target": [
                         "69b4d0c58cef59c5c553c4be"

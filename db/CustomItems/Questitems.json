@@ -241,9 +241,9 @@
     },
     "locales": {
       "en": {
-        "name": "Terragroup Scientist's Hardrive",
-        "shortName": "Terragroup Hardrive",
-        "description": "A scientist's hardrive. May have R&D secrets."
+        "name": "Terragroup R&D Drive",
+        "shortName": "Terragroup R&D Drive",
+        "description": "A scientist's hard drive. May have R&D secrets."
       }
     },
     "fleaPriceRoubles": 9039,

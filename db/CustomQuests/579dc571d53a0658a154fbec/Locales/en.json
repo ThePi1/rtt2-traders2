@@ -23,5 +23,20 @@
     "69cf0c7c185a5729e3c907bf successMessageText": "Good work, old friend, your cut is due.",
     "69cf0cf0185a5729e3c907c3": "Kill USEC with a silencer",
     "69cf0d2c185a5729e3c907c6": "Kill BEAR with a silencer",
-    "69cf0c88185a5729e3c907c0": ""
+    "69cf0c88185a5729e3c907c0": "",
+    "69d1ebe31e775b89a6e4b034 name": "Public Recognition",
+    "69d1ebe31e775b89a6e4b034 note": "",
+    "69d1ebe31e775b89a6e4b034 acceptPlayerMessage": "",
+    "69d1ebe31e775b89a6e4b034 changeQuestMessageText": "",
+    "69d1ebe31e775b89a6e4b034 completePlayerMessage": "",
+    "69d1ebe31e775b89a6e4b034 declinePlayerMessage": "",
+    "69d1ebe31e775b89a6e4b034 description": "",
+    "69d1ebe31e775b89a6e4b034 failMessageText": "",
+    "69d1ebe31e775b89a6e4b034 startedMessageText": "",
+    "69d1ebe31e775b89a6e4b034 successMessageText": "",
+    "69d1ecbe1e775b89a6e4b038": "Mark Old Gas on Customs",
+    "69d1ed221e775b89a6e4b03b": "Mark Military Checkpoint on Customs",
+    "69d1ed2a1e775b89a6e4b03e": "Mark the top floor of red skeleton on Customs",
+    "69d1ed321e775b89a6e4b041": "Mark the guard house (middle of map) on Customs",
+    "69d1eca81e775b89a6e4b037": ""
 }
