@@ -1,0 +1,168 @@
+{
+    "laboratory": [
+        {
+        "locationId": "(-156.1365 1.303333 -321.686)",
+        "probability": 1.0,
+            "template": {
+                "Id": "S12 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "X": -156.1365,
+                    "Y": 1.303333,
+                    "Z": -321.686
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 90
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "69d2c980eef47fc937ce323a",
+                "Items": [
+                    {
+                        "_id": "69d2c983b2bb633fbfc79410",
+                        "_tpl": "69b4eeaf8e3cf3d70d820d11",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "69b4eeaf8e3cf3d70d820d11"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        },
+        {
+        "locationId": "(-119.3885 1.345246 -445.2293)",
+        "probability": 1.0,
+            "template": {
+                "Id": "S13 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "X": -119.3885,
+                    "Y": 1.345246,
+                    "Z": -445.2293
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 90
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "69d2c97ad7edd16ce0bca42b",
+                "Items": [
+                    {
+                        "_id": "69d2c97948a1d7009dd29298",
+                        "_tpl": "69b4eef739f0077489484909",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "69b4eef739f0077489484909"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        },
+        {
+        "locationId": "(-163.2313 5.328879 -342.352)",
+        "probability": 1.0,
+            "template": {
+                "Id": "S18 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "X": -163.2313,
+                    "Y": 5.328879,
+                    "Z": -342.352
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 90
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "69d2c95ba28a517e7512c832",
+                "Items": [
+                    {
+                        "_id": "69d2c959750f74d18046ad6a",
+                        "_tpl": "69b4f058d7f63d42ceed6c9b",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "69b4f058d7f63d42ceed6c9b"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        },
+        {
+        "locationId": "(-158.7773 5.328879 -375.1938)",
+        "probability": 1.0,
+            "template": {
+                "Id": "Q19 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "X": -158.7773,
+                    "Y": 1.550891,
+                    "Z": -375.1938
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 90
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "69d2c9359bce8adea85291bf",
+                "Items": [
+                    {
+                        "_id": "69d2c932b52670b5ad030234",
+                        "_tpl": "69b4f0e63266da01f06b0749",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "69b4f0e63266da01f06b0749"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        }
+    ]
+}

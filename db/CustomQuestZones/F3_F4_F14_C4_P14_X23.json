@@ -1,0 +1,377 @@
+[
+  {
+    "ZoneId": "F3_1",
+    "ZoneName": "F3_1",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "327.3959",
+      "Y": "3.120242",
+      "Z": "-176.7799",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.1132032",
+      "Z": "0",
+      "W": "0.9935719"
+    },
+    "Scale": {
+      "X": "15",
+      "Y": "6",
+      "Z": "15",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "F3_2",
+    "ZoneName": "F3_2",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "576.5595",
+      "Y": "0.4464707",
+      "Z": "1.785352",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "4",
+      "Y": "3",
+      "Z": "8",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "F3_3",
+    "ZoneName": "F3_3",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "256.6672",
+      "Y": "12.714",
+      "Z": "-20.40287",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1045285",
+      "Z": "0",
+      "W": "0.9945219"
+    },
+    "Scale": {
+      "X": "12",
+      "Y": "4",
+      "Z": "36",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "F3_4",
+    "ZoneName": "F3_4",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "19.20947",
+      "Y": "0.9499433",
+      "Z": "-25.03046",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.224951",
+      "Z": "0",
+      "W": "0.9743701"
+    },
+    "Scale": {
+      "X": "3",
+      "Y": "3",
+      "Z": "7",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "F4",
+    "ZoneName": "F4",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "21.31429",
+      "Y": "0.242351",
+      "Z": "-26.21554",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1564345",
+      "Z": "0",
+      "W": "0.9876884"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "3",
+      "Z": "6",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "F14_3",
+    "ZoneName": "F14_3",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "187.4023",
+      "Y": "2.429196",
+      "Z": "-98.35948",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.1045285",
+      "Z": "0",
+      "W": "0.9945219"
+    },
+    "Scale": {
+      "X": "7",
+      "Y": "4",
+      "Z": "3",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "F14_4",
+    "ZoneName": "F14_4",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "114.8282",
+      "Y": "2.164493",
+      "Z": "-98.7434",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.1305262",
+      "Z": "0",
+      "W": "0.9914449"
+    },
+    "Scale": {
+      "X": "5",
+      "Y": "3",
+      "Z": "4",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "F14_5",
+    "ZoneName": "F14_5",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "152.1932",
+      "Y": "2.265821",
+      "Z": "-60.46089",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.07845911",
+      "Z": "0",
+      "W": "0.9969174"
+    },
+    "Scale": {
+      "X": "3",
+      "Y": "3",
+      "Z": "6",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "F14_6",
+    "ZoneName": "F14_6",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "256.8473",
+      "Y": "3.173399",
+      "Z": "-79.05919",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.09584575",
+      "Z": "0",
+      "W": "0.9953962"
+    },
+    "Scale": {
+      "X": "6",
+      "Y": "4",
+      "Z": "3",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "C4",
+    "ZoneName": "C4",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-206.2207",
+      "Y": "7.961253",
+      "Z": "-111.3035",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "2",
+      "Z": "2",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "P14",
+    "ZoneName": "P14",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "205.3996",
+      "Y": "2.752113",
+      "Z": "-123.6635",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "4",
+      "Y": "3",
+      "Z": "5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "X23_1",
+    "ZoneName": "X23_1",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-193.9588",
+      "Y": "1.417777",
+      "Z": "-207.0088",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.01745241",
+      "Z": "0",
+      "W": "0.9998477"
+    },
+    "Scale": {
+      "X": "1",
+      "Y": "5",
+      "Z": "6",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "X23_2",
+    "ZoneName": "X23_2",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "418.4178",
+      "Y": "1.230967",
+      "Z": "39.09745",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "3",
+      "Y": "4",
+      "Z": "3",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "X23_3",
+    "ZoneName": "X23_3",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "182.0315",
+      "Y": "6.90748",
+      "Z": "183.8702",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "2",
+      "Z": "2",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "X23_4",
+    "ZoneName": "X23_4",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "94.23947",
+      "Y": "8.133993",
+      "Z": "-57.59484",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "3",
+      "Z": "2",
+      "W": "0"
+    }
+  }
+]

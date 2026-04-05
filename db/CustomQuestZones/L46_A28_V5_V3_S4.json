@@ -1,0 +1,252 @@
+[
+  {
+    "ZoneId": "L46_1",
+    "ZoneName": "L46_1",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-6.716329",
+      "Y": "5.936195",
+      "Z": "461.1962",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "13",
+      "Y": "7",
+      "Z": "25",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "L46_2",
+    "ZoneName": "L46_2",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-0.5450652",
+      "Y": "5.957626",
+      "Z": "293.4693",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "9",
+      "Y": "7",
+      "Z": "29",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "L46_3",
+    "ZoneName": "L46_3",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "11.55747",
+      "Y": "6.00067",
+      "Z": "39.59943",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "15",
+      "Y": "7",
+      "Z": "25",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "L46_4",
+    "ZoneName": "L46_4",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-6.794233",
+      "Y": "5.970175",
+      "Z": "-248.5456",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "13",
+      "Y": "7",
+      "Z": "33",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "A28_1",
+    "ZoneName": "A28_1",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "29.37092",
+      "Y": "14.70116",
+      "Z": "-633.6932",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "3.75",
+      "Y": "3",
+      "Z": "4",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "A28_2",
+    "ZoneName": "A28_2",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-107.9126",
+      "Y": "13.943",
+      "Z": "-729.213",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "5",
+      "Y": "5",
+      "Z": "5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "A28_3",
+    "ZoneName": "A28_3",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-171.9516",
+      "Y": "13.95865",
+      "Z": "-656.6476",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "5",
+      "Y": "5",
+      "Z": "5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "V5",
+    "ZoneName": "V5",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "324.4811",
+      "Y": "7.019517",
+      "Z": "486.5121",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1564345",
+      "Z": "0",
+      "W": "0.9876884"
+    },
+    "Scale": {
+      "X": "4.75",
+      "Y": "5",
+      "Z": "3.5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "V3",
+    "ZoneName": "V3",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "313.3414",
+      "Y": "2.520296",
+      "Z": "505.5908",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1370123",
+      "Z": "0",
+      "W": "0.9905694"
+    },
+    "Scale": {
+      "X": "3.5",
+      "Y": "5",
+      "Z": "14",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "S4",
+    "ZoneName": "S4",
+    "ZoneLocation": "Lighthouse",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-116.7362",
+      "Y": "40.89954",
+      "Z": "88.92139",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "4",
+      "Y": "2.25",
+      "Z": "2.75",
+      "W": "0"
+    }
+  }
+]

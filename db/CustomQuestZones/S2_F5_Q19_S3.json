@@ -1,0 +1,102 @@
+[
+  {
+    "ZoneId": "S2",
+    "ZoneName": "S2",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-172.6387",
+      "Y": "1.06242",
+      "Z": "-369.519",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "3",
+      "Y": "3",
+      "Z": "3",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "S3",
+    "ZoneName": "S3",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-183.979",
+      "Y": "1.066441",
+      "Z": "-326.9079",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "4",
+      "Y": "3",
+      "Z": "4",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "F5",
+    "ZoneName": "F5",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-153.9988",
+      "Y": "-3.26913",
+      "Z": "-288.7401",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "20",
+      "Y": "5",
+      "Z": "4",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "Q19",
+    "ZoneName": "Q19",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-158.7773",
+      "Y": "1.550891",
+      "Z": "-375.1938",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "0.25",
+      "Y": "0.25",
+      "Z": "0.25",
+      "W": "0"
+    }
+  }
+]

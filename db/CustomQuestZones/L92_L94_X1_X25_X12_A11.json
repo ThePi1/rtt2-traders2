@@ -1,0 +1,377 @@
+[
+  {
+    "ZoneId": "L92",
+    "ZoneName": "L92",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "103.2653",
+      "Y": "-5.89808",
+      "Z": "49.90454",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "11",
+      "Y": "3",
+      "Z": "11",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "L94_1",
+    "ZoneName": "L94_1",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "118.4048",
+      "Y": "0.5826727",
+      "Z": "-86.22266",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1305262",
+      "Z": "0",
+      "W": "0.9914449"
+    },
+    "Scale": {
+      "X": "4",
+      "Y": "3",
+      "Z": "4",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "L94_2",
+    "ZoneName": "L94_2",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "11.84083",
+      "Y": "0.06147707",
+      "Z": "-15.65339",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1218693",
+      "Z": "0",
+      "W": "0.9925461"
+    },
+    "Scale": {
+      "X": "12",
+      "Y": "3",
+      "Z": "7",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "L94_3",
+    "ZoneName": "L94_3",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-74.0107",
+      "Y": "0.6894661",
+      "Z": "-29.74034",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "4",
+      "Y": "3",
+      "Z": "5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "X1",
+    "ZoneName": "X1",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-118.8125",
+      "Y": "-13.486",
+      "Z": "22.33092",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.126199",
+      "Z": "0",
+      "W": "0.992005"
+    },
+    "Scale": {
+      "X": "13",
+      "Y": "3",
+      "Z": "4",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "X25_1",
+    "ZoneName": "X25_1",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-122.2504",
+      "Y": "-13.77293",
+      "Z": "27.8076",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.0588708",
+      "Z": "0",
+      "W": "0.9982656"
+    },
+    "Scale": {
+      "X": "3",
+      "Y": "2.5",
+      "Z": "2.5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "X25_2",
+    "ZoneName": "X25_2",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-154.3779",
+      "Y": "-8.438953",
+      "Z": "74.01414",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.09801714",
+      "Z": "0",
+      "W": "0.9951847"
+    },
+    "Scale": {
+      "X": "3.75",
+      "Y": "3",
+      "Z": "5.25",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "X25_3",
+    "ZoneName": "X25_3",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "191.2385",
+      "Y": "-5.557",
+      "Z": "-225.9036",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1045285",
+      "Z": "0",
+      "W": "0.9945219"
+    },
+    "Scale": {
+      "X": "3.25",
+      "Y": "2.75",
+      "Z": "2.5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "X12_1",
+    "ZoneName": "X12_1",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-248.7244",
+      "Y": "-3.689564",
+      "Z": "-3.184003",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.1736482",
+      "Z": "0",
+      "W": "0.9848078"
+    },
+    "Scale": {
+      "X": "11",
+      "Y": "5",
+      "Z": "7",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "X12_2",
+    "ZoneName": "X12_2",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-267.0815",
+      "Y": "-9.174421",
+      "Z": "-68.66688",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.2756374",
+      "Z": "0",
+      "W": "0.9612617"
+    },
+    "Scale": {
+      "X": "9",
+      "Y": "3",
+      "Z": "5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "X12_3",
+    "ZoneName": "X12_3",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "210.8976",
+      "Y": "-6.951985",
+      "Z": "-86.2672",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "9",
+      "Y": "7",
+      "Z": "5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "X12_4",
+    "ZoneName": "X12_4",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "228.3295",
+      "Y": "-3.653992",
+      "Z": "-55.41137",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "9",
+      "Y": "5",
+      "Z": "5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "X12_5",
+    "ZoneName": "X12_5",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "183.5836",
+      "Y": "-3.45092",
+      "Z": "22.15777",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.3746066",
+      "Z": "0",
+      "W": "0.9271839"
+    },
+    "Scale": {
+      "X": "5",
+      "Y": "5",
+      "Z": "9",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "X12_6",
+    "ZoneName": "X12_6",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "144.9221",
+      "Y": "-10.82921",
+      "Z": "34.64528",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1218693",
+      "Z": "0",
+      "W": "0.9925461"
+    },
+    "Scale": {
+      "X": "7",
+      "Y": "7",
+      "Z": "9",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "A11",
+    "ZoneName": "A11",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-118.0207",
+      "Y": "-3.429963",
+      "Z": "-23.61742",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1564345",
+      "Z": "0",
+      "W": "0.9876884"
+    },
+    "Scale": {
+      "X": "13",
+      "Y": "5",
+      "Z": "9",
+      "W": "0"
+    }
+  }
+]

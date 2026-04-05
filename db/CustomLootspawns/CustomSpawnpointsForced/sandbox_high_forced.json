@@ -1,0 +1,45 @@
+{
+    "sandbox_high": [
+        {
+        "locationId": "(49.1024 31.8385 131.6881)",
+        "probability": 1.0,
+            "template": {
+                "Id": "V20 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "X": 49.10238,
+                    "Y": 31.8385,
+                    "Z": 131.6881
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 90
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "69afb1b4b33fd48b5a10affc",
+                "Items": [
+                    {
+                        "_id": "69afb6fbe28fc5bf40ec8c5d",
+                        "_tpl": "69afb77d9bd526e56c0c34d7",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "69afb77d9bd526e56c0c34d7"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        }
+    ]
+}

@@ -387,7 +387,7 @@
       "en": {
         "name": "Gyroscope #2",
         "shortName": "Gyroscope #2",
-        "description": "A gyro-thingy. Nuhmber too."
+        "description": "A gyro-thingy. Nuhmber too. This thing looks no different than the last. Weiss is just insane I guess."
       }
     },
     "fleaPriceRoubles": 9039,
@@ -480,6 +480,125 @@
         "name": "Locked Case (Sacrifice)",
         "shortName": "Locked Case (Sacrifice)",
         "description": "Locked carbon case filled with valuables most likely."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69d2ca6e6c1d42de861b9745": {
+    "itemTplToClone": "64f07f7726cfa02c506f8ac0",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Weight": 1,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Rap Journal",
+        "shortName": "Rap Journal",
+        "description": "A journal filled to the brim with slick verses... Yo."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69d2caf8c956d3a46db2e20e": {
+    "itemTplToClone": "5910922b86f7747d96753483",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Weight": 2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Atlas' Hidden Shipment",
+        "shortName": "Atlas' Hidden Shipment",
+        "description": "Atlas' Hidden Shipment, thats all she wrote."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69d2cd74c9543f516911c29d": {
+    "itemTplToClone": "5910922b86f7747d96753483",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Weight": 7,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Final Sacrifice",
+        "shortName": "Final Sacrifice",
+        "description": "The Final Sacrifice Voron wants me to carry. Whatever is in this case is special."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69d2dbe0fd3c451b13480f2a": {
+    "itemTplToClone": "5ac620eb86f7743a8e6e0da0",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Foldable": false,
+      "BackgroundColor": "yellow",
+      "Weight": 4,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Wrapped Package",
+        "shortName": "Wrapped Package",
+        "description": "A box taped up from head to toe in duct tape."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
+  },
+  "69d2e75da92020043e7c085a": {
+    "itemTplToClone": "591092ef86f7747bb8703422",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Foldable": false,
+      "BackgroundColor": "yellow",
+      "Weight": 0.2,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "RarityPvE": "Not_exist",
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Secure Folder Case 2",
+        "shortName": "Secure Case 2",
+        "description": "A folder case that requires a key to open."
       }
     },
     "fleaPriceRoubles": 9039,
