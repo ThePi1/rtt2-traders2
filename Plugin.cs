@@ -147,6 +147,7 @@ public class rtt2trader(
         await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
         await wttCommon.CustomLootspawnService.CreateCustomLootSpawns(assembly);
         await wttCommon.CustomQuestZoneService.CreateCustomQuestZones(assembly);
+        // await wttCommon.CustomAssortSchemeService.CreateCustomAssortSchemes(assembly);
 
 
         // Save the data we loaded above into the trader we've made
