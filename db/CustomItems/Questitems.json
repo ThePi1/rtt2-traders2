@@ -461,6 +461,29 @@
     },
     "fleaPriceRoubles": 9039,
     "handbookPriceRoubles": 11346
+  },
+  "69d1f5c5d8786ae5cfe6c66d": {
+    "itemTplToClone": "5910922b86f7747d96753483",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "QUEST",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Weight": 3,
+      "Height": 1,
+      "Width": 2,
+      "StackMaxSize": 1,
+      "QuestItem": true
+    },
+    "locales": {
+      "en": {
+        "name": "Locked Case (Sacrifice)",
+        "shortName": "Locked Case (Sacrifice)",
+        "description": "Locked carbon case filled with valuables most likely."
+      }
+    },
+    "fleaPriceRoubles": 9039,
+    "handbookPriceRoubles": 11346
   }
   
 }
