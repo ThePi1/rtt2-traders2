@@ -960,15 +960,15 @@
                     "id": "69d2ae5fdcdcf1b2b24fefb3",
                     "index": 0,
                     "inEncoded": false,
-                    "maxDurability": "",
-                    "minDurability": "",
+                    "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "plantTime": 8,
                     "target": [
-                        "5696686a4bdc2da3298b456a"
+                        "590c60fc86f77412b13fddcf"
                     ],
-                    "value": 100,
+                    "value": 1,
                     "visibilityConditions": [],
                     "zoneId": "F4"
                 },
@@ -980,15 +980,15 @@
                     "id": "69d2af86dcdcf1b2b24fefb4",
                     "index": 0,
                     "inEncoded": false,
-                    "maxDurability": "",
-                    "minDurability": "",
+                    "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "plantTime": 8,
                     "target": [
-                        "5449016a4bdc2d6f028b456f"
+                        "5c94bbff86f7747ee735c08f"
                     ],
-                    "value": 50000,
+                    "value": 1,
                     "visibilityConditions": [],
                     "zoneId": ""
                 }
@@ -1574,8 +1574,8 @@
                                 "dynamicLocale": false,
                                 "id": "69d2b5f390a2aa5fe6baa118",
                                 "target": [
-                                    "Woods"
-                                ]
+									"Woods"
+								]
                             },
                             {
                                 "bodyPart": [],
@@ -1596,7 +1596,7 @@
                                 "id": "69d2b64790a2aa5fe6baa119",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
-                                "target": [],
+                                "target": "Any",
                                 "value": 1,
                                 "weapon": [
                                     "5447b6194bdc2d67278b4567"
@@ -1847,7 +1847,7 @@
                                 "id": "69d2b866e60486f553169ca2",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
-                                "target": [],
+                                "target": "Any",
                                 "value": 1,
                                 "weapon": [],
                                 "weaponCaliber": [],
@@ -1896,7 +1896,7 @@
                                 "id": "69d2b889e60486f553169ca5",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
-                                "target": [],
+                                "target": "Any",
                                 "value": 1,
                                 "weapon": [],
                                 "weaponCaliber": [],
@@ -1945,7 +1945,7 @@
                                 "id": "69d2b897e60486f553169ca8",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
-                                "target": [],
+                                "target": "Any",
                                 "value": 1,
                                 "weapon": [],
                                 "weaponCaliber": [],
@@ -1994,7 +1994,7 @@
                                 "id": "69d2b8c5e60486f553169cab",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
-                                "target": [],
+                                "target": "Any",
                                 "value": 1,
                                 "weapon": [],
                                 "weaponCaliber": [],
@@ -2043,7 +2043,7 @@
                                 "id": "69d2b8d0e60486f553169cae",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
-                                "target": [],
+                                "target": "Any",
                                 "value": 1,
                                 "weapon": [],
                                 "weaponCaliber": [],
@@ -2092,7 +2092,7 @@
                                 "id": "69d2b8d9e60486f553169cb1",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
-                                "target": [],
+                                "target": "Any",
                                 "value": 1,
                                 "weapon": [],
                                 "weaponCaliber": [],
@@ -2166,7 +2166,7 @@
                     "target": "579dc571d53a0658a154fbec",
                     "type": "TraderStanding",
                     "unknown": false,
-                    "value": 0.3
+                    "value": 0.6
                 }
             ]
         },
@@ -2196,8 +2196,8 @@
                     "id": "69d2b9589e4d407d16211b1a",
                     "index": 0,
                     "inEncoded": false,
-                    "maxDurability": "",
-                    "minDurability": "",
+                    "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "plantTime": 10,
@@ -2216,15 +2216,15 @@
                     "id": "69d2b9b49e4d407d16211b1b",
                     "index": 0,
                     "inEncoded": false,
-                    "maxDurability": "",
-                    "minDurability": "",
+                    "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "plantTime": 10,
                     "target": [
-                        "5449016a4bdc2d6f028b456f"
+                        "5bc9bc53d4351e00367fbcee"
                     ],
-                    "value": 50000,
+                    "value": 1,
                     "visibilityConditions": [],
                     "zoneId": "F11_2"
                 }
@@ -2279,7 +2279,7 @@
                     "target": "579dc571d53a0658a154fbec",
                     "type": "TraderStanding",
                     "unknown": false,
-                    "value": 0.1
+                    "value": 0.4
                 }
             ]
         },
@@ -2327,7 +2327,7 @@
                                 "savageRole": [
                                     "bossKolontay"
                                 ],
-                                "target": [],
+                                "target": "Any",
                                 "value": 1,
                                 "weapon": [],
                                 "weaponCaliber": [],
@@ -2401,7 +2401,7 @@
                     "target": "579dc571d53a0658a154fbec",
                     "type": "TraderStanding",
                     "unknown": false,
-                    "value": 0.65
+                    "value": 0.95
                 }
             ]
         },
@@ -2552,8 +2552,8 @@
                     "id": "69d2bf99ae6b63b659469688",
                     "index": 0,
                     "inEncoded": false,
-                    "maxDurability": "",
-                    "minDurability": "",
+                    "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "plantTime": 15,
@@ -2572,8 +2572,8 @@
                     "id": "69d2bfcbae6b63b659469689",
                     "index": 0,
                     "inEncoded": false,
-                    "maxDurability": "",
-                    "minDurability": "",
+                    "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "plantTime": 15,
@@ -2610,7 +2610,7 @@
                                 "savageRole": [
                                     "bossBully"
                                 ],
-                                "target": [],
+                                "target": "Any",
                                 "value": 1,
                                 "weapon": [],
                                 "weaponCaliber": [],
@@ -2747,8 +2747,8 @@
                     "id": "69d2c0f6ae6b63b659469697",
                     "index": 0,
                     "inEncoded": false,
-                    "maxDurability": "",
-                    "minDurability": "",
+                    "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "plantTime": 10,
@@ -2785,7 +2785,7 @@
                                 "savageRole": [
                                     "bossSanitar"
                                 ],
-                                "target": [],
+                                "target": "Any",
                                 "value": 1,
                                 "weapon": [],
                                 "weaponCaliber": [],
