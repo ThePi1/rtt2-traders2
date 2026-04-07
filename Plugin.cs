@@ -180,17 +180,17 @@ public class rtt2trader(
             var properties = item.Value.Properties;
             var name = item.Value.Name;
 
-            if (parentId == "5448e54d4bdc2dcc718b4568")
+            if (parentId == "5448e54d4bdc2dcc718b4568" || parentId == "5448e5284bdc2dcb718b4567") //Armor || Chest Rigs
             {
                 foreach (var slot in properties.Slots)
                 {
                     foreach(var filter in slot.Properties.Filters)
                     {
-                        if (slot.Name.Equals("front_plate",StringComparison.OrdinalIgnoreCase) ||slot.Name.Equals("back_plate",StringComparison.OrdinalIgnoreCase))
+                        if (slot.Name.Equals("front_plate",StringComparison.OrdinalIgnoreCase) || slot.Name.Equals("back_plate",StringComparison.OrdinalIgnoreCase) )
                         {
                             if (!filter.Filter.Contains(plateToAdd))
                             {
-                                filter.Filter.Add(plateToAdd);
+                                filter.Filter.Add(plateToAdd); 
                             }
                         }
                     }
