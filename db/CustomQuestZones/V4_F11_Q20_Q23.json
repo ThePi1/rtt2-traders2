@@ -50,8 +50,8 @@
     }
   },
   {
-    "ZoneId": "Q20",
-    "ZoneName": "Q20",
+    "ZoneId": "Q20_2",
+    "ZoneName": "Q20_2",
     "ZoneLocation": "Woods",
     "ZoneType": "visit",
     "FlareType": "",

@@ -12,6 +12,7 @@ using SPTarkov.Server.Core.Servers;
 using SPTarkov.Server.Core.Services;
 using SPTarkov.Server.Core.Services.Mod;
 using SPTarkov.Server.Core.Utils;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Common;
@@ -29,7 +30,7 @@ public record ModMetadata : AbstractModMetadata
     public override string Name { get; init; } = "RTT2 Traders";
     public override string Author { get; init; } = "RTT 2 Trader Team";
     public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
-    public override Range SptVersion { get; init; } = new("4.0.13");
+    public override Range SptVersion { get; init; } = new("~4");
     public override string License { get; init; } = "MIT";
     public override bool? IsBundleMod { get; init; } = true;
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
@@ -48,6 +49,7 @@ public class rtt2trader(
     ConfigServer configServer,
     TimeUtil timeUtil,
     CustomItemService customItemService,
+    DatabaseService databaseService,
     AddCustomTraderHelper addCustomTraderHelper,
     WTTServerCommonLib.WTTServerCommonLib wttCommon
 ) : IOnLoad
@@ -148,6 +150,7 @@ public class rtt2trader(
         await wttCommon.CustomLootspawnService.CreateCustomLootSpawns(assembly);
         await wttCommon.CustomQuestZoneService.CreateCustomQuestZones(assembly);
         // await wttCommon.CustomAssortSchemeService.CreateCustomAssortSchemes(assembly);
+        addPlate();
 
 
         // Save the data we loaded above into the trader we've made
@@ -163,4 +166,38 @@ public class rtt2trader(
         // Send back a success to the server to say our trader is good to go
         await Task.CompletedTask;
     }
+
+
+    private void addPlate() // Referenced FiveFs Unrestricted Armor Plate mod for understanding of editing already existing database entries.
+    {
+        var itemTable = databaseService.GetTables().Templates.Items;
+        var plateToAdd = "69d44b9ec379dcfd2bf8de40";
+
+        foreach (var item in itemTable)
+        {
+            var itemId = item.Value.Id;
+            var parentId = item.Value.Parent;
+            var properties = item.Value.Properties;
+            var name = item.Value.Name;
+
+            if (parentId == "5448e54d4bdc2dcc718b4568")
+            {
+                foreach (var slot in properties.Slots)
+                {
+                    foreach(var filter in slot.Properties.Filters)
+                    {
+                        if (slot.Name.Equals("front_plate",StringComparison.OrdinalIgnoreCase) ||slot.Name.Equals("back_plate",StringComparison.OrdinalIgnoreCase))
+                        {
+                            if (!filter.Filter.Contains(plateToAdd))
+                            {
+                                filter.Filter.Add(plateToAdd);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
 }
