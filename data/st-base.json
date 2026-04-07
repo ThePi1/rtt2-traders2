@@ -36,7 +36,7 @@
       {
         "buy_price_coef": 50,
         "exchange_price_coef": 0,
-        "heal_price_coef": 100,
+        "heal_price_coef": 70,
         "insurance_price_coef": 10,
         "minLevel": 1,
         "minSalesSum": 0,
@@ -46,7 +46,7 @@
       {
         "buy_price_coef": 45,
         "exchange_price_coef": 0,
-        "heal_price_coef": 100,
+        "heal_price_coef": 75,
         "insurance_price_coef": "11",
         "minLevel": 20,
         "minSalesSum": 150000,
@@ -56,7 +56,7 @@
       {
         "buy_price_coef": 40,
         "exchange_price_coef": 0,
-        "heal_price_coef": 100,
+        "heal_price_coef": 80,
         "insurance_price_coef": "12",
         "minLevel": 25,
         "minSalesSum": 500000,
@@ -66,7 +66,7 @@
       {
         "buy_price_coef": 40,
         "exchange_price_coef": 0,
-        "heal_price_coef": 100,
+        "heal_price_coef": 90,
         "insurance_price_coef": "13",
         "minLevel": 30,
         "minSalesSum": 1000000,
@@ -83,12 +83,12 @@
       "id_list": []
     },
     "repair": {
-      "availability": false,
+      "availability": true,
       "currency": "5449016a4bdc2d6f028b456f",
-      "currency_coefficient": 1,
+      "currency_coefficient": 0.5,
       "excluded_category": [],
       "excluded_id_list": [],
-      "quality": "0.7"
+      "quality": "0.2"
     },
     "sell_category": [],
     "sell_modifier_for_prohibited_items": 0,
@@ -97,6 +97,6 @@
       "category": [],
       "id_list": []
     },
-    "unlockedByDefault": false
+    "unlockedByDefault": true
   }
   

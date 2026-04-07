@@ -1,8 +1,13 @@
-﻿using Microsoft.VisualBasic;
+﻿using EFT;
+using EFT.UI;
+using Microsoft.VisualBasic;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers;
+using SPTarkov.Server.Core.Models.Eft.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
+using SPTarkov.Server.Core.Models.Enums;
+using SPTarkov.Server.Core.Models.Logging;
 using SPTarkov.Server.Core.Models.Spt.Config;
 using SPTarkov.Server.Core.Models.Spt.Mod;
 using SPTarkov.Server.Core.Models.Spt.Server;
@@ -16,9 +21,12 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Common;
+using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using UnityEngine.Assertions;
+using WTTServerCommonLib.Models;
 using Path = System.IO.Path;
 using Range = SemanticVersioning.Range;
 
@@ -42,14 +50,16 @@ public record ModMetadata : AbstractModMetadata
     public override List<string>? Incompatibilities { get; init; }
 }
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 2)]
+[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 10)]
 public class rtt2trader(
     ModHelper modHelper,
     ImageRouter imageRouter,
     ConfigServer configServer,
+    ISptLogger<rtt2trader> logger,
     TimeUtil timeUtil,
     CustomItemService customItemService,
     DatabaseService databaseService,
+    LocaleService localeService,
     AddCustomTraderHelper addCustomTraderHelper,
     WTTServerCommonLib.WTTServerCommonLib wttCommon
 ) : IOnLoad
@@ -57,11 +67,16 @@ public class rtt2trader(
 
     private readonly TraderConfig _traderConfig = configServer.GetConfig<TraderConfig>();
     private readonly RagfairConfig _ragfairConfig = configServer.GetConfig<RagfairConfig>();
+    private static readonly string[] TradersToRemove = ["54cb50c76803fa8b248b4571","6617beeaa9cfa777ca915b7c",
+                                                        "54cb57776803fa99248b456e","58330581ace78e27b8b10cee",
+                                                        "5935c25fb3acc3127c3d8cd9","5a7c2eca46aef81a7ca2145d",
+                                                        "5c0647fdd443bc2504c2d371"
+                                                        ];
     public async Task OnLoad()
     {
         // A path to the mods files we use below
         var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
-
+        
         // A relative path to the trader icon to show
         var traderImagePath_xm = Path.Combine(pathToMod, "data/xiaoming.jpg");
         var traderImagePath_ch = Path.Combine(pathToMod, "data/chimera.jpg");
@@ -71,6 +86,7 @@ public class rtt2trader(
         var traderImagePath_pr = Path.Combine(pathToMod, "data/price.jpg");
         var traderImagePath_at = Path.Combine(pathToMod, "data/atlas.jpg");
         var traderImagePath_ws = Path.Combine(pathToMod, "data/weiss.jpg");
+
 
         // The base json containing trader settings we will add to the server
         var traderBase_xm = modHelper.GetJsonDataFromFile<TraderBase>(pathToMod, "data/xm-base.json");
@@ -142,6 +158,8 @@ public class rtt2trader(
         var assort_at = modHelper.GetJsonDataFromFile<TraderAssort>(pathToMod, "data/at-assort.json");
         var assort_ws = modHelper.GetJsonDataFromFile<TraderAssort>(pathToMod, "data/ws-assort.json");
 
+        removeTrader(pathToMod); //does our vanilla removal before our quests are loaded.
+
         //Quest import using WTT COMMON LIB AND Item Import
         var assembly = Assembly.GetExecutingAssembly();
 
@@ -150,7 +168,9 @@ public class rtt2trader(
         await wttCommon.CustomLootspawnService.CreateCustomLootSpawns(assembly);
         await wttCommon.CustomQuestZoneService.CreateCustomQuestZones(assembly);
         // await wttCommon.CustomAssortSchemeService.CreateCustomAssortSchemes(assembly);
-        addPlate();
+        
+        addPlate(); //adds 
+        
 
 
         // Save the data we loaded above into the trader we've made
@@ -162,6 +182,12 @@ public class rtt2trader(
         addCustomTraderHelper.OverwriteTraderAssort(traderBase_pr.Id, assort_pr);
         addCustomTraderHelper.OverwriteTraderAssort(traderBase_at.Id, assort_at);
         addCustomTraderHelper.OverwriteTraderAssort(traderBase_ws.Id, assort_ws);
+
+        //This just for fun.
+        logger.LogWithColor("************************",LogTextColor.Blue,LogBackgroundColor.Black);
+        logger.LogWithColor("*  RTT2 has completed  *",LogTextColor.Blue,LogBackgroundColor.Black);
+        logger.LogWithColor("*      all steps!      *",LogTextColor.Blue,LogBackgroundColor.Black);
+        logger.LogWithColor("************************",LogTextColor.Blue,LogBackgroundColor.Black);
 
         // Send back a success to the server to say our trader is good to go
         await Task.CompletedTask;
@@ -190,7 +216,7 @@ public class rtt2trader(
                         {
                             if (!filter.Filter.Contains(plateToAdd))
                             {
-                                filter.Filter.Add(plateToAdd); 
+                                filter.Filter.Add(plateToAdd);  //this whole nested set of loops is to add our custom LIMP plate to armor/vests
                             }
                         }
                     }
@@ -198,6 +224,76 @@ public class rtt2trader(
             }
         }
 
+    }
+
+    private void removeTrader(string modPath)
+    {
+        var quests = databaseService.GetTables().Templates.Quests; // grabs the quest table
+        var traders = databaseService.GetTables().Traders; // grabs trader table
+        var ragFairTraders = configServer.GetConfig<RagfairConfig>().Traders; // grabs traders ids and their assorts on flea
+        var repeatQuestConfigs = configServer.GetConfig<QuestConfig>().RepeatableQuests; // grabs our SPT config that houses repeatable quests
+        var locale = databaseService.GetLocales().Global.Values; // grabs locale DB to be transformed and applied later.
+
+        foreach(var traderID in TradersToRemove)
+        {
+            if (traders.ContainsKey(traderID))
+            {
+                traders.Remove(traderID); // remove traders from database
+                ragFairTraders.Remove(traderID); //removes trader barters from FLEA
+
+                
+                foreach(var quest in quests)
+                { //This removes all quests minus repeatables to ensure nothing tries to call a removed trader.
+                    var id = quest.Value.Id;
+                    quests.Remove(id);
+                }
+
+                foreach (var repeatQ in repeatQuestConfigs) 
+                {
+                    foreach (var item in repeatQ.TraderWhitelist.ToList()) // run through traders in whitelist and create copy
+                    {                                                       // with ToList to make sure we dont lose our pointer upon deletion.
+                        if (item.TraderId == traderID) //if the trader matches what we are removing
+                        {                                           
+                            repeatQ.TraderWhitelist.Remove(item); //remove trader from whitelist
+                        }                                          //this also allows repeatables to be on only Fence and My Laptop
+                    }
+                }
+
+                //logger.Info(quests.ToString());
+            }
+
+            if (traders.ContainsKey("5ac3b934156ae10c4430e83c")) // check for ragman so we can modify his information since removing him isnt worth it.
+            {
+                databaseService.GetTables().Locales.Global["en"].AddTransformer(locale =>
+                { //due to how Locales loaded we use a transformer to catch our locale and make the required changes
+                    if (locale == null) return locale; //if our locale doesnt load do nothing
+
+                    locale["5ac3b934156ae10c4430e83c FullName"] = "Lenobo IdeaPod";
+                    locale["5ac3b934156ae10c4430e83c Description"] = "It's amazing what you can do with a Lenobo IdeaPod™";
+                    locale["5ac3b934156ae10c4430e83c Nickname"] = "My Laptop";
+                    locale["5ac3b934156ae10c4430e83c Location"] = "The Hideout";
+                    locale["5ac3b934156ae10c4430e83c Firstname"] = "Paper Weight";
+
+                    return locale; //make our changes to ragman info and send it out.
+                });
+
+                traders["5ac3b934156ae10c4430e83c"].Base.Nickname = "My Laptop";//change his base nickname for terminal debugging
+
+
+                traders["5ac3b934156ae10c4430e83c"].Base.Avatar = "/files/trader/avatar/laptop.jpg"; //set our new trader image in trader table
+                imageRouter.AddRoute("/files/trader/avatar/laptop", "./user/mods/rtt2/data/laptop.jpg"); 
+                //this is very similiar to how the modded trader images are routed but we skip the steps of merging the 
+                //mod path and the image names by simply sending our chosen key and value.
+
+                var assort = modHelper.GetJsonDataFromFile<TraderAssort>(modPath, "data/laptop-assort.json");
+                traders["5ac3b934156ae10c4430e83c"].Assort = assort; //overwrites ragmans assort to our modded assort.
+                
+                ;
+            }
+            
+        }
+        
+        
     }
 
 }
