@@ -1,4 +1,5 @@
 ﻿using EFT;
+using EFT.Hideout;
 using EFT.UI;
 using Microsoft.VisualBasic;
 using SPTarkov.DI.Annotations;
@@ -173,6 +174,7 @@ public class rtt2trader(
         var assort_ws = modHelper.GetJsonDataFromFile<TraderAssort>(pathToMod, "data/ws-assort.json");
 
         removeQuests();
+        hideoutChanges();
 
         //Quest import using WTT COMMON LIB AND Item Import
         var assembly = Assembly.GetExecutingAssembly();
@@ -276,6 +278,7 @@ public class rtt2trader(
         }
     }
 
+//still need to add appearance to laptop.
     private void moddedTraders(string trader) // modded trader support to add modded items to Laptop
     {
         var assort = databaseService.GetTrader("5ac3b934156ae10c4430e83c").Assort;
@@ -329,28 +332,33 @@ public class rtt2trader(
     {
         var traders = databaseService.GetTrader("5ac3b934156ae10c4430e83c");
         databaseService.GetTables().Locales.Global["en"].AddTransformer(locale =>
-                { //due to how Locales load we use a transformer to catch our locale and make the required changes
-                    if (locale == null) return locale; //if our locale doesnt load do nothing
+            { //due to how Locales load we use a transformer to catch our locale and make the required changes
+                if (locale == null) return locale; //if our locale doesnt load do nothing
 
-                    locale["5ac3b934156ae10c4430e83c FullName"] = "Lenobo IdeaPod";
-                    locale["5ac3b934156ae10c4430e83c Description"] = "It's amazing what you can do with a Lenobo IdeaPod™";
-                    locale["5ac3b934156ae10c4430e83c Nickname"] = "My Laptop";
-                    locale["5ac3b934156ae10c4430e83c Location"] = "The Hideout";
-                    locale["5ac3b934156ae10c4430e83c Firstname"] = "Paper Weight";
+                locale["5ac3b934156ae10c4430e83c FullName"] = "Lenobo IdeaPod";
+                locale["5ac3b934156ae10c4430e83c Description"] = "It's amazing what you can do with a Lenobo IdeaPod™";
+                locale["5ac3b934156ae10c4430e83c Nickname"] = "My Laptop";
+                locale["5ac3b934156ae10c4430e83c Location"] = "The Hideout";
+                locale["5ac3b934156ae10c4430e83c Firstname"] = "Paper Weight";
 
-                    return locale; //make our changes to ragman info and send it out.
-                });
+                return locale; //make our changes to ragman info and send it out.
+            });
 
-                traders.Base.Nickname = "My Laptop";//change his base nickname for terminal debugging
+        traders.Base.Nickname = "My Laptop";//change his base nickname for terminal debugging
+        
+        var loyaltyLevel = traders.Base.LoyaltyLevels;
+        foreach (var loyalty in loyaltyLevel) //removes rep requirements from laptop since no quests
+        {
+            loyalty.MinStanding = 0;
+        }
+        
+        traders.Base.Avatar = "/files/trader/avatar/laptop.jpg"; //set our new trader image in trader table
+        imageRouter.AddRoute("/files/trader/avatar/laptop", "./user/mods/rtt2/data/laptop.jpg"); 
+        //this is very similiar to how the modded trader images are routed but we skip the steps of merging the 
+        //mod path and the image names by simply sending our chosen key and value.
 
-
-                traders.Base.Avatar = "/files/trader/avatar/laptop.jpg"; //set our new trader image in trader table
-                imageRouter.AddRoute("/files/trader/avatar/laptop", "./user/mods/rtt2/data/laptop.jpg"); 
-                //this is very similiar to how the modded trader images are routed but we skip the steps of merging the 
-                //mod path and the image names by simply sending our chosen key and value.
-
-                var assort = modHelper.GetJsonDataFromFile<TraderAssort>(modPath, "data/laptop-assort.json");
-                traders.Assort = assort; //overwrites ragmans assort to our modded assort.
+        var assort = modHelper.GetJsonDataFromFile<TraderAssort>(modPath, "data/laptop-assort.json");
+        traders.Assort = assort; //overwrites ragmans assort to our modded assort.
     }
     private bool traderCheck(string trader, string[] traderList) //true/false to check if trader is in our chosen list
     {
@@ -362,5 +370,21 @@ public class rtt2trader(
             }
         }
         return false;
+    }
+
+    private void hideoutChanges() //sets all LL req. for hideout upgrades to Chimera
+    {
+        var hideout = databaseService.GetTables().Hideout.Areas;
+
+        foreach (var station in hideout)
+        {
+            foreach (var stage in station.Stages)
+            {
+                foreach (var requirement in stage.Value.Requirements)
+                {
+                    requirement.TraderId = "69744632183b55cf9702c982";
+                }
+            }
+        }
     }
 }
