@@ -2,9 +2,11 @@
 using EFT.Hideout;
 using EFT.UI;
 using Microsoft.VisualBasic;
+using SPTarkov.Common.Extensions;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers;
+using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Enums;
@@ -18,6 +20,8 @@ using SPTarkov.Server.Core.Servers;
 using SPTarkov.Server.Core.Services;
 using SPTarkov.Server.Core.Services.Mod;
 using SPTarkov.Server.Core.Utils;
+using SPTarkov.Server.Core.Utils.Json;
+using SPTarkov.Server.Core.Utils.Json.Converters;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -25,6 +29,7 @@ using System.Data.Common;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Reflection.Metadata.Ecma335;
 using System.Threading.Tasks;
 using UnityEngine.Assertions;
 using WTTServerCommonLib.Models;
@@ -39,7 +44,7 @@ public record ModMetadata : AbstractModMetadata
     public override string Name { get; init; } = "RTT2 Traders";
     public override string Author { get; init; } = "RTT 2 Trader Team";
     public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
-    public override Range SptVersion { get; init; } = new("~4");
+    public override Range SptVersion { get; init; } = new("~4.0.0");
     public override string License { get; init; } = "MIT";
     public override bool? IsBundleMod { get; init; } = true;
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
@@ -58,9 +63,7 @@ public class rtt2trader(
     ConfigServer configServer,
     ISptLogger<rtt2trader> logger,
     TimeUtil timeUtil,
-    CustomItemService customItemService,
     DatabaseService databaseService,
-    LocaleService localeService,
     AddCustomTraderHelper addCustomTraderHelper,
     WTTServerCommonLib.WTTServerCommonLib wttCommon
 ) : IOnLoad
@@ -83,11 +86,13 @@ public class rtt2trader(
                                                         "69744632183b55cf9702c986","6864e812f9fe664cb8b8e152",
                                                         "5ac3b934156ae10c4430e83c"
                                                         ];
+    
+    private static readonly string[] collectorStart = [];
     public async Task OnLoad()
     {
         // A path to the mods files we use below
         var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
-        
+        logger.Info(pathToMod);
         // A relative path to the trader icon to show
         var traderImagePath_xm = Path.Combine(pathToMod, "data/xiaoming.jpg");
         var traderImagePath_ch = Path.Combine(pathToMod, "data/chimera.jpg");
@@ -98,6 +103,7 @@ public class rtt2trader(
         var traderImagePath_at = Path.Combine(pathToMod, "data/atlas.jpg");
         var traderImagePath_ws = Path.Combine(pathToMod, "data/weiss.jpg");
 
+        
 
         // The base json containing trader settings we will add to the server
         var traderBase_xm = modHelper.GetJsonDataFromFile<TraderBase>(pathToMod, "data/xm-base.json");
@@ -134,11 +140,6 @@ public class rtt2trader(
         // Add our trader to the config file, this lets it be seen by the flea market
 
         //_ragfairConfig.Traders.TryAdd(traderBase.Id, true);
-
-
-
-
-
         // Add our trader (with no items yet) to the server database
         // An 'assort' is the term used to describe the offers a trader sells, it has 3 parts to an assort
         // 1: The item
@@ -175,6 +176,8 @@ public class rtt2trader(
 
         removeQuests();
         hideoutChanges();
+        giftChanges();
+        achievementChanges();
 
         //Quest import using WTT COMMON LIB AND Item Import
         var assembly = Assembly.GetExecutingAssembly();
@@ -201,10 +204,9 @@ public class rtt2trader(
         editTraders(); // begins our trader modifications and deletions
 
         //This just for fun.
-        logger.LogWithColor("************************",LogTextColor.Blue,LogBackgroundColor.Black);
-        logger.LogWithColor("*  RTT2 has completed  *",LogTextColor.Blue,LogBackgroundColor.Black);
-        logger.LogWithColor("*      all steps!      *",LogTextColor.Blue,LogBackgroundColor.Black);
-        logger.LogWithColor("************************",LogTextColor.Blue,LogBackgroundColor.Black);
+
+        logger.LogWithColor("*  RTT2 has completed all steps!  *",LogTextColor.Blue,LogBackgroundColor.Black);
+
 
         // Send back a success to the server to say our trader is good to go
         await Task.CompletedTask;
@@ -214,10 +216,10 @@ public class rtt2trader(
     {
         var quests = databaseService.GetTables().Templates.Quests; // grabs the quest table
         
-        foreach(var quest in quests)
+        foreach(var quest in quests.ToList())
         { //This removes all quests minus repeatables to ensure nothing tries to call a removed trader.
             var id = quest.Value.Id;
-            quests.Remove(id);
+            quests.Remove(id);          
         }
     }
     private void addPlate() // Referenced FiveFs Unrestricted Armor Plate mod for understanding of editing already existing database entries.
@@ -260,9 +262,9 @@ public class rtt2trader(
             //logger.Info(trader.Value.Base.Id);
             if(traderCheck(trader.Value.Base.Id.ToString(),TradersToSkip)) //these need to be skipped
             {
-                //logger.Info("Found Trader to skip: " + trader.Value.Base.Nickname);
+                continue; //logger.Info("Found Trader to skip: " + trader.Value.Base.Nickname);
             }
-            else if(!traderCheck(trader.Value.Base.Id.ToString(),TradersToRemove))
+            if(!traderCheck(trader.Value.Base.Id.ToString(),TradersToRemove))
             {
                 //logger.Info("Found modded Trader: " + trader.Value.Base.Nickname);
                 moddedTraders(trader.Value.Base.Id);
@@ -282,12 +284,30 @@ public class rtt2trader(
     private void moddedTraders(string trader) // modded trader support to add modded items to Laptop
     {
         var assort = databaseService.GetTrader("5ac3b934156ae10c4430e83c").Assort;
+        var laptopApparel = databaseService.GetTrader("5ac3b934156ae10c4430e83c").Suits;
         var moddedAssort = databaseService.GetTrader(trader).Assort;
+        var moddedApparel = databaseService.GetTrader(trader).Suits;
 
         if (moddedAssort == null)
         { //just checks if a trader assort has not been loaded
-            logger.Warning(trader + "assort not found in database, skipping.");
+            logger.Warning(trader + "assort null, skipping.");
             return;
+        }
+
+        if (moddedApparel != null)
+        {
+            foreach(var suit in moddedApparel)
+            {   //sets this modded trader's clothes to be locked behind first quest for now / removes LL req.
+                suit.Requirements.LoyaltyLevel = 0;
+                suit.Tid = "5ac3b934156ae10c4430e83c"; //sets the suits Trader id to laptop and below this for the requirements. fixes red/blue gui bug.
+                suit.Requirements.RequiredTid = "5ac3b934156ae10c4430e83c";
+                if (suit.Requirements.QuestRequirements.Count() != 0){ //checks if suit has a quest requirement and clears all and adds first quest
+                    suit.Requirements.QuestRequirements.Clear(); 
+                    suit.Requirements.QuestRequirements.Add("69cc8e901fda896ea59b50f0");
+                }
+                laptopApparel.Add(suit);
+            }
+
         }
 
         foreach(var item in moddedAssort.Items)
@@ -352,6 +372,7 @@ public class rtt2trader(
             loyalty.MinStanding = 0;
         }
         
+
         traders.Base.Avatar = "/files/trader/avatar/laptop.jpg"; //set our new trader image in trader table
         imageRouter.AddRoute("/files/trader/avatar/laptop", "./user/mods/rtt2/data/laptop.jpg"); 
         //this is very similiar to how the modded trader images are routed but we skip the steps of merging the 
@@ -359,6 +380,17 @@ public class rtt2trader(
 
         var assort = modHelper.GetJsonDataFromFile<TraderAssort>(modPath, "data/laptop-assort.json");
         traders.Assort = assort; //overwrites ragmans assort to our modded assort.
+
+        var laptopApparel = traders.Suits;
+        foreach(var suit in laptopApparel.ToList()) //sets all vanilla clothes to be locked behind first quest for now.
+        {
+            if (suit.Requirements.QuestRequirements.Count() != 0){
+                suit.Requirements.QuestRequirements.Clear(); //removes achievement requirements/ may remove at later date seems achievements may still work
+                suit.Requirements.QuestRequirements.Add("69cc8e901fda896ea59b50f0");
+            }
+            suit.Requirements.AchievementRequirements.Clear();
+            suit.Requirements.LoyaltyLevel = 1;
+        }
     }
     private bool traderCheck(string trader, string[] traderList) //true/false to check if trader is in our chosen list
     {
@@ -383,6 +415,31 @@ public class rtt2trader(
                 foreach (var requirement in stage.Value.Requirements)
                 {
                     requirement.TraderId = "69744632183b55cf9702c982";
+                }
+            }
+        }
+    }
+
+    private void giftChanges()
+    {
+        var gifts = configServer.GetConfig<GiftsConfig>().Gifts;
+
+        foreach (var gift in gifts)
+        {
+            gift.Value.Trader = "69744632183b55cf9702c981";
+        }   
+    }
+
+    private void achievementChanges()
+    {
+        var achievements = databaseService.GetTemplates().Achievements;
+        foreach (var achievement in achievements)
+        {
+            foreach (var reward in achievement.Rewards)
+            {
+                if(reward.TraderId != null)
+                {
+                    reward.TraderId = "69744632183b55cf9702c981";
                 }
             }
         }

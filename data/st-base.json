@@ -12,7 +12,7 @@
     "discount_end": 0,
     "gridHeight": 160,
     "insurance": {
-      "availability": false,
+      "availability": true,
       "excluded_category": [],
       "max_return_hour": 36,
       "max_storage_time": 72,
