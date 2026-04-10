@@ -92,7 +92,7 @@ public class rtt2trader(
         // A path to the mods files we use below
         var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
 
-        VanillaItems = modHelper.GetJsonDataFromFile<List<string>>(pathToMod, "itemTPL.json");
+        VanillaItems = modHelper.GetJsonDataFromFile<List<string>>(pathToMod, "data/itemTPL.json");
 
         // A relative path to the trader icon to show
         var traderImagePath_xm = Path.Combine(pathToMod, "data/xiaoming.jpg");
