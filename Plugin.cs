@@ -86,13 +86,14 @@ public class rtt2trader(
                                                         "69744632183b55cf9702c986","6864e812f9fe664cb8b8e152",
                                                         "5ac3b934156ae10c4430e83c"
                                                         ];
-    private List<string> VanillaItems;
+    private HashSet<string> VanillaItems;
     public async Task OnLoad()
     {
         // A path to the mods files we use below
         var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
 
-        VanillaItems = modHelper.GetJsonDataFromFile<List<string>>(pathToMod, "data/itemTPL.json");
+        var VanillaItemsList = modHelper.GetJsonDataFromFile<List<string>>(pathToMod, "data/itemTPL.json");
+        VanillaItems = new HashSet<string>(VanillaItemsList); //use a hashset instead of list to save on runtime when we compare items.
 
         // A relative path to the trader icon to show
         var traderImagePath_xm = Path.Combine(pathToMod, "data/xiaoming.jpg");
@@ -283,7 +284,7 @@ public class rtt2trader(
 
 //still need to add appearance to laptop.
     private void moddedTraders(string trader) // modded trader support to add modded items to Laptop
-    {
+    {                       //may have to rework again :'( as this would cull any QOL trader mods++
         
         var laptopApparel = databaseService.GetTrader("5ac3b934156ae10c4430e83c").Suits;
         var moddedApparel = databaseService.GetTrader(trader).Suits;
@@ -469,7 +470,7 @@ public class rtt2trader(
                             break;
                         }
                     }
-                    continue;
+                    continue; //potential else to add entire modded trader assorts.
                 }
             }
         } 
