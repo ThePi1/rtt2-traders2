@@ -86,13 +86,14 @@ public class rtt2trader(
                                                         "69744632183b55cf9702c986","6864e812f9fe664cb8b8e152",
                                                         "5ac3b934156ae10c4430e83c"
                                                         ];
-    
-    private static readonly string[] collectorStart = [];
+    private List<string> VanillaItems;
     public async Task OnLoad()
     {
         // A path to the mods files we use below
         var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
-        logger.Info(pathToMod);
+
+        VanillaItems = modHelper.GetJsonDataFromFile<List<string>>(pathToMod, "itemTPL.json");
+
         // A relative path to the trader icon to show
         var traderImagePath_xm = Path.Combine(pathToMod, "data/xiaoming.jpg");
         var traderImagePath_ch = Path.Combine(pathToMod, "data/chimera.jpg");
@@ -103,7 +104,7 @@ public class rtt2trader(
         var traderImagePath_at = Path.Combine(pathToMod, "data/atlas.jpg");
         var traderImagePath_ws = Path.Combine(pathToMod, "data/weiss.jpg");
 
-        
+
 
         // The base json containing trader settings we will add to the server
         var traderBase_xm = modHelper.GetJsonDataFromFile<TraderBase>(pathToMod, "data/xm-base.json");
@@ -205,7 +206,7 @@ public class rtt2trader(
 
         //This just for fun.
 
-        logger.LogWithColor("*  RTT2 has completed all steps!  *",LogTextColor.Blue,LogBackgroundColor.Black);
+        logger.LogWithColor("RTT2 has completed all steps!",LogTextColor.Blue,LogBackgroundColor.Black);
 
 
         // Send back a success to the server to say our trader is good to go
@@ -260,11 +261,11 @@ public class rtt2trader(
         foreach (var trader in traders)
         {
             //logger.Info(trader.Value.Base.Id);
-            if(traderCheck(trader.Value.Base.Id.ToString(),TradersToSkip)) //these need to be skipped
+            if(TradersToSkip.Contains(trader.Value.Base.Id.ToString())) //these need to be skipped
             {
                 continue; //logger.Info("Found Trader to skip: " + trader.Value.Base.Nickname);
             }
-            if(!traderCheck(trader.Value.Base.Id.ToString(),TradersToRemove))
+            if(!TradersToRemove.Contains(trader.Value.Base.Id.ToString()))
             {
                 //logger.Info("Found modded Trader: " + trader.Value.Base.Nickname);
                 moddedTraders(trader.Value.Base.Id);
@@ -283,16 +284,9 @@ public class rtt2trader(
 //still need to add appearance to laptop.
     private void moddedTraders(string trader) // modded trader support to add modded items to Laptop
     {
-        var assort = databaseService.GetTrader("5ac3b934156ae10c4430e83c").Assort;
+        
         var laptopApparel = databaseService.GetTrader("5ac3b934156ae10c4430e83c").Suits;
-        var moddedAssort = databaseService.GetTrader(trader).Assort;
         var moddedApparel = databaseService.GetTrader(trader).Suits;
-
-        if (moddedAssort == null)
-        { //just checks if a trader assort has not been loaded
-            logger.Warning(trader + "assort null, skipping.");
-            return;
-        }
 
         if (moddedApparel != null)
         {
@@ -310,25 +304,18 @@ public class rtt2trader(
 
         }
 
-        foreach(var item in moddedAssort.Items)
-        {
-            assort.Items.Add(item); //merge itemlist
-        }
-        foreach(var barter in moddedAssort.BarterScheme)
-        {
-            assort.BarterScheme[barter.Key] = barter.Value; // merge barter dictionary
-        }
-        foreach(var loyalty in moddedAssort.LoyalLevelItems)
-        {
-            assort.LoyalLevelItems[loyalty.Key] = loyalty.Value; // merge loyalty dictionary
-        }
+        moddedItemGrabber(trader);
+
         removeTrader(trader); //sends modded trader off for removal
     }
 
     private void removeTrader(string trader)
     {
+
+        moddedItemGrabber(trader);
+
         var traders = databaseService.GetTables().Traders; // grabs trader table
-        var ragFairTraders = configServer.GetConfig<RagfairConfig>().Traders; // grabs traders ids and their assorts on flea
+        var ragFairTraders = _ragfairConfig.Traders; // grabs traders ids and their assorts on flea
         var repeatQuestConfigs = configServer.GetConfig<QuestConfig>().RepeatableQuests; // grabs our SPT config that houses repeatable quests
 
         traders.Remove(trader); // remove the passed trader from database
@@ -392,17 +379,6 @@ public class rtt2trader(
             suit.Requirements.LoyaltyLevel = 1;
         }
     }
-    private bool traderCheck(string trader, string[] traderList) //true/false to check if trader is in our chosen list
-    {
-        foreach (var check in traderList)
-        {
-            if (check == trader)
-            {
-                return true;
-            }
-        }
-        return false;
-    }
 
     private void hideoutChanges() //sets all LL req. for hideout upgrades to Chimera
     {
@@ -443,5 +419,59 @@ public class rtt2trader(
                 }
             }
         }
+    }
+
+    private void AddItemAndChildren(List<Item> moddedItem, List<Item> LaptopAssort, string parentId)
+    {
+        foreach (var item in moddedItem.Where(item => item.ParentId == parentId)) // foreach item where new items parent id = old items parentId if its not next iteration
+        {
+            if (!LaptopAssort.Any(oldItem => oldItem.Id == item.Id)) // checks if our old item ID is not already being used by our new item in the assort
+            {
+                LaptopAssort.Add(item);
+                AddItemAndChildren(moddedItem, LaptopAssort, item.Id); // recursivly call with our new items id as the next parent
+            }
+        }
+    }
+
+    private void moddedItemGrabber(string trader)
+    {
+        var assort = databaseService.GetTrader("5ac3b934156ae10c4430e83c").Assort;
+        var moddedAssort = databaseService.GetTrader(trader).Assort;
+        if (moddedAssort == null)
+        { //just checks if a trader assort has not been loaded
+            logger.Warning(trader + "assort null, skipping.");
+            return;
+        }
+
+        foreach(var item in moddedAssort.Items)
+        {
+            
+            if (!VanillaItems.Contains(item.Template)) //if our item is not vanilla continue
+            {
+                if (!assort.Items.Any(existingitem => existingitem.Id == item.Id)) // we check if the item has already been added if not continue
+                {
+                    assort.Items.Add(item); // adds item
+                    AddItemAndChildren(moddedAssort.Items, assort.Items, item.Id); //sends off to see if it has children
+
+                    foreach(var barter in moddedAssort.BarterScheme)
+                    {
+                        if(item.Id == barter.Key)
+                        {
+                            assort.BarterScheme[barter.Key] = barter.Value; //adds barter scheme
+                            break;
+                        }   
+                    }
+                    foreach(var loyalty in moddedAssort.LoyalLevelItems)
+                    {
+                        if(item.Id == loyalty.Key)
+                        {
+                            assort.LoyalLevelItems[loyalty.Key] = loyalty.Value; //adds loyalty 
+                            break;
+                        }
+                    }
+                    continue;
+                }
+            }
+        } 
     }
 }
