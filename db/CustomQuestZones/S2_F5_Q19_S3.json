@@ -50,8 +50,8 @@
     }
   },
   {
-    "ZoneId": "F5",
-    "ZoneName": "F5",
+    "ZoneId": "F5_1",
+    "ZoneName": "F5_1",
     "ZoneLocation": "laboratory",
     "ZoneType": "placeitem",
     "FlareType": "",
