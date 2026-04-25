@@ -235,6 +235,7 @@ public class rtt2trader(
             if(quest.Value.QuestName == questName)
             {
                 quests.Remove(id);
+                Console.WriteLine("RTT2: manually removed quest: " + questName);
             }
         }
 
@@ -242,13 +243,15 @@ public class rtt2trader(
     private void removeQuests()
     {
         var quests = databaseService.GetTables().Templates.Quests; // grabs the quest table
-        
+        int removeCounter = 0;
         foreach(var quest in quests.ToList())
         { //This removes all quests minus repeatables to ensure nothing tries to call a removed trader.
             var id = quest.Value.Id;
-            Console.WriteLine(quest.Value.QuestName);
+            //Console.WriteLine(quest.Value.QuestName);
             quests.Remove(id);          
+            removeCounter++;
         }
+        Console.WriteLine("RTT2: removed " + removeCounter + " quests.");
     }
     private void addPlate() // Referenced FiveFs Unrestricted Armor Plate mod for understanding of editing already existing database entries.
     {

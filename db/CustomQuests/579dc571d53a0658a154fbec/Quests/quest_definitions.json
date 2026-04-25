@@ -1289,7 +1289,7 @@
                                 "dynamicLocale": false,
                                 "globalQuestCounterId": "",
                                 "id": "69d2b49d86866406273700d0",
-                                "target": "F6_1",
+                                "target": "F7_1",
                                 "value": 1
                             }
                         ],
@@ -1318,7 +1318,7 @@
                                 "dynamicLocale": false,
                                 "globalQuestCounterId": "",
                                 "id": "69d2b4b286866406273700d3",
-                                "target": "F6_2",
+                                "target": "F7_2",
                                 "value": 1
                             }
                         ],
@@ -1347,7 +1347,7 @@
                                 "dynamicLocale": false,
                                 "globalQuestCounterId": "",
                                 "id": "69d2b4b986866406273700d6",
-                                "target": "F6_3",
+                                "target": "F7_3",
                                 "value": 1
                             }
                         ],
@@ -1376,7 +1376,7 @@
                                 "dynamicLocale": false,
                                 "globalQuestCounterId": "",
                                 "id": "69d2b4c986866406273701db",
-                                "target": "F6_4",
+                                "target": "F7_4",
                                 "value": 1
                         }
 						],
@@ -1405,7 +1405,7 @@
                                 "dynamicLocale": false,
                                 "globalQuestCounterId": "",
                                 "id": "69d2b4c986866406273700db",
-                                "target": "F6_5",
+                                "target": "F7_5",
                                 "value": 1
                             }
                         ],
@@ -1434,7 +1434,7 @@
 									"dynamicLocale": false,
 									"globalQuestCounterId": "",
 									"id": "69d2b4c986866406273702db",
-									"target": "F6_6",
+									"target": "F7_6",
 									"value": 1
 							}
 						],
