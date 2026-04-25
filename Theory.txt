@@ -1,0 +1,6 @@
+OK. I need to be able to run through every trader in the database and remove them unless
+    It is our traders -  full skip
+    it is a modded trader AKA NOT VANILLA - must rip assort before deletion and check if they sell appearance.
+    if it is a vanilla trader remove quests - 
+    If it is ragman: I need to edit his values to transform him into the mighty Ideapod.
+

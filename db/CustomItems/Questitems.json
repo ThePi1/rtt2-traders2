@@ -326,16 +326,16 @@
   },
   "69b4d88a6b6e47c7c6093cc1": {
     "itemTplToClone": "5ac78a9b86f7741cca0bbd8d",
-    "parentId": "5448ecbe4bdc2d60728b4568",
-    "handbookParentId": "QUEST",
+    "parentId": "5447e0e74bdc2d3c308b4567",
+    "handbookParentId": "5b47574386f77428ca22b345",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "yellow",
+      "BackgroundColor": "blue",
       "Weight": 0.2,
       "Height": 1,
-      "Width": 2,
+      "Width": 1,
       "StackMaxSize": 1,
-      "QuestItem": true
+	    "IsSpecialSlotOnly": false
     },
     "locales": {
       "en": {
@@ -344,8 +344,8 @@
         "description": "Reworked signal jammer to boost signals instead of jam them."
       }
     },
-    "fleaPriceRoubles": 9039,
-    "handbookPriceRoubles": 11346
+    "fleaPriceRoubles": 1000,
+    "handbookPriceRoubles": 1000
   },
   "69b4eeaf8e3cf3d70d820d11": {
     "itemTplToClone": "5af04e0a86f7743a532b79e2",
