@@ -1370,7 +1370,16 @@
                     "completeInSeconds": 0,
                     "conditionType": "CounterCreator",
                     "counter": {
-                        "conditions": [],
+                        "conditions": [
+						{
+                                "conditionType": "VisitPlace",
+                                "dynamicLocale": false,
+                                "globalQuestCounterId": "",
+                                "id": "69d2b4c986866406273701db",
+                                "target": "F6_4",
+                                "value": 1
+                        }
+						],
                         "id": "69d2b4c586866406273700d9"
                     },
                     "doNotResetIfCounterCompleted": false,
@@ -1419,7 +1428,16 @@
                     "completeInSeconds": 0,
                     "conditionType": "CounterCreator",
                     "counter": {
-                        "conditions": [],
+                        "conditions": [
+							{
+									"conditionType": "VisitPlace",
+									"dynamicLocale": false,
+									"globalQuestCounterId": "",
+									"id": "69d2b4c986866406273702db",
+									"target": "F6_6",
+									"value": 1
+							}
+						],
                         "id": "69d2b4d086866406273700de"
                     },
                     "doNotResetIfCounterCompleted": false,

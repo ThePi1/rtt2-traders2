@@ -33,6 +33,7 @@ using System.Reflection.Metadata.Ecma335;
 using System.Threading.Tasks;
 using UnityEngine.Assertions;
 using WTTServerCommonLib.Models;
+using static RenderQueue;
 using Path = System.IO.Path;
 using Range = SemanticVersioning.Range;
 
@@ -206,14 +207,38 @@ public class rtt2trader(
         editTraders(); // begins our trader modifications and deletions
 
         //This just for fun.
-
+        removeQuestByName("Collector"); // Bit of a hack to remove the Collector quest, idk where it's coming from at the moment
         logger.LogWithColor("RTT2 has completed all steps!",LogTextColor.Blue,LogBackgroundColor.Black);
 
 
         // Send back a success to the server to say our trader is good to go
+        
         await Task.CompletedTask;
     }
 
+    private void debugListQuests()
+    {
+        Console.WriteLine("Current quests:");
+        var newquests = databaseService.GetTables().Templates.Quests;
+        foreach (var quest in newquests.ToList())
+        {
+            Console.WriteLine(quest.Value.QuestName);
+        }
+    }
+
+    private void removeQuestByName(string questName)
+    {
+        var quests = databaseService.GetTables().Templates.Quests;
+        foreach (var quest in quests.ToList())
+        { //This removes all quests minus repeatables to ensure nothing tries to call a removed trader.
+            var id = quest.Value.Id;
+            if(quest.Value.QuestName == questName)
+            {
+                quests.Remove(id);
+            }
+        }
+
+    }
     private void removeQuests()
     {
         var quests = databaseService.GetTables().Templates.Quests; // grabs the quest table
@@ -221,6 +246,7 @@ public class rtt2trader(
         foreach(var quest in quests.ToList())
         { //This removes all quests minus repeatables to ensure nothing tries to call a removed trader.
             var id = quest.Value.Id;
+            Console.WriteLine(quest.Value.QuestName);
             quests.Remove(id);          
         }
     }
