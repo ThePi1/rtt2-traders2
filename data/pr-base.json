@@ -20,13 +20,21 @@
       "min_return_hour": 24
     },
     "isCanTransferItems": false,
-    "items_buy": {
-      "category": [
-            "5422acb9af1c889c16000029",
-            "5448e8d04bdc2ddf718b4569"
-      ],
-      "id_list": []
-    },
+  "items_buy": {
+    "category": [
+      "543be5f84bdc2dd4348b456a",
+      "5795f317245977243854e041",
+      "5448e5284bdc2dcb718b4567",
+      "5448e53e4bdc2d60728b4567",
+      "6759673c76e93d8eb20b2080"
+    ],
+    "id_list": [
+      "5e2af41e86f774755a234b67",
+      "5e2af4a786f7746d3f3c3400",
+      "5e2af47786f7746d404f3aaa",
+      "5c12688486f77426843c7d32"
+    ]
+  },
     "items_buy_prohibited": {
       "category": [],
       "id_list": []

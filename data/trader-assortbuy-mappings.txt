@@ -1,0 +1,8 @@
+  "Xiaoming": "69744632183b55cf9702c984",peacekeeper
+  "Weiss": "69744632183b55cf9702c987",skier
+  "Voron": "69744632183b55cf9702c988", prapor
+  "Storyteller": "69744632183b55cf9702c981", therapist
+  "Price": "69744632183b55cf9702c983", ragman
+  "Needle": "69744632183b55cf9702c985", therapist
+  "Chimera": "69744632183b55cf9702c982", jaeger
+  "Atlas": "69744632183b55cf9702c986" mechanic
