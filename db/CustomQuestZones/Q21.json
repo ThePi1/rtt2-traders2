@@ -1,0 +1,29 @@
+[
+  {
+    "ZoneId": "Q21",
+    "ZoneName": "Q21",
+    "ZoneLocation": "Shoreline",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-338.9377",
+      "Y": "2.015902",
+      "Z": "-87.72697",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "3",
+      "Y": "1",
+      "Z": "5",
+      "W": "0"
+    },
+    "GroupPosition": null,
+    "Salvage": null
+  }
+]
