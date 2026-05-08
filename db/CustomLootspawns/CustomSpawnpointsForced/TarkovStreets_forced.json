@@ -21,11 +21,11 @@
                 "IsGroupPosition": false,
                 "GroupPositions": [],
                 "IsAlwaysSpawn": true,
-                "Root": "69d1f5f3cf1b62e7e16d45c5",
+                "Root": "69f6936f7b89ac83602548f8",
                 "Items": [
                     {
-                        "_id": "69d1f5f0bc2a5854ab7dffb7",
-                        "_tpl": "5938878586f7741b797c562f",
+                        "_id": "69f69376b2fb309eb5e9abd0",
+                        "_tpl": "69b4d10f4891aa1c80b12b78",
                         "upd": {
                             "StackObjectsCount": 1
                         }
@@ -35,7 +35,7 @@
             "itemDistribution": [
                 {
                     "composedKey": {
-                        "key": "5938878586f7741b797c562f"
+                        "key": "69b4d10f4891aa1c80b12b78"
                     },
                     "relativeProbability": 1
                 }
@@ -62,11 +62,11 @@
                 "IsGroupPosition": false,
                 "GroupPositions": [],
                 "IsAlwaysSpawn": true,
-                "Root": "69d1f5f3cf1b62e7e16d45c5",
+                "Root": "69f6937abaa55d477e4034f5",
                 "Items": [
                     {
-                        "_id": "69d1f5f0bc2a5854ab7dffb7",
-                        "_tpl": "5938878586f7741b797c562f",
+                        "_id": "69f6937e6586383f4ec52ffb",
+                        "_tpl": "69b4d15ea9ee50f56157c0cd",
                         "upd": {
                             "StackObjectsCount": 1
                         }
@@ -76,7 +76,7 @@
             "itemDistribution": [
                 {
                     "composedKey": {
-                        "key": "5938878586f7741b797c562f"
+                        "key": "69b4d15ea9ee50f56157c0cd"
                     },
                     "relativeProbability": 1
                 }

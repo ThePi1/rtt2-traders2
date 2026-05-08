@@ -22,9 +22,13 @@
     "isCanTransferItems": false,
     "items_buy": {
       "category": [
-            "5422acb9af1c889c16000029",
-            "5448e8d04bdc2ddf718b4569"
-      ],
+		  "543be5664bdc2dd4348b4569",
+		  "543be6674bdc2df1348b4569",
+		  "567849dd4bdc2d150f8b456e",
+		  "543be5e94bdc2df1348b4568",
+		  "5448eb774bdc2d0a728b4567",
+		  "5795f317245977243854e041"
+    ],
       "id_list": []
     },
     "items_buy_prohibited": {

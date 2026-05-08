@@ -1,0 +1,13 @@
+{
+    "69f2d088179e524ac52d63b0 name": "An Eye Cannot Speak",
+    "69f2d088179e524ac52d63b0 note": "",
+    "69f2d088179e524ac52d63b0 acceptPlayerMessage": "",
+    "69f2d088179e524ac52d63b0 changeQuestMessageText": "",
+    "69f2d088179e524ac52d63b0 completePlayerMessage": "",
+    "69f2d088179e524ac52d63b0 declinePlayerMessage": "",
+    "69f2d088179e524ac52d63b0 description": "We have seen you from near, and seen you from afar.\n\nYou will help us, and we will help you, yes?",
+    "69f2d088179e524ac52d63b0 failMessageText": "",
+    "69f2d088179e524ac52d63b0 startedMessageText": "",
+    "69f2d088179e524ac52d63b0 successMessageText": "Seen and heard.",
+    "69f2d3ae179e524ac52d63b3": "Stash Intelligence in the cultist room in the Shoreline resort"
+}

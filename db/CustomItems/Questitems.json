@@ -191,7 +191,7 @@
     },
     "locales": {
       "en": {
-        "name": "LEDX Skin Transilluminator (US Version)",
+        "name": "Modified LEDX Skin Transilluminator",
         "shortName": "Red LEDX",
         "description": "You can argue endlessly that different factories of the same company provide comparable quality, but at the critical moment, everyone chooses the original... perhaps TerraGroup had special arrangements with the American factory to supply a newer model of LEDX."
       }
@@ -454,9 +454,9 @@
     },
     "locales": {
       "en": {
-        "name": "Illegal Medical Instruments",
-        "shortName": "Illegal Medical Instruments",
-        "description": "Case of illegal medical instruments. Seems like Weiss got a lot of use out of these."
+        "name": "Box of Chinese Peptides",
+        "shortName": "Box of Chinese Peptides",
+        "description": "Case of SM10 Peptides. 'For research use only.'"
       }
     },
     "fleaPriceRoubles": 9039,

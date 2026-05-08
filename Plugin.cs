@@ -1,6 +1,7 @@
 ﻿using EFT;
 using EFT.Hideout;
 using EFT.UI;
+using EFT.UI.Chat;
 using Microsoft.VisualBasic;
 using SPTarkov.Common.Extensions;
 using SPTarkov.DI.Annotations;
@@ -9,6 +10,7 @@ using SPTarkov.Server.Core.Helpers;
 using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
+using SPTarkov.Server.Core.Models.Eft.Profile;
 using SPTarkov.Server.Core.Models.Enums;
 using SPTarkov.Server.Core.Models.Logging;
 using SPTarkov.Server.Core.Models.Spt.Config;
@@ -118,6 +120,9 @@ public class rtt2trader(
         var traderBase_at = modHelper.GetJsonDataFromFile<TraderBase>(pathToMod, "data/at-base.json");
         var traderBase_ws = modHelper.GetJsonDataFromFile<TraderBase>(pathToMod, "data/ws-base.json");
 
+        var dialogue_st = modHelper.GetJsonDataFromFile<Dictionary<string, List<string>?>>(pathToMod, "data/st-dialogue.json");
+
+
 
 
         // Create a helper class and use it to register our traders image/icon + set its stock refresh time
@@ -148,14 +153,14 @@ public class rtt2trader(
         // 1: The item
         // 2: The barter scheme, cost of the item (money or barter)
         // 3: The Loyalty level, what rep level is required to buy the item from trader
-        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_xm);
-        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_ch);
-        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_st);
-        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_vr);
-        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_nd);
-        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_pr);
-        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_at);
-        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_ws);
+        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_xm, []);
+        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_ch, []);
+        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_st, dialogue_st);
+        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_vr, []);
+        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_nd, []);
+        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_pr, []);
+        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_at, []);
+        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(traderBase_ws, []);
 
         // Add localisation text for our trader to the database so it shows to people playing in different languages
         addCustomTraderHelper.AddTraderToLocales(traderBase_xm, "Xiaoming", "Chinese bureaucrat representing the CCP in Tarkov. He's more clever than you think, but less clever than he thinks.");

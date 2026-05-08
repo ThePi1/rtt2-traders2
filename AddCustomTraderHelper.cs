@@ -44,7 +44,7 @@ namespace rtt2traders
         /// Add a traders base data to the server, no assort items
         /// </summary>
         /// <param name="traderDetailsToAdd">trader details</param>
-        public void AddTraderWithEmptyAssortToDb(TraderBase traderDetailsToAdd)
+        public void AddTraderWithEmptyAssortToDb(TraderBase traderDetailsToAdd, Dictionary<string, List<string>> dialogue)
         {
             // Create an empty assort ready for our items
             var emptyTraderItemAssortObject = new TraderAssort
@@ -66,7 +66,7 @@ namespace rtt2traders
                     { "Success", new() },
                     { "Fail", new() }
                 },
-                Dialogue = []
+                Dialogue = dialogue
             };
 
             // Add the new trader id and data to the server

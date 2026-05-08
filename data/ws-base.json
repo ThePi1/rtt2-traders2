@@ -21,10 +21,18 @@
     },
     "isCanTransferItems": false,
     "items_buy": {
-      "category": [
-            "5422acb9af1c889c16000029",
-            "5448e8d04bdc2ddf718b4569"
-      ],
+		"category": [
+		  "543be5f84bdc2dd4348b456a",
+		  "5448e5284bdc2dcb718b4567",
+		  "57864a3d24597754843f8721",
+		  "57864a66245977548f04a81f",
+		  "590c745b86f7743cc433c5f2",
+		  "5422acb9af1c889c16000029",
+		  "543be6564bdc2df4348b4568",
+		  "5448fe124bdc2da5018b4567",
+		  "5448f3a64bdc2d60728b456a",
+		  "5485a8684bdc2da71d8b4567"
+		],
       "id_list": []
     },
     "items_buy_prohibited": {
