@@ -2846,7 +2846,7 @@
                     "target": [
                         "657025961419851aef03e721"
                     ],
-                    "value": 5,
+                    "value": 1,
                     "visibilityConditions": []
                 },
                 {
@@ -2864,7 +2864,7 @@
                     "target": [
                         "657025961419851aef03e721"
                     ],
-                    "value": 5,
+                    "value": 1,
                     "visibilityConditions": []
                 }
             ],
@@ -3120,7 +3120,7 @@
                     "target": [
                         "657025961419851aef03e721"
                     ],
-                    "value": 10,
+                    "value": 2,
                     "visibilityConditions": []
                 }
             ],
