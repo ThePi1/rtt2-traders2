@@ -16,8 +16,8 @@
                 "description": "5 Panel hat designed for BEAR PMCs"
             }
         },
-        "fleaPriceRoubles": 100,
-        "handbookPriceRoubles": 100,
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
         "addtoBots": true
     },
 
@@ -38,8 +38,8 @@
                 "description": "5 Panel hat designed for USEC PMCs"
             }
         },
-        "fleaPriceRoubles": 100,
-        "handbookPriceRoubles": 100,
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
         "addtoBots": true
     },
     "679d31ae779c471efb063dba": {
@@ -59,8 +59,8 @@
                 "description": "Beanie designed for USEC PMCs"
             }
         },
-        "fleaPriceRoubles": 100,
-        "handbookPriceRoubles": 100,
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
         "addtoBots": true
     },
     "67e343112c5ed0143e3c74eb": {
@@ -80,8 +80,8 @@
                 "description": "Beanie designed for BEAR PMCs"
             }
         },
-        "fleaPriceRoubles": 100,
-        "handbookPriceRoubles": 100,
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
         "addtoBots": true
     },
     "679d31db3d176182a2adfd86": {
