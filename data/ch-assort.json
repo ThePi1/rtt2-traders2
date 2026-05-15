@@ -267,6 +267,42 @@
         "UnlimitedCount": true,
         "StackObjectsCount": 9999
       }
+    },
+    {
+      "_id": "6a0689a92c3b4c62b45e6638",
+      "_tpl": "654a90aff4f81a421b0a7c86",
+      "parentId": "6a05e69075949dd5a9bd76e2",
+      "slotId": "helmet_top"
+    },
+    {
+      "_id": "6a0689b62c3b4c62b45e6639",
+      "_tpl": "654a91068e1ce698150fd1e2",
+      "parentId": "6a05e69075949dd5a9bd76e2",
+      "slotId": "helmet_back"
+    },
+    {
+      "_id": "6a0689c12c3b4c62b45e663a",
+      "_tpl": "654a9189bcc67a392b056c79",
+      "parentId": "6a05e69075949dd5a9bd76e2",
+      "slotId": "helmet_ears"
+    },
+    {
+      "_id": "6a0689fa2c3b4c62b45e663b",
+      "_tpl": "657baaf0b7e9ca9a02045c02",
+      "parentId": "6a05e75275949dd5a9bd76e5",
+      "slotId": "helmet_top"
+    },
+    {
+      "_id": "6a068a062c3b4c62b45e663c",
+      "_tpl": "657bab6ec6f689d3a205b85f",
+      "parentId": "6a05e75275949dd5a9bd76e5",
+      "slotId": "helmet_back"
+    },
+    {
+      "_id": "6a068a102c3b4c62b45e663d",
+      "_tpl": "657babc6f58ba5a6250107a2",
+      "parentId": "6a05e75275949dd5a9bd76e5",
+      "slotId": "helmet_ears"
     }
   ],
   "barter_scheme": {
