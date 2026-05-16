@@ -188,5 +188,17 @@
     "69f2cffdd57bec8bb79b77e6": "Look for cult activity in the sunken village on Woods",
     "69f2d01cd57bec8bb79b77e9": "Look for cult activity in the church on Shoreline",
     "69f7fee1360b67c687fd9142": "",
-	"69f801582f20d996d9257c3b": "Turn in raven statues"
+    "69f801582f20d996d9257c3b": "Turn in raven statues",
+    "6a08bc51ba598c93d9c09fcc name": "Into The Maze",
+    "6a08bc51ba598c93d9c09fcc note": "",
+    "6a08bc51ba598c93d9c09fcc acceptPlayerMessage": "",
+    "6a08bc51ba598c93d9c09fcc changeQuestMessageText": "",
+    "6a08bc51ba598c93d9c09fcc completePlayerMessage": "This means were dead right? What the fuck man. All of this for nothing. What a fucking joke.",
+    "6a08bc51ba598c93d9c09fcc declinePlayerMessage": "",
+    "6a08bc51ba598c93d9c09fcc description": "That document you grabbed from the cultist circle talks about something within the Labrynth that will hold the answers to our questions. Good luck Buddy, I have a feeling its going to be a hell of a time.",
+    "6a08bc51ba598c93d9c09fcc failMessageText": "",
+    "6a08bc51ba598c93d9c09fcc startedMessageText": "",
+    "6a08bc51ba598c93d9c09fcc successMessageText": "The album's got your memories in it, yeah? Let me have a look... hold on. These are mine. And the last page — blank, but soaked in dried blood.",
+    "6a08bca1ba598c93d9c09fd3": "Find the Photo Album",
+    "6a08bcacba598c93d9c09fd4": "Hand over the Photo Album",
 }

@@ -1,0 +1,415 @@
+{
+    "6a08be635562066cb549e1bc": {
+        "QuestName": "Purgatory",
+        "_id": "6a08be635562066cb549e1bc",
+        "acceptPlayerMessage": "6a08be635562066cb549e1bc acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6a08be635562066cb549e1bc changeQuestMessageText",
+        "completePlayerMessage": "6a08be635562066cb549e1bc completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "ExitStatus",
+                                "dynamicLocale": false,
+                                "id": "6a08be7d5562066cb549e1bf",
+                                "status": [
+                                    "Survived"
+                                ]
+                            }
+                        ],
+                        "id": "6a08be835562066cb549e1c0"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a08be785562066cb549e1be",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Completion",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6a08be635562066cb549e1bc declinePlayerMessage",
+        "description": "6a08be635562066cb549e1bc description",
+        "failMessageText": "6a08be635562066cb549e1bc failMessageText",
+        "image": "/files/quest/icon/6682a777e1471d93f20255c1.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6a08be635562066cb549e1bc name",
+        "note": "6a08be635562066cb549e1bc note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "id": "6a08be645562066cb549e1bd",
+                    "index": 0,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 1000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6a08be635562066cb549e1bc startedMessageText",
+        "successMessageText": "6a08be635562066cb549e1bc successMessageText",
+        "traderId": "69744632183b55cf9702c981",
+        "type": "Completion"
+    },
+    "6a08bea35562066cb549e1c1": {
+        "QuestName": "Refusal",
+        "_id": "6a08bea35562066cb549e1c1",
+        "acceptPlayerMessage": "6a08bea35562066cb549e1c1 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6a08bea35562066cb549e1c1 changeQuestMessageText",
+        "completePlayerMessage": "6a08bea35562066cb549e1c1 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "distance": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6a08bef55562066cb549e1c4",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "AnyPmc",
+                                "value": 1,
+                                "weapon": [],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            }
+                        ],
+                        "id": "6a08befc5562066cb549e1c5"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a08beec5562066cb549e1c3",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Completion",
+                    "value": 20,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a08bf085562066cb549e1c6",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6a08be635562066cb549e1bc",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": [
+				{
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a08c1f8958ec578284052ac",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        3
+                    ],
+                    "target": "6a08bf145562066cb549e1c7",
+                    "visibilityConditions": []
+                }
+			]
+        },
+        "declinePlayerMessage": "6a08bea35562066cb549e1c1 declinePlayerMessage",
+        "description": "6a08bea35562066cb549e1c1 description",
+        "failMessageText": "6a08bea35562066cb549e1c1 failMessageText",
+        "image": "/files/quest/icon/6682a71075d2dfc8330a07d8.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6a08bea35562066cb549e1c1 name",
+        "note": "6a08bea35562066cb549e1c1 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "id": "6a08beda5562066cb549e1c2",
+                    "index": 0,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 3500
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6a08bea35562066cb549e1c1 startedMessageText",
+        "successMessageText": "6a08bea35562066cb549e1c1 successMessageText",
+        "traderId": "69744632183b55cf9702c981",
+        "type": "Completion"
+    },
+    "6a08bf145562066cb549e1c7": {
+        "QuestName": "Acceptance",
+        "_id": "6a08bf145562066cb549e1c7",
+        "acceptPlayerMessage": "6a08bf145562066cb549e1c7 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6a08bf145562066cb549e1c7 changeQuestMessageText",
+        "completePlayerMessage": "6a08bf145562066cb549e1c7 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a08bf5a5562066cb549e1ca",
+                    "index": 0,
+                    "inEncoded": false,
+                    "minDurability": 0,
+                    "maxDurability": 100,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "target": [
+                        "54009119af1c881c07000029"
+                    ],
+                    "value": 100,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a08bf1b5562066cb549e1c8",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6a08be635562066cb549e1bc",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": [
+				{
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a08c1c000535e86f8ae5575",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        3
+                    ],
+                    "target": "6a08bea35562066cb549e1c1",
+                    "visibilityConditions": []
+                }
+			]
+        },
+        "declinePlayerMessage": "6a08bf145562066cb549e1c7 declinePlayerMessage",
+        "description": "6a08bf145562066cb549e1c7 description",
+        "failMessageText": "6a08bf145562066cb549e1c7 failMessageText",
+        "image": "/files/quest/icon/default.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6a08bf145562066cb549e1c7 name",
+        "note": "6a08bf145562066cb549e1c7 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "id": "6a08bf515562066cb549e1c9",
+                    "index": 0,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 5000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6a08bf145562066cb549e1c7 startedMessageText",
+        "successMessageText": "6a08bf145562066cb549e1c7 successMessageText",
+        "traderId": "69744632183b55cf9702c981",
+        "type": "Completion"
+    },
+    "6a08bfb85562066cb549e1cb": {
+        "QuestName": "Thank You For Playing",
+        "_id": "6a08bfb85562066cb549e1cb",
+        "acceptPlayerMessage": "6a08bfb85562066cb549e1cb acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6a08bfb85562066cb549e1cb changeQuestMessageText",
+        "completePlayerMessage": "6a08bfb85562066cb549e1cb completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a08c0bf5562066cb549e1d0",
+                    "index": 0,
+                    "inEncoded": false,
+                    "minDurability": 0,
+                    "maxDurability": 100,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "target": [
+                        "5449016a4bdc2d6f028b456f"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a08bffd5562066cb549e1ce",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4,
+                        5
+                    ],
+                    "target": "6a08bea35562066cb549e1c1",
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a08c0a95562066cb549e1cf",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4,
+                        5
+                    ],
+                    "target": "6a08bf145562066cb549e1c7",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6a08bfb85562066cb549e1cb declinePlayerMessage",
+        "description": "6a08bfb85562066cb549e1cb description",
+        "failMessageText": "6a08bfb85562066cb549e1cb failMessageText",
+        "image": "/files/quest/mod_icon/welcome.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6a08bfb85562066cb549e1cb name",
+        "note": "6a08bfb85562066cb549e1cb note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "id": "6a08bfe95562066cb549e1cc",
+                    "index": 0,
+                    "items": [
+                        {
+                            "_id": "6a08bff55562066cb549e1cd",
+                            "_tpl": "59faff1d86f7746c51718c9c",
+                            "upd": {
+                                "StackObjectsCount": "1",
+                                "SpawnedInSession": true
+                            }
+                        }
+                    ],
+                    "target": "6a08bff55562066cb549e1cd",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 1
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6a08bfb85562066cb549e1cb startedMessageText",
+        "successMessageText": "6a08bfb85562066cb549e1cb successMessageText",
+        "traderId": "69744632183b55cf9702c981",
+        "type": "Completion"
+    }
+}

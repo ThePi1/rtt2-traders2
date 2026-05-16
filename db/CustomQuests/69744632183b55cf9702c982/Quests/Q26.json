@@ -1,0 +1,151 @@
+{
+    "6a08bc51ba598c93d9c09fcc": {
+        "QuestName": "Into The Maze",
+        "_id": "6a08bc51ba598c93d9c09fcc",
+        "acceptPlayerMessage": "6a08bc51ba598c93d9c09fcc acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6a08bc51ba598c93d9c09fcc changeQuestMessageText",
+        "completePlayerMessage": "6a08bc51ba598c93d9c09fcc completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a08bca1ba598c93d9c09fd3",
+                    "index": 0,
+                    "inEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "target": [
+                        "69b4d3bf669a409073138bb1"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a08bcacba598c93d9c09fd4",
+                    "index": 0,
+                    "inEncoded": false,
+                    "minDurability": 0,
+                    "maxDurability": 100,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "target": [
+                        "69b4d3bf669a409073138bb1"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a08bc97ba598c93d9c09fd2",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6a07ab808ff25d06e48d31e8",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6a08bc51ba598c93d9c09fcc declinePlayerMessage",
+        "description": "6a08bc51ba598c93d9c09fcc description",
+        "failMessageText": "6a08bc51ba598c93d9c09fcc failMessageText",
+        "image": "/files/quest/icon/67e3d47fab7770f72902761d.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "6733700029c367a3d40b02af",
+        "name": "6a08bc51ba598c93d9c09fcc name",
+        "note": "6a08bc51ba598c93d9c09fcc note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "id": "6a08bc5dba598c93d9c09fcd",
+                    "index": 0,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 10000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "id": "6a08bc62ba598c93d9c09fce",
+                    "index": 0,
+                    "items": [
+                        {
+                            "_id": "6a08bc68ba598c93d9c09fcf",
+                            "_tpl": "59faff1d86f7746c51718c9c",
+                            "upd": {
+                                "StackObjectsCount": "1",
+                                "SpawnedInSession": true
+                            }
+                        }
+                    ],
+                    "target": "6a08bc68ba598c93d9c09fcf",
+                    "type": "Item",
+                    "unknown": true,
+                    "value": 1
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "id": "6a08bc6fba598c93d9c09fd0",
+                    "index": 0,
+                    "items": [
+                        {
+                            "_id": "6a08bc68ba598c93d9c09fcf",
+                            "_tpl": "59faff1d86f7746c51718c9c",
+                            "upd": {
+                                "StackObjectsCount": "1",
+                                "SpawnedInSession": true
+                            }
+                        },
+                        {
+                            "_id": "6a08bc74ba598c93d9c09fd1",
+                            "_tpl": "59faff1d86f7746c51718c9c",
+                            "upd": {
+                                "StackObjectsCount": "1",
+                                "SpawnedInSession": true
+                            }
+                        }
+                    ],
+                    "target": "6a08bc68ba598c93d9c09fcf",
+                    "type": "Item",
+                    "unknown": true,
+                    "value": 1
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6a08bc51ba598c93d9c09fcc startedMessageText",
+        "successMessageText": "6a08bc51ba598c93d9c09fcc successMessageText",
+        "traderId": "69744632183b55cf9702c982",
+        "type": "PickUp"
+    }
+}
