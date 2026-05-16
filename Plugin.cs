@@ -32,6 +32,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Common;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -56,7 +57,7 @@ public record ModMetadata : AbstractModMetadata
     public override bool? IsBundleMod { get; init; } = true;
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
-        { "com.wtt.commonlib", new Range("~2.0.0") }
+        { "com.wtt.commonlib", new Range("~2.0.20") }
     };
     public override string? Url { get; init; }
     public override List<string>? Contributors { get; init; }
@@ -97,6 +98,8 @@ public class rtt2trader(
     private HashSet<string> VanillaItems;
     public async Task OnLoad()
     {
+        var clock = Stopwatch.StartNew();
+
         // A path to the mods files we use below
         var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
 
@@ -219,7 +222,10 @@ public class rtt2trader(
         //This just for fun.
         logger.LogWithColor("RTT2 has completed all steps!",LogTextColor.Blue,LogBackgroundColor.Black);
 
-        // Send back a success to the server to say our trader is good to go    
+        // Send back a success to the server to say our trader is good to go
+
+        clock.Stop();
+        logger.Info("Completed in " + clock.ElapsedMilliseconds + "ms");
         await Task.CompletedTask;
     }
 
@@ -245,7 +251,7 @@ public class rtt2trader(
         }
         //Console.WriteLine("RTT2: removed " + removeCounter + " quests.");
     }
-    private void addPlate() 
+    private void addPlate()
     {
         var itemTable = databaseService.GetTables().Templates.Items;
         var plateToAdd = "69d44b9ec379dcfd2bf8de40";
@@ -330,24 +336,6 @@ public class rtt2trader(
 
         removeTrader(trader); //sends modded trader off for removal
     }
-
-    private void priestLoot()
-    {
-        var bots = databaseService.GetBots();
-        bots.Types.TryGetValue("sectantpriest", out var priest); //grab priest and create var if it exists
-        
-        if (priest.BotChances.EquipmentChances.ContainsKey("TacticalVest"))
-        {
-            priest.BotChances.EquipmentChances["TacticalVest"] = 100; //add ability for vest on priest saves room in pockets for spawns.
-
-        }
-
-        priest.BotInventory.Equipment.TryGetValue(EquipmentSlots.TacticalVest,out var rig);
-        rig.AddOrUpdate("5e4abc1f86f774069619fbaa",999999);//add vest
-        
-        priest.BotInventory.Items.Pockets.Add("679b9819a2f2dd4da9023512",15000); //Add Labrys Keycard to loot pool pockets
-    }
-
     private void removeTrader(string trader)
     {
 
@@ -372,6 +360,22 @@ public class rtt2trader(
             }
         }
         //logger.Info(quests.ToString());
+    }
+    private void priestLoot()
+    {
+        var bots = databaseService.GetBots();
+        bots.Types.TryGetValue("sectantpriest", out var priest); //grab priest and create var if it exists
+        
+        if (priest.BotChances.EquipmentChances.ContainsKey("TacticalVest"))
+        {
+            priest.BotChances.EquipmentChances["TacticalVest"] = 100; //add ability for vest on priest saves room in pockets for spawns.
+
+        }
+
+        priest.BotInventory.Equipment.TryGetValue(EquipmentSlots.TacticalVest,out var rig);
+        rig.AddOrUpdate("5e4abc1f86f774069619fbaa",999999);//add vest
+        
+        priest.BotInventory.Items.Pockets.Add("679b9819a2f2dd4da9023512",15000); //Add Labrys Keycard to loot pool pockets
     }
 
     private void editRagman(string modPath)
@@ -481,12 +485,11 @@ public class rtt2trader(
             logger.Warning(trader + "assort null, skipping.");
             return;
         }
-
         foreach(var item in moddedAssort.Items)
         {
-            
             if (!VanillaItems.Contains(item.Template)) //if our item is not vanilla continue
             {
+                //logger.Info("FoundItem\n");
                 if (!assort.Items.Any(existingitem => existingitem.Id == item.Id)) // we check if the item has already been added if not continue
                 {
                     assort.Items.Add(item); // adds item
