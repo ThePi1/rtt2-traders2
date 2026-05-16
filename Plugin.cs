@@ -104,6 +104,9 @@ public class rtt2trader(
         var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
 
         var VanillaItemsList = modHelper.GetJsonDataFromFile<List<string>>(pathToMod, "data/itemTPL.json");
+        var weapQuestList = modHelper.GetJsonDataFromFile<Dictionary<string, List<string>>>(pathToMod,"data/WeaponQuestCatagories.json");
+
+        
         VanillaItems = new HashSet<string>(VanillaItemsList); //use a hashset instead of list to save on runtime when we compare items.
 
         // A relative path to the trader icon to show
@@ -223,7 +226,7 @@ public class rtt2trader(
         logger.LogWithColor("RTT2 has completed all steps!",LogTextColor.Blue,LogBackgroundColor.Black);
 
         // Send back a success to the server to say our trader is good to go
-
+        //Test(weapQuestList);
         clock.Stop();
         logger.Info("Completed in " + clock.ElapsedMilliseconds + "ms");
         await Task.CompletedTask;
@@ -475,7 +478,41 @@ public class rtt2trader(
             }
         }
     }
+    /*private void Test(Dictionary<string, List<string>>weapQuest)
+    {
+        var items = databaseService.GetTables().Templates.Items;
+        foreach (var (catagory, qIDs) in weapQuest) //grab parent id and list of quests to change
+        {
+            var moddedWeap = items.Values.Where(item => !VanillaItems.Contains(item.Id) && item.Parent == catagory); //check if weapon is modded and is in our catagory
+            
+            if (moddedWeap == null){ //if no modded weapons exit
+                break;
+            }
+                
+            foreach (var questId in qIDs)
+            {
+                foreach (var weap in moddedWeap){
+                    var quests = databaseService.GetTables().Templates.Quests;
+                    if(!quests.TryGetValue(questId,out var quest))
+                    {
+                        continue;
+                    }
 
+                    foreach (var condition in quest.Conditions.AvailableForFinish)
+                    {
+                        foreach (var counter in condition.Counter.Conditions)
+                        {
+                            if (!counter.Weapon.Contains(weap.Id))
+                            {
+                                counter.Weapon.Add(weap.Id);
+                                logger.Info("Added: " + weap.Id + " to " + questId);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    */}
     private void moddedItemGrabber(string trader)
     {
         var assort = databaseService.GetTrader("5ac3b934156ae10c4430e83c").Assort;
