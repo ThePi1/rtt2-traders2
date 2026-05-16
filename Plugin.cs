@@ -1,11 +1,14 @@
-﻿using EFT;
+﻿using Comfort.Communication;
+using EFT;
 using EFT.Hideout;
 using EFT.UI;
 using EFT.UI.Chat;
+using Microsoft.AspNetCore.Routing.Matching;
 using Microsoft.VisualBasic;
 using SPTarkov.Common.Extensions;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
+using SPTarkov.Server.Core.Extensions;
 using SPTarkov.Server.Core.Helpers;
 using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common;
@@ -67,6 +70,7 @@ public class rtt2trader(
     ISptLogger<rtt2trader> logger,
     TimeUtil timeUtil,
     DatabaseService databaseService,
+    BotLootCacheService botLootCacheService,
     AddCustomTraderHelper addCustomTraderHelper,
     WTTServerCommonLib.WTTServerCommonLib wttCommon
 ) : IOnLoad
@@ -210,12 +214,11 @@ public class rtt2trader(
 
         editRagman(pathToMod); //does the changes to ragman and preps his new assort for new items
         editTraders(); // begins our trader modifications and deletions
-
+        priestLoot(); //edit priest loot.
         //This just for fun.
         logger.LogWithColor("RTT2 has completed all steps!",LogTextColor.Blue,LogBackgroundColor.Black);
 
-        // Send back a success to the server to say our trader is good to go
-        
+        // Send back a success to the server to say our trader is good to go    
         await Task.CompletedTask;
     }
 
@@ -325,6 +328,23 @@ public class rtt2trader(
         moddedItemGrabber(trader);
 
         removeTrader(trader); //sends modded trader off for removal
+    }
+
+    private void priestLoot()
+    {
+        var bots = databaseService.GetBots();
+        bots.Types.TryGetValue("sectantpriest", out var priest); //grab priest and create var if it exists
+        
+        if (priest.BotChances.EquipmentChances.ContainsKey("TacticalVest"))
+        {
+            priest.BotChances.EquipmentChances["TacticalVest"] = 100; //add ability for vest on priest saves room in pockets for spawns.
+
+        }
+
+        priest.BotInventory.Equipment.TryGetValue(EquipmentSlots.TacticalVest,out var rig);
+        rig.AddOrUpdate("5e4abc1f86f774069619fbaa",999999);//add vest
+        
+        priest.BotInventory.Items.Pockets.Add("679b9819a2f2dd4da9023512",15000); //Add Labrys Keycard to loot pool pockets
     }
 
     private void removeTrader(string trader)
