@@ -72,7 +72,6 @@ public class rtt2trader(
     ISptLogger<rtt2trader> logger,
     TimeUtil timeUtil,
     DatabaseService databaseService,
-    BotLootCacheService botLootCacheService,
     AddCustomTraderHelper addCustomTraderHelper,
     WTTServerCommonLib.WTTServerCommonLib wttCommon
 ) : IOnLoad
@@ -104,7 +103,7 @@ public class rtt2trader(
         var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
 
         var VanillaItemsList = modHelper.GetJsonDataFromFile<List<string>>(pathToMod, "data/itemTPL.json");
-        var weapQuestList = modHelper.GetJsonDataFromFile<Dictionary<string, List<string>>>(pathToMod,"data/WeaponQuestCatagories.json");
+        //var weapQuestList = modHelper.GetJsonDataFromFile<Dictionary<string, List<string>>>(pathToMod,"data/WeaponQuestCatagories.json");
 
         
         VanillaItems = new HashSet<string>(VanillaItemsList); //use a hashset instead of list to save on runtime when we compare items.
@@ -226,7 +225,7 @@ public class rtt2trader(
         logger.LogWithColor("RTT2 has completed all steps!",LogTextColor.Blue,LogBackgroundColor.Black);
 
         // Send back a success to the server to say our trader is good to go
-        //Test(weapQuestList);
+        //addModdedWeaponToQuests(weapQuestList);
         clock.Stop();
         logger.Info("Completed in " + clock.ElapsedMilliseconds + "ms");
         await Task.CompletedTask;
@@ -478,7 +477,7 @@ public class rtt2trader(
             }
         }
     }
-    /*private void Test(Dictionary<string, List<string>>weapQuest)
+    /*private void addModdedWeaponToQuests(Dictionary<string, List<string>>weapQuest)
     {
         var items = databaseService.GetTables().Templates.Items;
         foreach (var (catagory, qIDs) in weapQuest) //grab parent id and list of quests to change
@@ -512,7 +511,7 @@ public class rtt2trader(
                 }
             }
         }
-    */}
+    }*/
     private void moddedItemGrabber(string trader)
     {
         var assort = databaseService.GetTrader("5ac3b934156ae10c4430e83c").Assort;
