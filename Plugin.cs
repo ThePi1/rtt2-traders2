@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Routing.Matching;
 using Microsoft.VisualBasic;
 using SPTarkov.Common.Extensions;
 using SPTarkov.DI.Annotations;
+using SPTarkov.Server.Core.Constants;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Extensions;
 using SPTarkov.Server.Core.Helpers;
@@ -244,7 +245,7 @@ public class rtt2trader(
         }
         //Console.WriteLine("RTT2: removed " + removeCounter + " quests.");
     }
-    private void addPlate() // Referenced FiveFs Unrestricted Armor Plate mod for understanding of editing already existing database entries.
+    private void addPlate() 
     {
         var itemTable = databaseService.GetTables().Templates.Items;
         var plateToAdd = "69d44b9ec379dcfd2bf8de40";
@@ -266,7 +267,7 @@ public class rtt2trader(
                         {
                             if (!filter.Filter.Contains(plateToAdd))
                             {
-                                filter.Filter.Add(plateToAdd);  //this whole nested set of loops is to add our custom LIMP plate to armor/vests
+                                filter.Filter.Add(plateToAdd);  //adds LIMP plate to all Armored rigs and BodyArmor
                             }
                         }
                     }
