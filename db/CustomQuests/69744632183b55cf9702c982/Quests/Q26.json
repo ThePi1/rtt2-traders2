@@ -146,6 +146,6 @@
         "startedMessageText": "6a08bc51ba598c93d9c09fcc startedMessageText",
         "successMessageText": "6a08bc51ba598c93d9c09fcc successMessageText",
         "traderId": "69744632183b55cf9702c982",
-        "type": "PickUp"
+        "type": "Completion"
     }
 }
