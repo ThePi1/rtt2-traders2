@@ -200,7 +200,7 @@
     "6a08bc51ba598c93d9c09fcc startedMessageText": "",
     "6a08bc51ba598c93d9c09fcc successMessageText": "The album's got your memories in it, yeah? Let me have a look... hold on. These are mine. And the last page \u00e2\u20ac\u201d blank, but soaked in dried blood.",
     "6a08bca1ba598c93d9c09fd3": "Find the Photo Album",
-    "6a08bcacba598c93d9c09fd4": "Hand over the Photo Album"
+    "6a08bcacba598c93d9c09fd4": "Hand over the Photo Album",
     "6a0a9e0bdbc8c9a772fad9be name": "Deja-Vu",
     "6a0a9e0bdbc8c9a772fad9be note": "",
     "6a0a9e0bdbc8c9a772fad9be acceptPlayerMessage": "",
@@ -318,5 +318,5 @@
     "6a0ab38cee68f3757a5c860b failMessageText": "",
     "6a0ab38cee68f3757a5c860b startedMessageText": "",
     "6a0ab38cee68f3757a5c860b successMessageText": "Not sure if the haul is worth the risk, nice job.",
-    "6a0ab469ee68f3757a5c8613": "Gain Access to the Locked Treasure on Labrynth",
+    "6a0ab469ee68f3757a5c8613": "Gain Access to the Locked Treasure on Labrynth"
 }
