@@ -35,6 +35,7 @@ using System.Data.Common;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Reflection;
 using System.Reflection.Metadata.Ecma335;
 using System.Threading.Tasks;
@@ -103,7 +104,7 @@ public class rtt2trader(
         var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
 
         var VanillaItemsList = modHelper.GetJsonDataFromFile<List<string>>(pathToMod, "data/itemTPL.json");
-        //var weapQuestList = modHelper.GetJsonDataFromFile<Dictionary<string, List<string>>>(pathToMod,"data/WeaponQuestCatagories.json");
+        var weapQuestList = modHelper.GetJsonDataFromFile<Dictionary<string, List<string>>>(pathToMod,"data/WeaponQuestCatagories.json");
 
         
         VanillaItems = new HashSet<string>(VanillaItemsList); //use a hashset instead of list to save on runtime when we compare items.
@@ -225,7 +226,7 @@ public class rtt2trader(
         logger.LogWithColor("RTT2 has completed all steps!",LogTextColor.Blue,LogBackgroundColor.Black);
 
         // Send back a success to the server to say our trader is good to go
-        //addModdedWeaponToQuests(weapQuestList);
+        addModdedWeaponToQuests(weapQuestList);
         clock.Stop();
         logger.Info("Completed in " + clock.ElapsedMilliseconds + "ms");
         await Task.CompletedTask;
@@ -477,41 +478,53 @@ public class rtt2trader(
             }
         }
     }
-    /*private void addModdedWeaponToQuests(Dictionary<string, List<string>>weapQuest)
+    private void addModdedWeaponToQuests(Dictionary<string, List<string>>weapQuest)
     {
+        if (weapQuest == null) return;
+        
         var items = databaseService.GetTables().Templates.Items;
         foreach (var (catagory, qIDs) in weapQuest) //grab parent id and list of quests to change
         {
-            var moddedWeap = items.Values.Where(item => !VanillaItems.Contains(item.Id) && item.Parent == catagory); //check if weapon is modded and is in our catagory
+            var moddedWeap = items.Values.Where(item => !VanillaItems.Contains(item.Id) && item.Parent == catagory).ToList(); //check if weapon is modded and is in our catagory
             
-            if (moddedWeap == null){ //if no modded weapons exit
-                break;
-            }
+            if (!moddedWeap.Any()) continue;
                 
-            foreach (var questId in qIDs)
+            foreach (var questId in qIDs) //run through each quest listed in in WeaponQuestCat.json
             {
-                foreach (var weap in moddedWeap){
-                    var quests = databaseService.GetTables().Templates.Quests;
-                    if(!quests.TryGetValue(questId,out var quest))
-                    {
-                        continue;
-                    }
+                var quests = databaseService.GetTables().Templates.Quests;
+                if(!quests.TryGetValue(questId, out var quest)) //if quest doesnt exist continue
+                {
+                    //logger.Warning("Quest: " + quest.Name + " not found\n");
+                    continue;
+                }
 
-                    foreach (var condition in quest.Conditions.AvailableForFinish)
+                if (quest.Conditions == null) continue; // gaurds to keep from hitting NULL Reference
+                if (quest.Conditions.AvailableForFinish == null) continue;
+
+                foreach (var condition in quest.Conditions.AvailableForFinish) //for each counter condition we check if it has weapon key
+                {
+                    if (condition == null) continue; // gaurds to keep from hitting NULL Reference
+                    if (condition.Counter == null) continue;
+                    if (condition.Counter.Conditions == null) continue;
+                    
+                    foreach (var counter in condition.Counter.Conditions)
                     {
-                        foreach (var counter in condition.Counter.Conditions)
-                        {
-                            if (!counter.Weapon.Contains(weap.Id))
+                        if (counter == null) continue; // gaurds to keep from hitting NULL Reference
+                        if (counter.Weapon == null) continue;
+                        
+                        foreach (var weap in moddedWeap){//run through list of modded weapons that meet the quest catagory
+                            if (!counter.Weapon.Contains(weap.Id)) //for each counter condition we check if it has our modded weapon
                             {
-                                counter.Weapon.Add(weap.Id);
+                                counter.Weapon.Add(weap.Id); //add weapon id to quest weapon[] Key
                                 logger.Info("Added: " + weap.Id + " to " + questId);
                             }
                         }
                     }
                 }
             }
+            
         }
-    }*/
+    }
     private void moddedItemGrabber(string trader)
     {
         var assort = databaseService.GetTrader("5ac3b934156ae10c4430e83c").Assort;
