@@ -5758,7 +5758,17 @@
                                 "target": "AnyPmc",
                                 "value": 1,
                                 "weapon": [
-                                    "5447bed64bdc2d97278b4568"
+                                  "5beed0f50db834001c062b12",
+                                  "5cdeb229d7f00c000e7ce174",
+                                  "5d52cc5ba4b9367408500062",
+                                  "64637076203536ad5600c990",
+                                  "64ca3d3954fc657e230529cc",
+                                  "6513ef33e06849f06c0957ca",
+                                  "65268d8ecb944ff1e90ea385",
+                                  "657857faeff4c850222dff1b",
+                                  "65fb023261d5829b2d090755",
+                                  "661ceb1b9311543c7104149b",
+                                  "661cec09b2c6356b4d0c7a36"
                                 ],
                                 "weaponCaliber": [],
                                 "weaponModsExclusive": [],
@@ -5874,7 +5884,17 @@
                                 "target": "AnyPmc",
                                 "value": 1,
                                 "weapon": [
-                                    "5447bed64bdc2d97278b4568"
+                                  "5beed0f50db834001c062b12",
+                                  "5cdeb229d7f00c000e7ce174",
+                                  "5d52cc5ba4b9367408500062",
+                                  "64637076203536ad5600c990",
+                                  "64ca3d3954fc657e230529cc",
+                                  "6513ef33e06849f06c0957ca",
+                                  "65268d8ecb944ff1e90ea385",
+                                  "657857faeff4c850222dff1b",
+                                  "65fb023261d5829b2d090755",
+                                  "661ceb1b9311543c7104149b",
+                                  "661cec09b2c6356b4d0c7a36"
                                 ],
                                 "weaponCaliber": [],
                                 "weaponModsExclusive": [],
@@ -5925,7 +5945,17 @@
                                 "target": "AnyPmc",
                                 "value": 1,
                                 "weapon": [
-                                    "5447bed64bdc2d97278b4568"
+                                  "5beed0f50db834001c062b12",
+                                  "5cdeb229d7f00c000e7ce174",
+                                  "5d52cc5ba4b9367408500062",
+                                  "64637076203536ad5600c990",
+                                  "64ca3d3954fc657e230529cc",
+                                  "6513ef33e06849f06c0957ca",
+                                  "65268d8ecb944ff1e90ea385",
+                                  "657857faeff4c850222dff1b",
+                                  "65fb023261d5829b2d090755",
+                                  "661ceb1b9311543c7104149b",
+                                  "661cec09b2c6356b4d0c7a36"
                                 ],
                                 "weaponCaliber": [],
                                 "weaponModsExclusive": [],
@@ -6038,10 +6068,20 @@
                                 "savageRole": [
                                     "bossBoar"
                                 ],
-                                "target": "",
+                                "target": "Savage",
                                 "value": 1,
                                 "weapon": [
-                                    "5447bed64bdc2d97278b4568"
+                                  "5beed0f50db834001c062b12",
+                                  "5cdeb229d7f00c000e7ce174",
+                                  "5d52cc5ba4b9367408500062",
+                                  "64637076203536ad5600c990",
+                                  "64ca3d3954fc657e230529cc",
+                                  "6513ef33e06849f06c0957ca",
+                                  "65268d8ecb944ff1e90ea385",
+                                  "657857faeff4c850222dff1b",
+                                  "65fb023261d5829b2d090755",
+                                  "661ceb1b9311543c7104149b",
+                                  "661cec09b2c6356b4d0c7a36"
                                 ],
                                 "weaponCaliber": [],
                                 "weaponModsExclusive": [],
