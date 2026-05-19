@@ -64,7 +64,7 @@ public record ModMetadata : AbstractModMetadata
     public override List<string>? Incompatibilities { get; init; }
 }
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 4)]
+[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 90020)] // DynamicMaps is 90000 and this conflicts with (at least) that
 public class rtt2trader(
     ModHelper modHelper,
     ImageRouter imageRouter,
