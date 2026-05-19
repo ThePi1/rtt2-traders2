@@ -505,7 +505,7 @@ public class rtt2trader(
                             if (!counter.Weapon.Contains(weap.Id)) //for each counter condition we check if it has our modded weapon
                             {
                                 counter.Weapon.Add(weap.Id); //add weapon id to quest weapon[] Key
-                                logger.Info("Added: " + weap.Id + " to " + questId);
+                                //logger.Info("Added: " + weap.Id + " to " + questId);
                             }
                         }
                     }
