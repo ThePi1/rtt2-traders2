@@ -3575,16 +3575,10 @@
                                 "bodyPartsWithEffects": [
                                     {
                                         "bodyParts": [
-                                            "Head",
-                                            "Chest",
-                                            "Stomach",
-                                            "LeftArm",
-                                            "RightArm",
-                                            "LeftLeg",
-                                            "RightLeg"
+                                            "Stomach"
                                         ],
                                         "effects": [
-                                            "Exhaustion"
+                                            "Dehydration"
                                         ]
                                     }
                                 ],
