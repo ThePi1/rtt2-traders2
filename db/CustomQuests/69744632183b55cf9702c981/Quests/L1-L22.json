@@ -252,13 +252,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b8ccd16ab7c2dcc5586d8",
-                            "_tpl": "6259b864ebedf17603599e88",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b8cde16ab7c2dcc5586da",
                             "_tpl": "5a7828548dc32e5a9c28b516",
                             "upd": {
@@ -267,8 +260,8 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b8ccd16ab7c2dcc5586d8",
-                    "traderId": "54cb50c76803fa8b248b4571",
+                    "target": "6a0b8cde16ab7c2dcc5586da",
+                    "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
                 }
@@ -404,13 +397,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b8dc616ab7c2dcc5586e1",
-                            "_tpl": "5e848cc2988a8701445df1e8",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b8dda16ab7c2dcc5586e5",
                             "_tpl": "5e848cc2988a8701445df1e8",
                             "upd": {
@@ -419,7 +405,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b8dc616ab7c2dcc5586e1",
+                    "target": "6a0b8dda16ab7c2dcc5586e5",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -430,20 +416,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b8dc616ab7c2dcc5586e1",
-                            "_tpl": "5e848cc2988a8701445df1e8",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b8dda16ab7c2dcc5586e5",
-                            "_tpl": "5e848cc2988a8701445df1e8",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b8df216ab7c2dcc5586e7",
                             "_tpl": "576165642459773c7a400233",
                             "upd": {
@@ -452,7 +424,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b8dc616ab7c2dcc5586e1",
+                    "target": "6a0b8df216ab7c2dcc5586e7",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -463,27 +435,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b8dc616ab7c2dcc5586e1",
-                            "_tpl": "5e848cc2988a8701445df1e8",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b8dda16ab7c2dcc5586e5",
-                            "_tpl": "5e848cc2988a8701445df1e8",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b8df216ab7c2dcc5586e7",
-                            "_tpl": "576165642459773c7a400233",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b8e0b16ab7c2dcc5586e9",
                             "_tpl": "66ffa9b66e19cc902401c5e8",
                             "upd": {
@@ -492,7 +443,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b8dc616ab7c2dcc5586e1",
+                    "target": "6a0b8e0b16ab7c2dcc5586e9",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -503,34 +454,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b8dc616ab7c2dcc5586e1",
-                            "_tpl": "5e848cc2988a8701445df1e8",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b8dda16ab7c2dcc5586e5",
-                            "_tpl": "5e848cc2988a8701445df1e8",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b8df216ab7c2dcc5586e7",
-                            "_tpl": "576165642459773c7a400233",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b8e0b16ab7c2dcc5586e9",
-                            "_tpl": "66ffa9b66e19cc902401c5e8",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b8e3116ab7c2dcc5586eb",
                             "_tpl": "67124dcfa3541f2a1f0e788b",
                             "upd": {
@@ -539,7 +462,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b8dc616ab7c2dcc5586e1",
+                    "target": "6a0b8e3116ab7c2dcc5586eb",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -848,13 +771,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b8fa116ab7c2dcc5586fb",
-                            "_tpl": "6680304edadb7aa61d00cef0",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b8fc816ab7c2dcc5586fd",
                             "_tpl": "57d14d2524597714373db789",
                             "upd": {
@@ -863,7 +779,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b8fa116ab7c2dcc5586fb",
+                    "target": "6a0b8fc816ab7c2dcc5586fd",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -874,20 +790,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b8fa116ab7c2dcc5586fb",
-                            "_tpl": "6680304edadb7aa61d00cef0",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b8fc816ab7c2dcc5586fd",
-                            "_tpl": "57d14d2524597714373db789",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b8fd416ab7c2dcc5586ff",
                             "_tpl": "57f3c6bd24597738e730fa2f",
                             "upd": {
@@ -896,7 +798,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b8fa116ab7c2dcc5586fb",
+                    "target": "6a0b8fd416ab7c2dcc5586ff",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -1046,13 +948,6 @@
                             "upd": {
                                 "SpawnedInSession": true
                             }
-                        },
-                        {
-                            "_id": "6a0b906216ab7c2dcc55870b",
-                            "_tpl": "5d2f0d8048f0356c925bc3b0",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
                         }
                     ],
                     "loyaltyLevel": 1,
@@ -1067,20 +962,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b904d16ab7c2dcc558708",
-                            "_tpl": "5d2f0d8048f0356c925bc3b0",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b906216ab7c2dcc55870b",
-                            "_tpl": "5d2f0d8048f0356c925bc3b0",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b907216ab7c2dcc55870d",
                             "_tpl": "5de7bd7bfd6b4e6e2276dc25",
                             "upd": {
@@ -1089,7 +970,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b904d16ab7c2dcc558708",
+                    "target": "6a0b907216ab7c2dcc55870d",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -1100,27 +981,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b904d16ab7c2dcc558708",
-                            "_tpl": "5d2f0d8048f0356c925bc3b0",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b906216ab7c2dcc55870b",
-                            "_tpl": "5d2f0d8048f0356c925bc3b0",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b907216ab7c2dcc55870d",
-                            "_tpl": "5de7bd7bfd6b4e6e2276dc25",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b908116ab7c2dcc55870f",
                             "_tpl": "5e00903ae9dc277128008b87",
                             "upd": {
@@ -1129,7 +989,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b904d16ab7c2dcc558708",
+                    "target": "6a0b908116ab7c2dcc55870f",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -1293,13 +1153,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b90e916ab7c2dcc558718",
-                            "_tpl": "62e14904c2699c0ec93adc47",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b90fd16ab7c2dcc55871a",
                             "_tpl": "5fc3e272f8b6a877a729eac5",
                             "upd": {
@@ -1308,7 +1161,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b90e916ab7c2dcc558718",
+                    "target": "6a0b90fd16ab7c2dcc55871a",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -1319,20 +1172,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b90e916ab7c2dcc558718",
-                            "_tpl": "62e14904c2699c0ec93adc47",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b90fd16ab7c2dcc55871a",
-                            "_tpl": "5fc3e272f8b6a877a729eac5",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b910f16ab7c2dcc55871c",
                             "_tpl": "668e71a8dadf42204c032ce1",
                             "upd": {
@@ -1341,7 +1180,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b90e916ab7c2dcc558718",
+                    "target": "6a0b910f16ab7c2dcc55871c",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -1505,13 +1344,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b917016ab7c2dcc558724",
-                            "_tpl": "5cc82d76e24e8d00134b4b83",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b917f16ab7c2dcc558726",
                             "_tpl": "5ba26383d4351e00334c93d9",
                             "upd": {
@@ -1520,7 +1352,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b917016ab7c2dcc558724",
+                    "target": "6a0b917f16ab7c2dcc558726",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -1531,20 +1363,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b917016ab7c2dcc558724",
-                            "_tpl": "5cc82d76e24e8d00134b4b83",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b917f16ab7c2dcc558726",
-                            "_tpl": "5ba26383d4351e00334c93d9",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b918e16ab7c2dcc558728",
                             "_tpl": "5bd70322209c4d00d7167b8f",
                             "upd": {
@@ -1553,7 +1371,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b917016ab7c2dcc558724",
+                    "target": "6a0b918e16ab7c2dcc558728",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -1564,27 +1382,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b917016ab7c2dcc558724",
-                            "_tpl": "5cc82d76e24e8d00134b4b83",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b917f16ab7c2dcc558726",
-                            "_tpl": "5ba26383d4351e00334c93d9",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b918e16ab7c2dcc558728",
-                            "_tpl": "5bd70322209c4d00d7167b8f",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b91a116ab7c2dcc55872a",
                             "_tpl": "58948c8e86f77409493f7266",
                             "upd": {
@@ -1593,7 +1390,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b917016ab7c2dcc558724",
+                    "target": "6a0b91a116ab7c2dcc55872a",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -1761,14 +1558,7 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b931116ab7c2dcc558732",
-                            "_tpl": "61a4c8884f95bc3b2c5dc96f",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b934a16ab7c2dcc558734",
+                            "_id": "624c2e8614da335f1e034d8c",
                             "_tpl": "624c2e8614da335f1e034d8c",
                             "upd": {
                                 "SpawnedInSession": true
@@ -1776,7 +1566,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b931116ab7c2dcc558732",
+                    "target": "624c2e8614da335f1e034d8c",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -1787,20 +1577,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b931116ab7c2dcc558732",
-                            "_tpl": "61a4c8884f95bc3b2c5dc96f",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b934a16ab7c2dcc558734",
-                            "_tpl": "624c2e8614da335f1e034d8c",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b936a16ab7c2dcc558736",
                             "_tpl": "669fa39b48fc9f8db6035a0c",
                             "upd": {
@@ -1809,7 +1585,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b931116ab7c2dcc558732",
+                    "target": "6a0b936a16ab7c2dcc558736",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -1820,27 +1596,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b931116ab7c2dcc558732",
-                            "_tpl": "61a4c8884f95bc3b2c5dc96f",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b934a16ab7c2dcc558734",
-                            "_tpl": "624c2e8614da335f1e034d8c",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b936a16ab7c2dcc558736",
-                            "_tpl": "669fa39b48fc9f8db6035a0c",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b937e16ab7c2dcc558738",
                             "_tpl": "5448bd6b4bdc2dfc2f8b4569",
                             "upd": {
@@ -1849,7 +1604,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b931116ab7c2dcc558732",
+                    "target": "6a0b937e16ab7c2dcc558738",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -1860,34 +1615,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b931116ab7c2dcc558732",
-                            "_tpl": "61a4c8884f95bc3b2c5dc96f",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b934a16ab7c2dcc558734",
-                            "_tpl": "624c2e8614da335f1e034d8c",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b936a16ab7c2dcc558736",
-                            "_tpl": "669fa39b48fc9f8db6035a0c",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b937e16ab7c2dcc558738",
-                            "_tpl": "5448bd6b4bdc2dfc2f8b4569",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b938f16ab7c2dcc55873a",
                             "_tpl": "5abccb7dd8ce87001773e277",
                             "upd": {
@@ -1896,7 +1623,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b931116ab7c2dcc558732",
+                    "target": "6a0b938f16ab7c2dcc55873a",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -2064,13 +1791,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b93f416ab7c2dcc558742",
-                            "_tpl": "5e81c3cbac2bb513793cdc75",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b940516ab7c2dcc558744",
                             "_tpl": "5f36a0e5fbf956000b716b65",
                             "upd": {
@@ -2079,7 +1799,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b93f416ab7c2dcc558742",
+                    "target": "6a0b940516ab7c2dcc558744",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -2090,20 +1810,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b93f416ab7c2dcc558742",
-                            "_tpl": "5e81c3cbac2bb513793cdc75",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b940516ab7c2dcc558744",
-                            "_tpl": "5f36a0e5fbf956000b716b65",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b941516ab7c2dcc558746",
                             "_tpl": "6193a720f8ee7e52e42109ed",
                             "upd": {
@@ -2112,7 +1818,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b93f416ab7c2dcc558742",
+                    "target": "6a0b941516ab7c2dcc558746",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -2123,27 +1829,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b93f416ab7c2dcc558742",
-                            "_tpl": "5e81c3cbac2bb513793cdc75",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b940516ab7c2dcc558744",
-                            "_tpl": "5f36a0e5fbf956000b716b65",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b941516ab7c2dcc558746",
-                            "_tpl": "6193a720f8ee7e52e42109ed",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b942416ab7c2dcc558748",
                             "_tpl": "602a9740da11d6478d5a06dc",
                             "upd": {
@@ -2152,7 +1837,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b93f416ab7c2dcc558742",
+                    "target": "6a0b942416ab7c2dcc558748",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -2163,34 +1848,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b93f416ab7c2dcc558742",
-                            "_tpl": "5e81c3cbac2bb513793cdc75",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b940516ab7c2dcc558744",
-                            "_tpl": "5f36a0e5fbf956000b716b65",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b941516ab7c2dcc558746",
-                            "_tpl": "6193a720f8ee7e52e42109ed",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b942416ab7c2dcc558748",
-                            "_tpl": "602a9740da11d6478d5a06dc",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b943416ab7c2dcc55874a",
                             "_tpl": "56d59856d2720bd8418b456a",
                             "upd": {
@@ -2199,7 +1856,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b93f416ab7c2dcc558742",
+                    "target": "6a0b943416ab7c2dcc55874a",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -2367,13 +2024,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b948916ab7c2dcc558752",
-                            "_tpl": "5d3eb3b0a4b93615055e84d2",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b949516ab7c2dcc558754",
                             "_tpl": "5d67abc1a4b93614ec50137f",
                             "upd": {
@@ -2382,7 +2032,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b948916ab7c2dcc558752",
+                    "target": "6a0b949516ab7c2dcc558754",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -2393,20 +2043,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b948916ab7c2dcc558752",
-                            "_tpl": "5d3eb3b0a4b93615055e84d2",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b949516ab7c2dcc558754",
-                            "_tpl": "5d67abc1a4b93614ec50137f",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b94b116ab7c2dcc558756",
                             "_tpl": "5a7ae0c351dfba0017554310",
                             "upd": {
@@ -2415,7 +2051,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b948916ab7c2dcc558752",
+                    "target": "6a0b94b116ab7c2dcc558756",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -2426,27 +2062,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b948916ab7c2dcc558752",
-                            "_tpl": "5d3eb3b0a4b93615055e84d2",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b949516ab7c2dcc558754",
-                            "_tpl": "5d67abc1a4b93614ec50137f",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b94b116ab7c2dcc558756",
-                            "_tpl": "5a7ae0c351dfba0017554310",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b94be16ab7c2dcc558758",
                             "_tpl": "5b1fa9b25acfc40018633c01",
                             "upd": {
@@ -2455,7 +2070,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b948916ab7c2dcc558752",
+                    "target": "6a0b94be16ab7c2dcc558758",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -2466,34 +2081,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b948916ab7c2dcc558752",
-                            "_tpl": "5d3eb3b0a4b93615055e84d2",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b949516ab7c2dcc558754",
-                            "_tpl": "5d67abc1a4b93614ec50137f",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b94b116ab7c2dcc558756",
-                            "_tpl": "5a7ae0c351dfba0017554310",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b94be16ab7c2dcc558758",
-                            "_tpl": "5b1fa9b25acfc40018633c01",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b94d916ab7c2dcc55875a",
                             "_tpl": "63088377b5cd696784087147",
                             "upd": {
@@ -2502,7 +2089,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b948916ab7c2dcc558752",
+                    "target": "6a0b94d916ab7c2dcc55875a",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -2653,13 +2240,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b954516ab7c2dcc558761",
-                            "_tpl": "5c46fbd72e2216398b5a8c9c",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b955016ab7c2dcc558763",
                             "_tpl": "5aafa857e5b5b00018480968",
                             "upd": {
@@ -2668,7 +2248,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b954516ab7c2dcc558761",
+                    "target": "6a0b955016ab7c2dcc558763",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -2819,13 +2399,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b95a516ab7c2dcc55876b",
-                            "_tpl": "6176aca650224f204c1da3fb",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b95b616ab7c2dcc55876d",
                             "_tpl": "5df8ce05b11454561e39243b",
                             "upd": {
@@ -2834,7 +2407,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b95a516ab7c2dcc55876b",
+                    "target": "6a0b95b616ab7c2dcc55876d",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -2845,20 +2418,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b95a516ab7c2dcc55876b",
-                            "_tpl": "6176aca650224f204c1da3fb",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b95b616ab7c2dcc55876d",
-                            "_tpl": "5df8ce05b11454561e39243b",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b95c516ab7c2dcc55876f",
                             "_tpl": "5a367e5dc4a282000e49738f",
                             "upd": {
@@ -2867,7 +2426,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b95a516ab7c2dcc55876b",
+                    "target": "6a0b95c516ab7c2dcc55876f",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -3160,13 +2719,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b967716ab7c2dcc55877f",
-                            "_tpl": "5de652c31b7e3716273428be",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b96bc16ab7c2dcc558781",
                             "_tpl": "5bfea6e90db834001b7347f3",
                             "upd": {
@@ -3175,7 +2727,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b967716ab7c2dcc55877f",
+                    "target": "6a0b96bc16ab7c2dcc558781",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -3328,13 +2880,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b973416ab7c2dcc55878a",
-                            "_tpl": "588892092459774ac91d4b11",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b975416ab7c2dcc55878c",
                             "_tpl": "5df24cf80dee1b22f862e9bc",
                             "upd": {
@@ -3343,7 +2888,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b973416ab7c2dcc55878a",
+                    "target": "6a0b975416ab7c2dcc55878c",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -3354,20 +2899,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b973416ab7c2dcc55878a",
-                            "_tpl": "588892092459774ac91d4b11",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
-                            "_id": "6a0b975416ab7c2dcc55878c",
-                            "_tpl": "5df24cf80dee1b22f862e9bc",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b976516ab7c2dcc55878e",
                             "_tpl": "55801eed4bdc2d89578b4588",
                             "upd": {
@@ -3376,7 +2907,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b973416ab7c2dcc55878a",
+                    "target": "6a0b976516ab7c2dcc55878e",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -3529,13 +3060,6 @@
                     "index": 0,
                     "items": [
                         {
-                            "_id": "6a0b980116ab7c2dcc558798",
-                            "_tpl": "673cab3e03c6a20581028bc1",
-                            "upd": {
-                                "SpawnedInSession": true
-                            }
-                        },
-                        {
                             "_id": "6a0b980d16ab7c2dcc55879a",
                             "_tpl": "627e14b21713922ded6f2c15",
                             "upd": {
@@ -3544,7 +3068,7 @@
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "6a0b980116ab7c2dcc558798",
+                    "target": "6a0b980d16ab7c2dcc55879a",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
