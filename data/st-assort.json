@@ -599,6 +599,138 @@
       },
       "unlockedOn": "success",
       "questID": "6a0b9b4e16ab7c2dcc5587ce"
+    },
+    {
+      "_id": "6a0d3bf9659a09f6c356de4c",
+      "_tpl": "67d0576f29f580ebc10efd08",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999
+      },
+      "unlockedOn": "success",
+      "questID": "6a0d21c5d47f367b5bed547a"
+    },
+    {
+      "_id": "6a0d3c07659a09f6c356de4d",
+      "_tpl": "67dc2648ba5b79876906a166",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999
+      },
+      "unlockedOn": "success",
+      "questID": "6a0d21c5d47f367b5bed547a"
+    },
+    {
+      "_id": "6a0d3c13659a09f6c356de4e",
+      "_tpl": "67dc255ee3028a8b120efc48",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999
+      },
+      "unlockedOn": "success",
+      "questID": "6a0d21c5d47f367b5bed547a"
+    },
+    {
+      "_id": "6a0d3c34659a09f6c356de50",
+      "_tpl": "67dc212493ce32834b0fa446",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999
+      },
+      "unlockedOn": "success",
+      "questID": "6a0d21c5d47f367b5bed547a"
+    },
+    {
+      "_id": "6a0d3c41659a09f6c356de51",
+      "_tpl": "67d41936f378a36c4706eeb9",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999
+      },
+      "unlockedOn": "success",
+      "questID": "6a0d21c5d47f367b5bed547a"
+    },
+    {
+      "_id": "6a0d3c83659a09f6c356de52",
+      "_tpl": "69c36c0a382b750bcdc01658",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999
+      },
+      "unlockedOn": "success",
+      "questID": "6a0d22f0d47f367b5bed548b"
+    },
+    {
+      "_id": "6a0d3c97659a09f6c356de53",
+      "_tpl": "69c36c0a382b750bcdc01658",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999
+      },
+      "unlockedOn": "success",
+      "questID": "6a0d22f0d47f367b5bed548b"
+    },
+    {
+      "_id": "6a0d3ca6659a09f6c356de54",
+      "_tpl": "6765d79148caecc924f38301",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999
+      },
+      "unlockedOn": "success",
+      "questID": "6a0d2447d47f367b5bed5496"
+    },
+    {
+      "_id": "6a0d3cad659a09f6c356de55",
+      "_tpl": "679de71c3b47fe7f7537f7ff",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999
+      },
+      "unlockedOn": "success",
+      "questID": "6a0d2447d47f367b5bed5496"
+    },
+    {
+      "_id": "6a0d3cb7659a09f6c356de56",
+      "_tpl": "679d31ae779c471efb063dba",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999
+      },
+      "unlockedOn": "success",
+      "questID": "6a0d2447d47f367b5bed5496"
+    },
+    {
+      "_id": "6a0d3cc1659a09f6c356de57",
+      "_tpl": "67e343112c5ed0143e3c74eb",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999
+      },
+      "unlockedOn": "success",
+      "questID": "6a0d2447d47f367b5bed5496"
     }
   ],
   "barter_scheme": {
@@ -1001,6 +1133,94 @@
           "_tpl": "5449016a4bdc2d6f028b456f"
         }
       ]
+    ],
+    "6a0d3bf9659a09f6c356de4c": [
+      [
+        {
+          "count": 100000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "6a0d3c07659a09f6c356de4d": [
+      [
+        {
+          "count": 6000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "6a0d3c13659a09f6c356de4e": [
+      [
+        {
+          "count": 3000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "6a0d3c34659a09f6c356de50": [
+      [
+        {
+          "count": 2500,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "6a0d3c41659a09f6c356de51": [
+      [
+        {
+          "count": 2000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "6a0d3c83659a09f6c356de52": [
+      [
+        {
+          "count": 57000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "6a0d3c97659a09f6c356de53": [
+      [
+        {
+          "count": 26000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "6a0d3ca6659a09f6c356de54": [
+      [
+        {
+          "count": 2000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "6a0d3cad659a09f6c356de55": [
+      [
+        {
+          "count": 2000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "6a0d3cb7659a09f6c356de56": [
+      [
+        {
+          "count": 2000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "6a0d3cc1659a09f6c356de57": [
+      [
+        {
+          "count": 2000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
     ]
   },
   "loyal_level_items": {
@@ -1053,6 +1273,17 @@
     "6a0ca9d1eac282d778911ca8": 1,
     "6a0ca9e2eac282d778911ca9": 1,
     "6a0ca9f9eac282d778911caa": 1,
-    "6a0caa32eac282d778911cab": 1
+    "6a0caa32eac282d778911cab": 1,
+    "6a0d3bf9659a09f6c356de4c": 1,
+    "6a0d3c07659a09f6c356de4d": 1,
+    "6a0d3c13659a09f6c356de4e": 1,
+    "6a0d3c34659a09f6c356de50": 1,
+    "6a0d3c41659a09f6c356de51": 1,
+    "6a0d3c83659a09f6c356de52": 1,
+    "6a0d3c97659a09f6c356de53": 1,
+    "6a0d3ca6659a09f6c356de54": 1,
+    "6a0d3cad659a09f6c356de55": 1,
+    "6a0d3cb7659a09f6c356de56": 1,
+    "6a0d3cc1659a09f6c356de57": 1
   }
 }
