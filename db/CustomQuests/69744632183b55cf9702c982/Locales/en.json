@@ -387,7 +387,7 @@
     "6a0d25fbd47f367b5bed54b1 startedMessageText": "",
     "6a0d25fbd47f367b5bed54b1 successMessageText": "",
     "6a0d26b2d47f367b5bed54b6": "Find RAM Sticks",
-	"6a0d315d6bef92b892b8763a": "Turn in RAM Sticks"
+	"6a0d315d6bef92b892b8763a": "Turn in RAM Sticks",
     "6a0d274cd47f367b5bed54b7 name": "Bi-Lingual - Part 1",
     "6a0d274cd47f367b5bed54b7 note": "",
     "6a0d274cd47f367b5bed54b7 acceptPlayerMessage": "",
@@ -433,6 +433,6 @@
     "6a0d28fcd47f367b5bed54ce startedMessageText": "",
     "6a0d28fcd47f367b5bed54ce successMessageText": "",
     "6a0d29a8d47f367b5bed54d8": "Найти ключ от стойки охраны общежития",
-    "6a0d29b7d47f367b5bed54d9": "Передайте ключ на стойку охраны общежития.",
+    "6a0d29b7d47f367b5bed54d9": "Передайте ключ на стойку охраны общежития."
 
 }
