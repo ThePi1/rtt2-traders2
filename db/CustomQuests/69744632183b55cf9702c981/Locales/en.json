@@ -261,7 +261,7 @@
     "69ff8b264a655e862e8149d5 failMessageText": "",
     "69ff8b264a655e862e8149d5 startedMessageText": "",
     "69ff8b264a655e862e8149d5 successMessageText": "Aw crap, is you from Hyperion?",
-    "69ff8ca54a655e862e8149d9": "Kill PMCs while under 5 hunger and 5 energy",
+    "69ff8ca54a655e862e8149d9": "Kill PMCs using the AUG 5.56x45 10-round magazine",
     "69ff8b9f4a655e862e8149d8": "",
     "69ff946a30c5fd97a1313db6 name": "Flat Life Regen - Part 1",
     "69ff946a30c5fd97a1313db6 note": "",
@@ -908,6 +908,17 @@
     "6a0bbb85255fe4bc50f2585a startedMessageText": "",
     "6a0bbb85255fe4bc50f2585a successMessageText": "",
     "6a0bbc35255fe4bc50f2585f": "Eliminate PMCs with a Pistol",
-    "6a0bbc54255fe4bc50f25864": "Eliminate Scavs with a Pistol"
-
+    "6a0bbc54255fe4bc50f25864": "Eliminate Scavs with a Pistol",
+    "6a0ce468de041c7f96100a7e name": "",
+    "6a0ce468de041c7f96100a7e note": "",
+    "6a0ce468de041c7f96100a7e acceptPlayerMessage": "",
+    "6a0ce468de041c7f96100a7e changeQuestMessageText": "",
+    "6a0ce468de041c7f96100a7e completePlayerMessage": "",
+    "6a0ce468de041c7f96100a7e declinePlayerMessage": "",
+    "6a0ce468de041c7f96100a7e description": "",
+    "6a0ce468de041c7f96100a7e failMessageText": "",
+    "6a0ce468de041c7f96100a7e startedMessageText": "",
+    "6a0ce468de041c7f96100a7e successMessageText": "",
+    "6a0ce96cde041c7f96100a81": "",
+    "6a0cea72de041c7f96100a84": ""
 }

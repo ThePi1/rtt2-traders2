@@ -3668,15 +3668,15 @@
         "traderId": "69744632183b55cf9702c981",
         "type": "Elimination"
     },
-    "69ff8b264a655e862e8149d5": {
+    "6a0ce468de041c7f96100a7e": {
         "QuestName": "Dodge Caravan - Part 2",
-        "_id": "69ff8b264a655e862e8149d5",
-        "acceptPlayerMessage": "69ff8b264a655e862e8149d5 acceptPlayerMessage",
+        "_id": "6a0ce468de041c7f96100a7e",
+        "acceptPlayerMessage": "6a0ce468de041c7f96100a7e acceptPlayerMessage",
         "acceptanceAndFinishingSource": "eft",
         "arenaLocations": [],
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "69ff8b264a655e862e8149d5 changeQuestMessageText",
-        "completePlayerMessage": "69ff8b264a655e862e8149d5 completePlayerMessage",
+        "changeQuestMessageText": "6a0ce468de041c7f96100a7e changeQuestMessageText",
+        "completePlayerMessage": "6a0ce468de041c7f96100a7e completePlayerMessage",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -3700,7 +3700,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "69ff8cb34a655e862e8149da",
+                                "id": "6a0cea67de041c7f96100a82",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "AnyPmc",
@@ -3708,38 +3708,19 @@
                                 "weapon": [],
                                 "weaponCaliber": [],
                                 "weaponModsExclusive": [],
-                                "weaponModsInclusive": []
-                            },
-                            {
-                                "bodyPartsWithEffects": [
-                                    {
-                                        "bodyParts": [],
-                                        "effects": []
-                                    }
-                                ],
-                                "conditionType": "HealthEffect",
-                                "dynamicLocale": false,
-                                "energy": {
-                                    "compareMethod": "<=",
-                                    "value": 5
-                                },
-                                "hydration": {
-                                    "compareMethod": "<=",
-                                    "value": 5
-                                },
-                                "id": "69ff8cbe4a655e862e8149db",
-                                "time": {
-                                    "compareMethod": ">=",
-                                    "value": 0
-                                }
+                                "weaponModsInclusive": [
+                                    [
+                                        "630e1adbbd357927e4007c09"
+                                    ]
+                                ]
                             }
                         ],
-                        "id": "69ff8cc14a655e862e8149dc"
+                        "id": "6a0cea69de041c7f96100a83"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "69ff8ca54a655e862e8149d9",
+                    "id": "6a0ce96cde041c7f96100a81",
                     "index": 0,
                     "isNecessary": false,
                     "isResetOnConditionFailed": false,
@@ -3757,7 +3738,7 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "69ff8b9f4a655e862e8149d8",
+                    "id": "6a0cea72de041c7f96100a84",
                     "index": 0,
                     "parentId": "",
                     "status": [
@@ -3769,15 +3750,15 @@
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "69ff8b264a655e862e8149d5 declinePlayerMessage",
-        "description": "69ff8b264a655e862e8149d5 description",
-        "failMessageText": "69ff8b264a655e862e8149d5 failMessageText",
-        "image": "/files/quest/icon/63ab182c87413d64ae0ac20c.jpg",
+        "declinePlayerMessage": "6a0ce468de041c7f96100a7e declinePlayerMessage",
+        "description": "6a0ce468de041c7f96100a7e description",
+        "failMessageText": "6a0ce468de041c7f96100a7e failMessageText",
+        "image": "/files/quest/icon/6137505384aedf00fa17b651.jpg",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "69ff8b264a655e862e8149d5 name",
-        "note": "69ff8b264a655e862e8149d5 note",
+        "name": "6a0ce468de041c7f96100a7e name",
+        "note": "6a0ce468de041c7f96100a7e note",
         "progressSource": "eft",
         "rankingModes": [],
         "restartable": false,
@@ -3787,9 +3768,9 @@
             "Success": [
                 {
                     "availableInGameEditions": [],
-                    "id": "69ff8b554a655e862e8149d6",
+                    "id": "6a0ce95dde041c7f96100a80",
                     "index": 0,
-                    "target": "Endurance",
+                    "target": "MagDrills",
                     "type": "Skill",
                     "unknown": false,
                     "value": 1500
@@ -3798,8 +3779,8 @@
         },
         "secretQuest": false,
         "side": "pmc",
-        "startedMessageText": "69ff8b264a655e862e8149d5 startedMessageText",
-        "successMessageText": "69ff8b264a655e862e8149d5 successMessageText",
+        "startedMessageText": "6a0ce468de041c7f96100a7e startedMessageText",
+        "successMessageText": "6a0ce468de041c7f96100a7e successMessageText",
         "traderId": "69744632183b55cf9702c981",
         "type": "Elimination"
     },
