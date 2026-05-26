@@ -1,0 +1,337 @@
+{
+    "6a14f73a3de7c9e706e258bb": {
+        "QuestName": "Fully Vested - Part 1",
+        "_id": "6a14f73a3de7c9e706e258bb",
+        "acceptPlayerMessage": "6a14f73a3de7c9e706e258bb acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6a14f73a3de7c9e706e258bb changeQuestMessageText",
+        "completePlayerMessage": "6a14f73a3de7c9e706e258bb completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a14f76c3de7c9e706e258bf",
+                    "index": 0,
+                    "inEncoded": false,
+                    "maxDurability": 75,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "target": [
+                        "5648a7494bdc2d9d488b4583",
+                        "607f20859ee58b18e41ecd90"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a14f7a13de7c9e706e258c0",
+                    "index": 0,
+                    "inEncoded": false,
+                    "minDurability": 0,
+                    "maxDurability": 75,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "target": [
+                        "5648a7494bdc2d9d488b4583",
+                        "607f20859ee58b18e41ecd90"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a14f74a3de7c9e706e258bc",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "69f94677a49a5754e709dbae",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6a14f73a3de7c9e706e258bb declinePlayerMessage",
+        "description": "6a14f73a3de7c9e706e258bb description",
+        "failMessageText": "6a14f73a3de7c9e706e258bb failMessageText",
+        "image": "/files/quest/icon/6137505384aedf00fa17b651.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6a14f73a3de7c9e706e258bb name",
+        "note": "6a14f73a3de7c9e706e258bb note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "id": "6a14f7563de7c9e706e258bd",
+                    "index": 0,
+                    "target": "LightVests",
+                    "type": "Skill",
+                    "unknown": false,
+                    "value": 1000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "id": "6a14f7623de7c9e706e258be",
+                    "index": 0,
+                    "target": "HeavyVests",
+                    "type": "Skill",
+                    "unknown": false,
+                    "value": 1000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6a14f73a3de7c9e706e258bb startedMessageText",
+        "successMessageText": "6a14f73a3de7c9e706e258bb successMessageText",
+        "traderId": "69744632183b55cf9702c981",
+        "type": "Completion"
+    },
+    "6a14f7d03de7c9e706e258c1": {
+        "QuestName": "Fully Vested - Part 2",
+        "_id": "6a14f7d03de7c9e706e258c1",
+        "acceptPlayerMessage": "6a14f7d03de7c9e706e258c1 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6a14f7d03de7c9e706e258c1 changeQuestMessageText",
+        "completePlayerMessage": "6a14f7d03de7c9e706e258c1 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a14f7ed3de7c9e706e258c5",
+                    "index": 0,
+                    "inEncoded": false,
+                    "maxDurability": 75,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "target": [
+                        "5ab8e79e86f7742d8b372e78"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a14f8103de7c9e706e258c6",
+                    "index": 0,
+                    "inEncoded": false,
+                    "minDurability": 0,
+                    "maxDurability": 75,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "target": [
+                        "5ab8e79e86f7742d8b372e78"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a14f7d23de7c9e706e258c2",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6a14f73a3de7c9e706e258bb",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6a14f7d03de7c9e706e258c1 declinePlayerMessage",
+        "description": "6a14f7d03de7c9e706e258c1 description",
+        "failMessageText": "6a14f7d03de7c9e706e258c1 failMessageText",
+        "image": "/files/quest/icon/6137505384aedf00fa17b651.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6a14f7d03de7c9e706e258c1 name",
+        "note": "6a14f7d03de7c9e706e258c1 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "id": "6a14f7df3de7c9e706e258c3",
+                    "index": 0,
+                    "target": "LightVests",
+                    "type": "Skill",
+                    "unknown": false,
+                    "value": 1500
+                },
+                {
+                    "availableInGameEditions": [],
+                    "id": "6a14f7e73de7c9e706e258c4",
+                    "index": 0,
+                    "target": "HeavyVests",
+                    "type": "Skill",
+                    "unknown": false,
+                    "value": 1500
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6a14f7d03de7c9e706e258c1 startedMessageText",
+        "successMessageText": "6a14f7d03de7c9e706e258c1 successMessageText",
+        "traderId": "69744632183b55cf9702c981",
+        "type": "Completion"
+    },
+    "6a14f8223de7c9e706e258c7": {
+        "QuestName": "Fully Vested - Part 3",
+        "_id": "6a14f8223de7c9e706e258c7",
+        "acceptPlayerMessage": "6a14f8223de7c9e706e258c7 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6a14f8223de7c9e706e258c7 changeQuestMessageText",
+        "completePlayerMessage": "6a14f8223de7c9e706e258c7 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a14f8443de7c9e706e258cb",
+                    "index": 0,
+                    "inEncoded": false,
+                    "maxDurability": 75,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "target": [
+                        "5c0e541586f7747fa54205c9"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a14f8563de7c9e706e258cc",
+                    "index": 0,
+                    "inEncoded": false,
+                    "minDurability": 0,
+                    "maxDurability": 75,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "target": [
+                        "5c0e541586f7747fa54205c9"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6a14f83d3de7c9e706e258ca",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6a14f7d03de7c9e706e258c1",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6a14f8223de7c9e706e258c7 declinePlayerMessage",
+        "description": "6a14f8223de7c9e706e258c7 description",
+        "failMessageText": "6a14f8223de7c9e706e258c7 failMessageText",
+        "image": "/files/quest/icon/6137505384aedf00fa17b651.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6a14f8223de7c9e706e258c7 name",
+        "note": "6a14f8223de7c9e706e258c7 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "id": "6a14f82d3de7c9e706e258c8",
+                    "index": 0,
+                    "target": "LightVests",
+                    "type": "Skill",
+                    "unknown": false,
+                    "value": 2700
+                },
+                {
+                    "availableInGameEditions": [],
+                    "id": "6a14f8353de7c9e706e258c9",
+                    "index": 0,
+                    "target": "HeavyVests",
+                    "type": "Skill",
+                    "unknown": false,
+                    "value": 2700
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6a14f8223de7c9e706e258c7 startedMessageText",
+        "successMessageText": "6a14f8223de7c9e706e258c7 successMessageText",
+        "traderId": "69744632183b55cf9702c981",
+        "type": "Completion"
+    }
+}
