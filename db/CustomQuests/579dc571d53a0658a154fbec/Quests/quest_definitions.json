@@ -1,5 +1,5 @@
 {
-	"69cf0b9dd7d2715797a83dac": {
+    "69cf0b9dd7d2715797a83dac": {
         "QuestName": "Return to the City",
         "_id": "69cf0b9dd7d2715797a83dac",
         "acceptPlayerMessage": "69cf0b9dd7d2715797a83dac acceptPlayerMessage",
@@ -33,7 +33,7 @@
                                 },
                                 "distance": {
                                     "compareMethod": ">=",
-                                    "distance": 0
+                                    "value": 0
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
@@ -127,7 +127,7 @@
         "traderId": "579dc571d53a0658a154fbec",
         "type": "Elimination"
     },
-	"69cf0c7c185a5729e3c907bf": {
+    "69cf0c7c185a5729e3c907bf": {
         "QuestName": "Silent Arrival",
         "_id": "69cf0c7c185a5729e3c907bf",
         "acceptPlayerMessage": "69cf0c7c185a5729e3c907bf acceptPlayerMessage",
@@ -153,7 +153,7 @@
                                 },
                                 "distance": {
                                     "compareMethod": ">=",
-                                    "distance": 0
+                                    "value": 0
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
@@ -168,235 +168,235 @@
                                 "weaponCaliber": [],
                                 "weaponModsExclusive": [],
                                 "weaponModsInclusive": [
-									[
-										"54490a4d4bdc2dbc018b4573"
-									],
-									[
-										"55d614004bdc2d86028b4568"
-									],
-									[
-										"55d617094bdc2d89028b4568"
-									],
-									[
-										"55d6190f4bdc2d87028b4567"
-									],
-									[
-										"564caa3d4bdc2d17108b458e"
-									],
-									[
-										"56e05b06d2720bb2668b4586"
-									],
-									[
-										"571a28e524597720b4066567"
-									],
-									[
-										"57838c962459774a1651ec63"
-									],
-									[
-										"57c44dd02459772d2e0ae249"
-									],
-									[
-										"57da93632459771cb65bf83f"
-									],
-									[
-										"57dbb57e2459774673234890"
-									],
-									[
-										"57f3c8cc2459773ec4480328"
-									],
-									[
-										"57ffb0e42459777d047111c5"
-									],
-									[
-										"58aeac1b86f77457c419f475"
-									],
-									[
-										"5926d33d86f77410de68ebc0"
-									],
-									[
-										"593d489686f7745c6255d58a"
-									],
-									[
-										"593d490386f7745ee97a1555"
-									],
-									[
-										"593d493f86f7745e6b2ceb22"
-									],
-									[
-										"59bfc5c886f7743bf6794e62"
-									],
-									[
-										"59bffbb386f77435b379b9c2"
-									],
-									[
-										"59c0ec5b86f77435b128bfca"
-									],
-									[
-										"59fb257e86f7742981561852"
-									],
-									[
-										"5a0d63621526d8dba31fe3bf"
-									],
-									[
-										"5a27b6bec4a282000e496f78"
-									],
-									[
-										"5a32a064c4a28200741e22de"
-									],
-									[
-										"5a33a8ebc4a282000c5a950d"
-									],
-									[
-										"5a34fe59c4a282000b1521a2"
-									],
-									[
-										"5a7ad74e51dfba0015068f45"
-									],
-									[
-										"5a9fb739a2750c003215717f"
-									],
-									[
-										"5a9fbacda2750c00141e080f"
-									],
-									[
-										"5a9fbb74a2750c0032157181"
-									],
-									[
-										"5a9fbb84a2750c00137fa685"
-									],
-									[
-										"5abcc328d8ce8700194394f3"
-									],
-									[
-										"5b363dd25acfc4001a598fd2"
-									],
-									[
-										"5b86a0e586f7745b600ccb23"
-									],
-									[
-										"5ba26ae8d4351e00367f9bdb"
-									],
-									[
-										"5c4eecc32e221602b412b440"
-									],
-									[
-										"5c6165902e22160010261b28"
-									],
-									[
-										"5c7955c22e221644f31bfd5e"
-									],
-									[
-										"5c7e8fab2e22165df16b889b"
-									],
-									[
-										"5caf187cae92157c28402e43"
-									],
-									[
-										"5cebec00d7f00c065c53522a"
-									],
-									[
-										"5cff9e84d7ad1a049e54ed55"
-									],
-									[
-										"5d3ef698a4b9361182109872"
-									],
-									[
-										"5d44064fa4b9361e4f6eb8b5"
-									],
-									[
-										"5de8f2d5b74cd90030650c72"
-									],
-									[
-										"5dfa3d2b0dee1b22f862eade"
-									],
-									[
-										"5e01ea19e9dc277128008c0b"
-									],
-									[
-										"5e208b9842457a4a7a33d074"
-									],
-									[
-										"5ea17bbc09aa976f2e7a51cd"
-									],
-									[
-										"5f63407e1b231926f2329f15"
-									],
-									[
-										"5fbe760793164a5b6278efc8"
-									],
-									[
-										"5fbe7618d6fa9c00c571bb6c"
-									],
-									[
-										"5fc4b9b17283c4046c5814d7"
-									],
-									[
-										"602a97060ddce744014caf6f"
-									],
-									[
-										"60926df0132d4d12c81fd9df"
-									],
-									[
-										"6130c4d51cb55961fa0fd49f"
-									],
-									[
-										"615d8f8567085e45ef1409ca"
-									],
-									[
-										"6171367e1cb55961fa0fdb36"
-									],
-									[
-										"626673016f1edc06f30cf6d5"
-									],
-									[
-										"62811fa609427b40ab14e765"
-									],
-									[
-										"62e2a7138e1ac9380579c122"
-									],
-									[
-										"630f2982cdb9e392db0cbcc7"
-									],
-									[
-										"634eba08f69c710e0108d386"
-									],
-									[
-										"638612b607dfed1ccb7206ba"
-									],
-									[
-										"63877c99e785640d436458ea"
-									],
-									[
-										"64527a3a7da7133e5a09ca99"
-									],
-									[
-										"64c196ad26a15b84aa07132f"
-									],
-									[
-										"65144ff50e00edc79406836f"
-									],
-									[
-										"652911e650dc782999054b9d"
-									],
-									[
-										"66993733f74fef4dfd0b04ff"
-									],
-									[
-										"673f0a38259f5945d70e43a6"
-									],
-									[
-										"673f0a9370a3ddcf0d0ee0b8"
-									],
-									[
-										"673f0b36536d64240f01acd6"
-									],
-									[
-										"676149c5062e6212f5058c36"
-									],
-									[
-										"676149d8e889e1972605d6be"
-									]
-								]
+                                    [
+                                        "54490a4d4bdc2dbc018b4573"
+                                    ],
+                                    [
+                                        "55d614004bdc2d86028b4568"
+                                    ],
+                                    [
+                                        "55d617094bdc2d89028b4568"
+                                    ],
+                                    [
+                                        "55d6190f4bdc2d87028b4567"
+                                    ],
+                                    [
+                                        "564caa3d4bdc2d17108b458e"
+                                    ],
+                                    [
+                                        "56e05b06d2720bb2668b4586"
+                                    ],
+                                    [
+                                        "571a28e524597720b4066567"
+                                    ],
+                                    [
+                                        "57838c962459774a1651ec63"
+                                    ],
+                                    [
+                                        "57c44dd02459772d2e0ae249"
+                                    ],
+                                    [
+                                        "57da93632459771cb65bf83f"
+                                    ],
+                                    [
+                                        "57dbb57e2459774673234890"
+                                    ],
+                                    [
+                                        "57f3c8cc2459773ec4480328"
+                                    ],
+                                    [
+                                        "57ffb0e42459777d047111c5"
+                                    ],
+                                    [
+                                        "58aeac1b86f77457c419f475"
+                                    ],
+                                    [
+                                        "5926d33d86f77410de68ebc0"
+                                    ],
+                                    [
+                                        "593d489686f7745c6255d58a"
+                                    ],
+                                    [
+                                        "593d490386f7745ee97a1555"
+                                    ],
+                                    [
+                                        "593d493f86f7745e6b2ceb22"
+                                    ],
+                                    [
+                                        "59bfc5c886f7743bf6794e62"
+                                    ],
+                                    [
+                                        "59bffbb386f77435b379b9c2"
+                                    ],
+                                    [
+                                        "59c0ec5b86f77435b128bfca"
+                                    ],
+                                    [
+                                        "59fb257e86f7742981561852"
+                                    ],
+                                    [
+                                        "5a0d63621526d8dba31fe3bf"
+                                    ],
+                                    [
+                                        "5a27b6bec4a282000e496f78"
+                                    ],
+                                    [
+                                        "5a32a064c4a28200741e22de"
+                                    ],
+                                    [
+                                        "5a33a8ebc4a282000c5a950d"
+                                    ],
+                                    [
+                                        "5a34fe59c4a282000b1521a2"
+                                    ],
+                                    [
+                                        "5a7ad74e51dfba0015068f45"
+                                    ],
+                                    [
+                                        "5a9fb739a2750c003215717f"
+                                    ],
+                                    [
+                                        "5a9fbacda2750c00141e080f"
+                                    ],
+                                    [
+                                        "5a9fbb74a2750c0032157181"
+                                    ],
+                                    [
+                                        "5a9fbb84a2750c00137fa685"
+                                    ],
+                                    [
+                                        "5abcc328d8ce8700194394f3"
+                                    ],
+                                    [
+                                        "5b363dd25acfc4001a598fd2"
+                                    ],
+                                    [
+                                        "5b86a0e586f7745b600ccb23"
+                                    ],
+                                    [
+                                        "5ba26ae8d4351e00367f9bdb"
+                                    ],
+                                    [
+                                        "5c4eecc32e221602b412b440"
+                                    ],
+                                    [
+                                        "5c6165902e22160010261b28"
+                                    ],
+                                    [
+                                        "5c7955c22e221644f31bfd5e"
+                                    ],
+                                    [
+                                        "5c7e8fab2e22165df16b889b"
+                                    ],
+                                    [
+                                        "5caf187cae92157c28402e43"
+                                    ],
+                                    [
+                                        "5cebec00d7f00c065c53522a"
+                                    ],
+                                    [
+                                        "5cff9e84d7ad1a049e54ed55"
+                                    ],
+                                    [
+                                        "5d3ef698a4b9361182109872"
+                                    ],
+                                    [
+                                        "5d44064fa4b9361e4f6eb8b5"
+                                    ],
+                                    [
+                                        "5de8f2d5b74cd90030650c72"
+                                    ],
+                                    [
+                                        "5dfa3d2b0dee1b22f862eade"
+                                    ],
+                                    [
+                                        "5e01ea19e9dc277128008c0b"
+                                    ],
+                                    [
+                                        "5e208b9842457a4a7a33d074"
+                                    ],
+                                    [
+                                        "5ea17bbc09aa976f2e7a51cd"
+                                    ],
+                                    [
+                                        "5f63407e1b231926f2329f15"
+                                    ],
+                                    [
+                                        "5fbe760793164a5b6278efc8"
+                                    ],
+                                    [
+                                        "5fbe7618d6fa9c00c571bb6c"
+                                    ],
+                                    [
+                                        "5fc4b9b17283c4046c5814d7"
+                                    ],
+                                    [
+                                        "602a97060ddce744014caf6f"
+                                    ],
+                                    [
+                                        "60926df0132d4d12c81fd9df"
+                                    ],
+                                    [
+                                        "6130c4d51cb55961fa0fd49f"
+                                    ],
+                                    [
+                                        "615d8f8567085e45ef1409ca"
+                                    ],
+                                    [
+                                        "6171367e1cb55961fa0fdb36"
+                                    ],
+                                    [
+                                        "626673016f1edc06f30cf6d5"
+                                    ],
+                                    [
+                                        "62811fa609427b40ab14e765"
+                                    ],
+                                    [
+                                        "62e2a7138e1ac9380579c122"
+                                    ],
+                                    [
+                                        "630f2982cdb9e392db0cbcc7"
+                                    ],
+                                    [
+                                        "634eba08f69c710e0108d386"
+                                    ],
+                                    [
+                                        "638612b607dfed1ccb7206ba"
+                                    ],
+                                    [
+                                        "63877c99e785640d436458ea"
+                                    ],
+                                    [
+                                        "64527a3a7da7133e5a09ca99"
+                                    ],
+                                    [
+                                        "64c196ad26a15b84aa07132f"
+                                    ],
+                                    [
+                                        "65144ff50e00edc79406836f"
+                                    ],
+                                    [
+                                        "652911e650dc782999054b9d"
+                                    ],
+                                    [
+                                        "66993733f74fef4dfd0b04ff"
+                                    ],
+                                    [
+                                        "673f0a38259f5945d70e43a6"
+                                    ],
+                                    [
+                                        "673f0a9370a3ddcf0d0ee0b8"
+                                    ],
+                                    [
+                                        "673f0b36536d64240f01acd6"
+                                    ],
+                                    [
+                                        "676149c5062e6212f5058c36"
+                                    ],
+                                    [
+                                        "676149d8e889e1972605d6be"
+                                    ]
+                                ]
                             }
                         ],
                         "id": "69cf0d2b185a5729e3c907c5"
@@ -429,7 +429,7 @@
                                 },
                                 "distance": {
                                     "compareMethod": ">=",
-                                    "distance": 0
+                                    "value": 0
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
@@ -444,235 +444,235 @@
                                 "weaponCaliber": [],
                                 "weaponModsExclusive": [],
                                 "weaponModsInclusive": [
-									[
-										"54490a4d4bdc2dbc018b4573"
-									],
-									[
-										"55d614004bdc2d86028b4568"
-									],
-									[
-										"55d617094bdc2d89028b4568"
-									],
-									[
-										"55d6190f4bdc2d87028b4567"
-									],
-									[
-										"564caa3d4bdc2d17108b458e"
-									],
-									[
-										"56e05b06d2720bb2668b4586"
-									],
-									[
-										"571a28e524597720b4066567"
-									],
-									[
-										"57838c962459774a1651ec63"
-									],
-									[
-										"57c44dd02459772d2e0ae249"
-									],
-									[
-										"57da93632459771cb65bf83f"
-									],
-									[
-										"57dbb57e2459774673234890"
-									],
-									[
-										"57f3c8cc2459773ec4480328"
-									],
-									[
-										"57ffb0e42459777d047111c5"
-									],
-									[
-										"58aeac1b86f77457c419f475"
-									],
-									[
-										"5926d33d86f77410de68ebc0"
-									],
-									[
-										"593d489686f7745c6255d58a"
-									],
-									[
-										"593d490386f7745ee97a1555"
-									],
-									[
-										"593d493f86f7745e6b2ceb22"
-									],
-									[
-										"59bfc5c886f7743bf6794e62"
-									],
-									[
-										"59bffbb386f77435b379b9c2"
-									],
-									[
-										"59c0ec5b86f77435b128bfca"
-									],
-									[
-										"59fb257e86f7742981561852"
-									],
-									[
-										"5a0d63621526d8dba31fe3bf"
-									],
-									[
-										"5a27b6bec4a282000e496f78"
-									],
-									[
-										"5a32a064c4a28200741e22de"
-									],
-									[
-										"5a33a8ebc4a282000c5a950d"
-									],
-									[
-										"5a34fe59c4a282000b1521a2"
-									],
-									[
-										"5a7ad74e51dfba0015068f45"
-									],
-									[
-										"5a9fb739a2750c003215717f"
-									],
-									[
-										"5a9fbacda2750c00141e080f"
-									],
-									[
-										"5a9fbb74a2750c0032157181"
-									],
-									[
-										"5a9fbb84a2750c00137fa685"
-									],
-									[
-										"5abcc328d8ce8700194394f3"
-									],
-									[
-										"5b363dd25acfc4001a598fd2"
-									],
-									[
-										"5b86a0e586f7745b600ccb23"
-									],
-									[
-										"5ba26ae8d4351e00367f9bdb"
-									],
-									[
-										"5c4eecc32e221602b412b440"
-									],
-									[
-										"5c6165902e22160010261b28"
-									],
-									[
-										"5c7955c22e221644f31bfd5e"
-									],
-									[
-										"5c7e8fab2e22165df16b889b"
-									],
-									[
-										"5caf187cae92157c28402e43"
-									],
-									[
-										"5cebec00d7f00c065c53522a"
-									],
-									[
-										"5cff9e84d7ad1a049e54ed55"
-									],
-									[
-										"5d3ef698a4b9361182109872"
-									],
-									[
-										"5d44064fa4b9361e4f6eb8b5"
-									],
-									[
-										"5de8f2d5b74cd90030650c72"
-									],
-									[
-										"5dfa3d2b0dee1b22f862eade"
-									],
-									[
-										"5e01ea19e9dc277128008c0b"
-									],
-									[
-										"5e208b9842457a4a7a33d074"
-									],
-									[
-										"5ea17bbc09aa976f2e7a51cd"
-									],
-									[
-										"5f63407e1b231926f2329f15"
-									],
-									[
-										"5fbe760793164a5b6278efc8"
-									],
-									[
-										"5fbe7618d6fa9c00c571bb6c"
-									],
-									[
-										"5fc4b9b17283c4046c5814d7"
-									],
-									[
-										"602a97060ddce744014caf6f"
-									],
-									[
-										"60926df0132d4d12c81fd9df"
-									],
-									[
-										"6130c4d51cb55961fa0fd49f"
-									],
-									[
-										"615d8f8567085e45ef1409ca"
-									],
-									[
-										"6171367e1cb55961fa0fdb36"
-									],
-									[
-										"626673016f1edc06f30cf6d5"
-									],
-									[
-										"62811fa609427b40ab14e765"
-									],
-									[
-										"62e2a7138e1ac9380579c122"
-									],
-									[
-										"630f2982cdb9e392db0cbcc7"
-									],
-									[
-										"634eba08f69c710e0108d386"
-									],
-									[
-										"638612b607dfed1ccb7206ba"
-									],
-									[
-										"63877c99e785640d436458ea"
-									],
-									[
-										"64527a3a7da7133e5a09ca99"
-									],
-									[
-										"64c196ad26a15b84aa07132f"
-									],
-									[
-										"65144ff50e00edc79406836f"
-									],
-									[
-										"652911e650dc782999054b9d"
-									],
-									[
-										"66993733f74fef4dfd0b04ff"
-									],
-									[
-										"673f0a38259f5945d70e43a6"
-									],
-									[
-										"673f0a9370a3ddcf0d0ee0b8"
-									],
-									[
-										"673f0b36536d64240f01acd6"
-									],
-									[
-										"676149c5062e6212f5058c36"
-									],
-									[
-										"676149d8e889e1972605d6be"
-									]
-								]
+                                    [
+                                        "54490a4d4bdc2dbc018b4573"
+                                    ],
+                                    [
+                                        "55d614004bdc2d86028b4568"
+                                    ],
+                                    [
+                                        "55d617094bdc2d89028b4568"
+                                    ],
+                                    [
+                                        "55d6190f4bdc2d87028b4567"
+                                    ],
+                                    [
+                                        "564caa3d4bdc2d17108b458e"
+                                    ],
+                                    [
+                                        "56e05b06d2720bb2668b4586"
+                                    ],
+                                    [
+                                        "571a28e524597720b4066567"
+                                    ],
+                                    [
+                                        "57838c962459774a1651ec63"
+                                    ],
+                                    [
+                                        "57c44dd02459772d2e0ae249"
+                                    ],
+                                    [
+                                        "57da93632459771cb65bf83f"
+                                    ],
+                                    [
+                                        "57dbb57e2459774673234890"
+                                    ],
+                                    [
+                                        "57f3c8cc2459773ec4480328"
+                                    ],
+                                    [
+                                        "57ffb0e42459777d047111c5"
+                                    ],
+                                    [
+                                        "58aeac1b86f77457c419f475"
+                                    ],
+                                    [
+                                        "5926d33d86f77410de68ebc0"
+                                    ],
+                                    [
+                                        "593d489686f7745c6255d58a"
+                                    ],
+                                    [
+                                        "593d490386f7745ee97a1555"
+                                    ],
+                                    [
+                                        "593d493f86f7745e6b2ceb22"
+                                    ],
+                                    [
+                                        "59bfc5c886f7743bf6794e62"
+                                    ],
+                                    [
+                                        "59bffbb386f77435b379b9c2"
+                                    ],
+                                    [
+                                        "59c0ec5b86f77435b128bfca"
+                                    ],
+                                    [
+                                        "59fb257e86f7742981561852"
+                                    ],
+                                    [
+                                        "5a0d63621526d8dba31fe3bf"
+                                    ],
+                                    [
+                                        "5a27b6bec4a282000e496f78"
+                                    ],
+                                    [
+                                        "5a32a064c4a28200741e22de"
+                                    ],
+                                    [
+                                        "5a33a8ebc4a282000c5a950d"
+                                    ],
+                                    [
+                                        "5a34fe59c4a282000b1521a2"
+                                    ],
+                                    [
+                                        "5a7ad74e51dfba0015068f45"
+                                    ],
+                                    [
+                                        "5a9fb739a2750c003215717f"
+                                    ],
+                                    [
+                                        "5a9fbacda2750c00141e080f"
+                                    ],
+                                    [
+                                        "5a9fbb74a2750c0032157181"
+                                    ],
+                                    [
+                                        "5a9fbb84a2750c00137fa685"
+                                    ],
+                                    [
+                                        "5abcc328d8ce8700194394f3"
+                                    ],
+                                    [
+                                        "5b363dd25acfc4001a598fd2"
+                                    ],
+                                    [
+                                        "5b86a0e586f7745b600ccb23"
+                                    ],
+                                    [
+                                        "5ba26ae8d4351e00367f9bdb"
+                                    ],
+                                    [
+                                        "5c4eecc32e221602b412b440"
+                                    ],
+                                    [
+                                        "5c6165902e22160010261b28"
+                                    ],
+                                    [
+                                        "5c7955c22e221644f31bfd5e"
+                                    ],
+                                    [
+                                        "5c7e8fab2e22165df16b889b"
+                                    ],
+                                    [
+                                        "5caf187cae92157c28402e43"
+                                    ],
+                                    [
+                                        "5cebec00d7f00c065c53522a"
+                                    ],
+                                    [
+                                        "5cff9e84d7ad1a049e54ed55"
+                                    ],
+                                    [
+                                        "5d3ef698a4b9361182109872"
+                                    ],
+                                    [
+                                        "5d44064fa4b9361e4f6eb8b5"
+                                    ],
+                                    [
+                                        "5de8f2d5b74cd90030650c72"
+                                    ],
+                                    [
+                                        "5dfa3d2b0dee1b22f862eade"
+                                    ],
+                                    [
+                                        "5e01ea19e9dc277128008c0b"
+                                    ],
+                                    [
+                                        "5e208b9842457a4a7a33d074"
+                                    ],
+                                    [
+                                        "5ea17bbc09aa976f2e7a51cd"
+                                    ],
+                                    [
+                                        "5f63407e1b231926f2329f15"
+                                    ],
+                                    [
+                                        "5fbe760793164a5b6278efc8"
+                                    ],
+                                    [
+                                        "5fbe7618d6fa9c00c571bb6c"
+                                    ],
+                                    [
+                                        "5fc4b9b17283c4046c5814d7"
+                                    ],
+                                    [
+                                        "602a97060ddce744014caf6f"
+                                    ],
+                                    [
+                                        "60926df0132d4d12c81fd9df"
+                                    ],
+                                    [
+                                        "6130c4d51cb55961fa0fd49f"
+                                    ],
+                                    [
+                                        "615d8f8567085e45ef1409ca"
+                                    ],
+                                    [
+                                        "6171367e1cb55961fa0fdb36"
+                                    ],
+                                    [
+                                        "626673016f1edc06f30cf6d5"
+                                    ],
+                                    [
+                                        "62811fa609427b40ab14e765"
+                                    ],
+                                    [
+                                        "62e2a7138e1ac9380579c122"
+                                    ],
+                                    [
+                                        "630f2982cdb9e392db0cbcc7"
+                                    ],
+                                    [
+                                        "634eba08f69c710e0108d386"
+                                    ],
+                                    [
+                                        "638612b607dfed1ccb7206ba"
+                                    ],
+                                    [
+                                        "63877c99e785640d436458ea"
+                                    ],
+                                    [
+                                        "64527a3a7da7133e5a09ca99"
+                                    ],
+                                    [
+                                        "64c196ad26a15b84aa07132f"
+                                    ],
+                                    [
+                                        "65144ff50e00edc79406836f"
+                                    ],
+                                    [
+                                        "652911e650dc782999054b9d"
+                                    ],
+                                    [
+                                        "66993733f74fef4dfd0b04ff"
+                                    ],
+                                    [
+                                        "673f0a38259f5945d70e43a6"
+                                    ],
+                                    [
+                                        "673f0a9370a3ddcf0d0ee0b8"
+                                    ],
+                                    [
+                                        "673f0b36536d64240f01acd6"
+                                    ],
+                                    [
+                                        "676149c5062e6212f5058c36"
+                                    ],
+                                    [
+                                        "676149d8e889e1972605d6be"
+                                    ]
+                                ]
                             }
                         ],
                         "id": "69cf0d3f185a5729e3c907c8"
@@ -752,7 +752,7 @@
         "traderId": "579dc571d53a0658a154fbec",
         "type": "Elimination"
     },
-	"69d1ebe31e775b89a6e4b034": {
+    "69d1ebe31e775b89a6e4b034": {
         "QuestName": "Public Recognition",
         "_id": "69d1ebe31e775b89a6e4b034",
         "acceptPlayerMessage": "69d1ebe31e775b89a6e4b034 acceptPlayerMessage",
@@ -763,66 +763,66 @@
         "completePlayerMessage": "69d1ebe31e775b89a6e4b034 completePlayerMessage",
         "conditions": {
             "AvailableForFinish": [
-				{
-					"conditionType": "PlaceBeacon",
-					"dynamicLocale": false,
-					"globalQuestCounterId": "",
-					"id": "69d2b10b2a0d9a9e7d54f7c5",
-					"index": 0,
-					"parentId": "",
-					"plantTime": 20,
-					"target": [
-						"5991b51486f77447b112d44f"
-					],
-					"value": 1,
-					"visibilityConditions": [],
-					"zoneId": "F3_1"
-				},
-				{
-					"conditionType": "PlaceBeacon",
-					"dynamicLocale": false,
-					"globalQuestCounterId": "",
-					"id": "69d1ed251e775b89a6e4b03c",
-					"index": 0,
-					"parentId": "",
-					"plantTime": 20,
-					"target": [
-						"5991b51486f77447b112d44f"
-					],
-					"value": 1,
-					"visibilityConditions": [],
-					"zoneId": "F3_2"
-				},
-				{
-					"conditionType": "PlaceBeacon",
-					"dynamicLocale": false,
-					"globalQuestCounterId": "",
-					"id": "69d1ed2c1e775b89a6e4b03f",
-					"index": 0,
-					"parentId": "",
-					"plantTime": 20,
-					"target": [
-						"5991b51486f77447b112d44f"
-					],
-					"value": 1,
-					"visibilityConditions": [],
-					"zoneId": "F3_3"
-				},
-				{
-					"conditionType": "PlaceBeacon",
-					"dynamicLocale": false,
-					"globalQuestCounterId": "",
-					"id": "69d1ed391e775b89a6e4b042",
-					"index": 0,
-					"parentId": "",
-					"plantTime": 20,
-					"target": [
-						"5991b51486f77447b112d44f"
-					],
-					"value": 1,
-					"visibilityConditions": [],
-					"zoneId": "F3_4"
-				}
+                {
+                    "conditionType": "PlaceBeacon",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "69d2b10b2a0d9a9e7d54f7c5",
+                    "index": 0,
+                    "parentId": "",
+                    "plantTime": 20,
+                    "target": [
+                        "5991b51486f77447b112d44f"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "zoneId": "F3_1"
+                },
+                {
+                    "conditionType": "PlaceBeacon",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "69d1ed251e775b89a6e4b03c",
+                    "index": 0,
+                    "parentId": "",
+                    "plantTime": 20,
+                    "target": [
+                        "5991b51486f77447b112d44f"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "zoneId": "F3_2"
+                },
+                {
+                    "conditionType": "PlaceBeacon",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "69d1ed2c1e775b89a6e4b03f",
+                    "index": 0,
+                    "parentId": "",
+                    "plantTime": 20,
+                    "target": [
+                        "5991b51486f77447b112d44f"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "zoneId": "F3_3"
+                },
+                {
+                    "conditionType": "PlaceBeacon",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "69d1ed391e775b89a6e4b042",
+                    "index": 0,
+                    "parentId": "",
+                    "plantTime": 20,
+                    "target": [
+                        "5991b51486f77447b112d44f"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "zoneId": "F3_4"
+                }
             ],
             "AvailableForStart": [
                 {
@@ -885,7 +885,7 @@
         "traderId": "579dc571d53a0658a154fbec",
         "type": "Exploration"
     },
-	 "69d2ae36dcdcf1b2b24fefaf": {
+    "69d2ae36dcdcf1b2b24fefaf": {
         "QuestName": "Arrest Order",
         "_id": "69d2ae36dcdcf1b2b24fefaf",
         "acceptPlayerMessage": "69d2ae36dcdcf1b2b24fefaf acceptPlayerMessage",
@@ -903,7 +903,7 @@
                     "globalQuestCounterId": "",
                     "id": "69d2ae5fdcdcf1b2b24fefb3",
                     "index": 0,
-                    "inEncoded": false,
+                    "isEncoded": false,
                     "maxDurability": 100,
                     "minDurability": 0,
                     "onlyFoundInRaid": false,
@@ -923,7 +923,7 @@
                     "globalQuestCounterId": "",
                     "id": "69d2af86dcdcf1b2b24fefb4",
                     "index": 0,
-                    "inEncoded": false,
+                    "isEncoded": false,
                     "maxDurability": 100,
                     "minDurability": 0,
                     "onlyFoundInRaid": false,
@@ -998,7 +998,7 @@
         "traderId": "579dc571d53a0658a154fbec",
         "type": "Completion"
     },
-	 "69d2b09e2c0d9a9e7d54f7c1": {
+    "69d2b09e2c0d9a9e7d54f7c1": {
         "QuestName": "Prison Corridor",
         "_id": "69d2b09e2c0d9a9e7d54f7c1",
         "acceptPlayerMessage": "69d2b09e2c0d9a9e7d54f7c1 acceptPlayerMessage",
@@ -1101,7 +1101,7 @@
         "traderId": "579dc571d53a0658a154fbec",
         "type": "Exploration"
     },
-	"69d2b175f16f7b56dfcc29f6": {
+    "69d2b175f16f7b56dfcc29f6": {
         "QuestName": "Question of Freedom",
         "_id": "69d2b175f16f7b56dfcc29f6",
         "acceptPlayerMessage": "69d2b175f16f7b56dfcc29f6 acceptPlayerMessage",
@@ -1127,7 +1127,7 @@
                                 },
                                 "distance": {
                                     "compareMethod": ">=",
-                                    "distance": 0
+                                    "value": 0
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
@@ -1174,7 +1174,7 @@
                                 },
                                 "distance": {
                                     "compareMethod": ">=",
-                                    "distance": 0
+                                    "value": 0
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
@@ -1268,7 +1268,7 @@
         "traderId": "579dc571d53a0658a154fbec",
         "type": "Elimination"
     },
-	"69d2b42386866406273700cb": {
+    "69d2b42386866406273700cb": {
         "QuestName": "Kiss at the Gate",
         "_id": "69d2b42386866406273700cb",
         "acceptPlayerMessage": "69d2b42386866406273700cb acceptPlayerMessage",
@@ -1287,7 +1287,6 @@
                             {
                                 "conditionType": "VisitPlace",
                                 "dynamicLocale": false,
-                                "globalQuestCounterId": "",
                                 "id": "69d2b49d86866406273700d0",
                                 "target": "F7_1",
                                 "value": 1
@@ -1316,7 +1315,6 @@
                             {
                                 "conditionType": "VisitPlace",
                                 "dynamicLocale": false,
-                                "globalQuestCounterId": "",
                                 "id": "69d2b4b286866406273700d3",
                                 "target": "F7_2",
                                 "value": 1
@@ -1345,7 +1343,6 @@
                             {
                                 "conditionType": "VisitPlace",
                                 "dynamicLocale": false,
-                                "globalQuestCounterId": "",
                                 "id": "69d2b4b986866406273700d6",
                                 "target": "F7_3",
                                 "value": 1
@@ -1371,15 +1368,14 @@
                     "conditionType": "CounterCreator",
                     "counter": {
                         "conditions": [
-						{
+                            {
                                 "conditionType": "VisitPlace",
                                 "dynamicLocale": false,
-                                "globalQuestCounterId": "",
                                 "id": "69d2b4c986866406273701db",
                                 "target": "F7_4",
                                 "value": 1
-                        }
-						],
+                            }
+                        ],
                         "id": "69d2b4c586866406273700d9"
                     },
                     "doNotResetIfCounterCompleted": false,
@@ -1403,7 +1399,6 @@
                             {
                                 "conditionType": "VisitPlace",
                                 "dynamicLocale": false,
-                                "globalQuestCounterId": "",
                                 "id": "69d2b4c986866406273700db",
                                 "target": "F7_5",
                                 "value": 1
@@ -1429,15 +1424,14 @@
                     "conditionType": "CounterCreator",
                     "counter": {
                         "conditions": [
-							{
-									"conditionType": "VisitPlace",
-									"dynamicLocale": false,
-									"globalQuestCounterId": "",
-									"id": "69d2b4c986866406273702db",
-									"target": "F7_6",
-									"value": 1
-							}
-						],
+                            {
+                                "conditionType": "VisitPlace",
+                                "dynamicLocale": false,
+                                "id": "69d2b4c986866406273702db",
+                                "target": "F7_6",
+                                "value": 1
+                            }
+                        ],
                         "id": "69d2b4d086866406273700de"
                     },
                     "doNotResetIfCounterCompleted": false,
@@ -1515,7 +1509,7 @@
         "traderId": "579dc571d53a0658a154fbec",
         "type": "Exploration"
     },
-	"69d2b51e90a2aa5fe6baa113": {
+    "69d2b51e90a2aa5fe6baa113": {
         "QuestName": "Midnight Dreary",
         "_id": "69d2b51e90a2aa5fe6baa113",
         "acceptPlayerMessage": "69d2b51e90a2aa5fe6baa113 acceptPlayerMessage",
@@ -1536,8 +1530,8 @@
                                 "dynamicLocale": false,
                                 "id": "69d2b5f390a2aa5fe6baa118",
                                 "target": [
-									"Woods"
-								]
+                                    "Woods"
+                                ]
                             },
                             {
                                 "bodyPart": [],
@@ -1549,7 +1543,7 @@
                                 },
                                 "distance": {
                                     "compareMethod": ">=",
-                                    "distance": 0
+                                    "value": 0
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
@@ -1561,16 +1555,16 @@
                                 "target": "AnyPmc",
                                 "value": 1,
                                 "weapon": [
-									"57838ad32459774a17445cd2",
-									"5a367e5dc4a282000e49738f",
-									"5aafa857e5b5b00018480968",
-									"5c46fbd72e2216398b5a8c9c",
-									"5df8ce05b11454561e39243b",
-									"5f2a9575926fd9352339381f",
-									"5fc22d7c187fea44d52eda44",
-									"6176aca650224f204c1da3fb",
-									"67d0576f29f580ebc10efd08"
-								],
+                                    "57838ad32459774a17445cd2",
+                                    "5a367e5dc4a282000e49738f",
+                                    "5aafa857e5b5b00018480968",
+                                    "5c46fbd72e2216398b5a8c9c",
+                                    "5df8ce05b11454561e39243b",
+                                    "5f2a9575926fd9352339381f",
+                                    "5fc22d7c187fea44d52eda44",
+                                    "6176aca650224f204c1da3fb",
+                                    "67d0576f29f580ebc10efd08"
+                                ],
                                 "weaponCaliber": [],
                                 "weaponModsExclusive": [],
                                 "weaponModsInclusive": []
@@ -1653,7 +1647,7 @@
         "traderId": "579dc571d53a0658a154fbec",
         "type": "Elimination"
     },
-	"69d2b662895cab8824541f2a": {
+    "69d2b662895cab8824541f2a": {
         "QuestName": "Weak and Weary",
         "_id": "69d2b662895cab8824541f2a",
         "acceptPlayerMessage": "69d2b662895cab8824541f2a acceptPlayerMessage",
@@ -1780,7 +1774,7 @@
         "traderId": "579dc571d53a0658a154fbec",
         "type": "Completion"
     },
-	"69d2b794e60486f553169c9d": {
+    "69d2b794e60486f553169c9d": {
         "QuestName": "Maxwell's Demon",
         "_id": "69d2b794e60486f553169c9d",
         "acceptPlayerMessage": "69d2b794e60486f553169c9d acceptPlayerMessage",
@@ -1808,7 +1802,7 @@
                                 },
                                 "distance": {
                                     "compareMethod": ">=",
-                                    "distance": 0
+                                    "value": 0
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
@@ -1857,7 +1851,7 @@
                                 },
                                 "distance": {
                                     "compareMethod": ">=",
-                                    "distance": 0
+                                    "value": 0
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
@@ -1906,7 +1900,7 @@
                                 },
                                 "distance": {
                                     "compareMethod": ">=",
-                                    "distance": 0
+                                    "value": 0
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
@@ -1955,7 +1949,7 @@
                                 },
                                 "distance": {
                                     "compareMethod": ">=",
-                                    "distance": 0
+                                    "value": 0
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
@@ -2004,7 +1998,7 @@
                                 },
                                 "distance": {
                                     "compareMethod": ">=",
-                                    "distance": 0
+                                    "value": 0
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
@@ -2053,7 +2047,7 @@
                                 },
                                 "distance": {
                                     "compareMethod": ">=",
-                                    "distance": 0
+                                    "value": 0
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
@@ -2147,7 +2141,7 @@
         "traderId": "579dc571d53a0658a154fbec",
         "type": "Elimination"
     },
-	"69d2b9049e4d407d16211b15": {
+    "69d2b9049e4d407d16211b15": {
         "QuestName": "Sacramentum",
         "_id": "69d2b9049e4d407d16211b15",
         "acceptPlayerMessage": "69d2b9049e4d407d16211b15 acceptPlayerMessage",
@@ -2165,7 +2159,7 @@
                     "globalQuestCounterId": "",
                     "id": "69d2b9589e4d407d16211b1a",
                     "index": 0,
-                    "inEncoded": false,
+                    "isEncoded": false,
                     "maxDurability": 100,
                     "minDurability": 0,
                     "onlyFoundInRaid": false,
@@ -2185,7 +2179,7 @@
                     "globalQuestCounterId": "",
                     "id": "69d2b9b49e4d407d16211b1b",
                     "index": 0,
-                    "inEncoded": false,
+                    "isEncoded": false,
                     "maxDurability": 100,
                     "minDurability": 0,
                     "onlyFoundInRaid": false,
@@ -2260,7 +2254,7 @@
         "traderId": "579dc571d53a0658a154fbec",
         "type": "Discover"
     },
-	"69d2ba09925d6e3592c00dd2": {
+    "69d2ba09925d6e3592c00dd2": {
         "QuestName": "White Whale",
         "_id": "69d2ba09925d6e3592c00dd2",
         "acceptPlayerMessage": "69d2ba09925d6e3592c00dd2 acceptPlayerMessage",
@@ -2286,7 +2280,7 @@
                                 },
                                 "distance": {
                                     "compareMethod": ">=",
-                                    "distance": 0
+                                    "value": 0
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
@@ -2382,7 +2376,7 @@
         "traderId": "579dc571d53a0658a154fbec",
         "type": "Elimination"
     },
-	"69d2bbd26b10b0f1eed6a2ab": {
+    "69d2bbd26b10b0f1eed6a2ab": {
         "QuestName": "Neronian Debasement",
         "_id": "69d2bbd26b10b0f1eed6a2ab",
         "acceptPlayerMessage": "69d2bbd26b10b0f1eed6a2ab acceptPlayerMessage",
@@ -2400,7 +2394,7 @@
                     "globalQuestCounterId": "",
                     "id": "69d2bc276b10b0f1eed6a2af",
                     "index": 0,
-                    "inEncoded": false,
+                    "isEncoded": false,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "target": [
@@ -2416,7 +2410,7 @@
                     "globalQuestCounterId": "",
                     "id": "69d2bc3f6b10b0f1eed6a2b0",
                     "index": 0,
-                    "inEncoded": false,
+                    "isEncoded": false,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "target": [
@@ -2432,7 +2426,7 @@
                     "globalQuestCounterId": "",
                     "id": "69d2bcd06b10b0f1eed6a2b1",
                     "index": 0,
-                    "inEncoded": false,
+                    "isEncoded": false,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "target": [
@@ -2503,7 +2497,7 @@
         "traderId": "579dc571d53a0658a154fbec",
         "type": "Multi"
     },
-	"69d2bd9aae6b63b659469685": {
+    "69d2bd9aae6b63b659469685": {
         "QuestName": "The Crying of Lot 49",
         "_id": "69d2bd9aae6b63b659469685",
         "acceptPlayerMessage": "69d2bd9aae6b63b659469685 acceptPlayerMessage",
@@ -2521,7 +2515,7 @@
                     "globalQuestCounterId": "",
                     "id": "69d2bf99ae6b63b659469688",
                     "index": 0,
-                    "inEncoded": false,
+                    "isEncoded": false,
                     "maxDurability": 100,
                     "minDurability": 0,
                     "onlyFoundInRaid": false,
@@ -2541,7 +2535,7 @@
                     "globalQuestCounterId": "",
                     "id": "69d2bfcbae6b63b659469689",
                     "index": 0,
-                    "inEncoded": false,
+                    "isEncoded": false,
                     "maxDurability": 100,
                     "minDurability": 0,
                     "onlyFoundInRaid": false,
@@ -2569,7 +2563,7 @@
                                 },
                                 "distance": {
                                     "compareMethod": ">=",
-                                    "distance": 0
+                                    "value": 0
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
@@ -2616,12 +2610,12 @@
                     ],
                     "value": 1,
                     "visibilityConditions": [
-						{
-							"conditionType": "CompleteCondition",
-							"id": "69d2bfd0006b63b659469000",
-							"target": "69d2bfdeae6b63b65946968a"
-						}
-					],
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "69d2bfd0006b63b659469000",
+                            "target": "69d2bfdeae6b63b65946968a"
+                        }
+                    ],
                     "zoneId": "F14_3"
                 },
                 {
@@ -2637,12 +2631,12 @@
                     ],
                     "value": 1,
                     "visibilityConditions": [
-						{
-							"conditionType": "CompleteCondition",
-							"id": "69d2bfd0006b63b659469001",
-							"target": "69d2bfdeae6b63b65946968a"
-						}
-					],
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "69d2bfd0006b63b659469001",
+                            "target": "69d2bfdeae6b63b65946968a"
+                        }
+                    ],
                     "zoneId": "F14_4"
                 },
                 {
@@ -2658,12 +2652,12 @@
                     ],
                     "value": 1,
                     "visibilityConditions": [
-						{
-							"conditionType": "CompleteCondition",
-							"id": "69d2bfd0006b63b659469002",
-							"target": "69d2bfdeae6b63b65946968a"
-						}
-					],
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "69d2bfd0006b63b659469002",
+                            "target": "69d2bfdeae6b63b65946968a"
+                        }
+                    ],
                     "zoneId": "F14_5"
                 },
                 {
@@ -2679,12 +2673,12 @@
                     ],
                     "value": 1,
                     "visibilityConditions": [
-						{
-							"conditionType": "CompleteCondition",
-							"id": "69d2bfd0006b63b659469003",
-							"target": "69d2bfdeae6b63b65946968a"
-						}
-					],
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "69d2bfd0006b63b659469003",
+                            "target": "69d2bfdeae6b63b65946968a"
+                        }
+                    ],
                     "zoneId": "F14_6"
                 },
                 {
@@ -2731,7 +2725,7 @@
                     "globalQuestCounterId": "",
                     "id": "69d2c0f6ae6b63b659469697",
                     "index": 0,
-                    "inEncoded": false,
+                    "isEncoded": false,
                     "maxDurability": 100,
                     "minDurability": 0,
                     "onlyFoundInRaid": false,
@@ -2742,12 +2736,12 @@
                     ],
                     "value": 1,
                     "visibilityConditions": [
-						{
-							"conditionType": "CompleteCondition",
-							"id": "69d2bfd0006b63b659469005",
-							"target": "69d2c07aae6b63b659469692"
-						}
-					],
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "69d2bfd0006b63b659469005",
+                            "target": "69d2c07aae6b63b659469692"
+                        }
+                    ],
                     "zoneId": "F14_7"
                 },
                 {
@@ -2765,7 +2759,7 @@
                                 },
                                 "distance": {
                                     "compareMethod": ">=",
-                                    "distance": 0
+                                    "value": 0
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
@@ -2798,16 +2792,16 @@
                     "type": "Multi",
                     "value": 1,
                     "visibilityConditions": [
-						{
-							"conditionType": "CompleteCondition",
-							"id": "69d2bfd0006b63b659469006",
-							"target": "69d2c07aae6b63b659469692"
-						}
-					]
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "69d2bfd0006b63b659469006",
+                            "target": "69d2c07aae6b63b659469692"
+                        }
+                    ]
                 }
             ],
             "AvailableForStart": [
-			{
+                {
                     "availableAfter": 0,
                     "conditionType": "Quest",
                     "dispersion": 0,
@@ -2822,7 +2816,7 @@
                     "target": "69d2bbd26b10b0f1eed6a2ab",
                     "visibilityConditions": []
                 }
-			],
+            ],
             "Fail": []
         },
         "declinePlayerMessage": "69d2bd9aae6b63b659469685 declinePlayerMessage",
