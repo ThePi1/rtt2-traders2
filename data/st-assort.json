@@ -1,1289 +1,1641 @@
 {
-  "items": [
-    {
-      "_id": "6a0ca220eac282d778911c79",
-      "_tpl": "6259b864ebedf17603599e88",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b8c6616ab7c2dcc5586d5"
+    "items": [
+        {
+            "_id": "6a0ca220eac282d778911c79",
+            "_tpl": "6259b864ebedf17603599e88",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b8c6616ab7c2dcc5586d5"
+        },
+        {
+            "_id": "6a0ca235eac282d778911c7a",
+            "_tpl": "5a7828548dc32e5a9c28b516",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b8c6616ab7c2dcc5586d5"
+        },
+        {
+            "_id": "6a0ca251eac282d778911c7b",
+            "_tpl": "5e848cc2988a8701445df1e8",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b8d9216ab7c2dcc5586df"
+        },
+        {
+            "_id": "6a0ca267eac282d778911c7c",
+            "_tpl": "576165642459773c7a400233",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b8d9216ab7c2dcc5586df"
+        },
+        {
+            "_id": "6a0ca27ceac282d778911c7d",
+            "_tpl": "66ffa9b66e19cc902401c5e8",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b8d9216ab7c2dcc5586df"
+        },
+        {
+            "_id": "6a0ca294eac282d778911c7e",
+            "_tpl": "67124dcfa3541f2a1f0e788b",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b8d9216ab7c2dcc5586df"
+        },
+        {
+            "_id": "6a0ca2a8eac282d778911c7f",
+            "_tpl": "674fe9a75e51f1c47c04ec23",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b8e9f16ab7c2dcc5586f0"
+        },
+        {
+            "_id": "6a0ca2c7eac282d778911c80",
+            "_tpl": "66992b349950f5f4cd06029f",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b8f4516ab7c2dcc5586f8"
+        },
+        {
+            "_id": "6a0ca2ddeac282d778911c81",
+            "_tpl": "57d14d2524597714373db789",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b8f4516ab7c2dcc5586f8"
+        },
+        {
+            "_id": "6a0ca2ebeac282d778911c82",
+            "_tpl": "57f3c6bd24597738e730fa2f",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b8f4516ab7c2dcc5586f8"
+        },
+        {
+            "_id": "6a0ca308eac282d778911c83",
+            "_tpl": "5d2f0d8048f0356c925bc3b0",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b902116ab7c2dcc558705"
+        },
+        {
+            "_id": "6a0ca33ceac282d778911c84",
+            "_tpl": "59f9cabd86f7743a10721f46",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b902116ab7c2dcc558705"
+        },
+        {
+            "_id": "6a0ca353eac282d778911c85",
+            "_tpl": "5de7bd7bfd6b4e6e2276dc25",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b902116ab7c2dcc558705"
+        },
+        {
+            "_id": "6a0ca36beac282d778911c86",
+            "_tpl": "5e00903ae9dc277128008b87",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b902116ab7c2dcc558705"
+        },
+        {
+            "_id": "6a0ca38eeac282d778911c87",
+            "_tpl": "62e14904c2699c0ec93adc47",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b90bf16ab7c2dcc558714"
+        },
+        {
+            "_id": "6a0ca3a6eac282d778911c88",
+            "_tpl": "5fc3e272f8b6a877a729eac5",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b90bf16ab7c2dcc558714"
+        },
+        {
+            "_id": "6a0ca3bceac282d778911c89",
+            "_tpl": "668e71a8dadf42204c032ce1",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b90bf16ab7c2dcc558714"
+        },
+        {
+            "_id": "6a0ca3ddeac282d778911c8a",
+            "_tpl": "5cc82d76e24e8d00134b4b83",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b913c16ab7c2dcc558721"
+        },
+        {
+            "_id": "6a0ca3f0eac282d778911c8b",
+            "_tpl": "5ba26383d4351e00334c93d9",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b913c16ab7c2dcc558721"
+        },
+        {
+            "_id": "6a0ca5e6eac282d778911c8d",
+            "_tpl": "5bd70322209c4d00d7167b8f",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b913c16ab7c2dcc558721"
+        },
+        {
+            "_id": "6a0ca610eac282d778911c8e",
+            "_tpl": "61a4c8884f95bc3b2c5dc96f",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b929616ab7c2dcc55872f"
+        },
+        {
+            "_id": "6a0ca725eac282d778911c8f",
+            "_tpl": "58948c8e86f77409493f7266",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b913c16ab7c2dcc558721"
+        },
+        {
+            "_id": "6a0ca76eeac282d778911c90",
+            "_tpl": "624c2e8614da335f1e034d8c",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b929616ab7c2dcc55872f"
+        },
+        {
+            "_id": "6a0ca791eac282d778911c91",
+            "_tpl": "669fa39b48fc9f8db6035a0c",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b929616ab7c2dcc55872f"
+        },
+        {
+            "_id": "6a0ca7a8eac282d778911c92",
+            "_tpl": "5448bd6b4bdc2dfc2f8b4569",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b929616ab7c2dcc55872f"
+        },
+        {
+            "_id": "6a0ca7caeac282d778911c93",
+            "_tpl": "5abccb7dd8ce87001773e277",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b929616ab7c2dcc55872f"
+        },
+        {
+            "_id": "6a0ca7f1eac282d778911c94",
+            "_tpl": "5e81c3cbac2bb513793cdc75",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b93cd16ab7c2dcc55873f"
+        },
+        {
+            "_id": "6a0ca7ffeac282d778911c95",
+            "_tpl": "5f36a0e5fbf956000b716b65",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b93cd16ab7c2dcc55873f"
+        },
+        {
+            "_id": "6a0ca826eac282d778911c96",
+            "_tpl": "6193a720f8ee7e52e42109ed",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b93cd16ab7c2dcc55873f"
+        },
+        {
+            "_id": "6a0ca837eac282d778911c97",
+            "_tpl": "602a9740da11d6478d5a06dc",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b93cd16ab7c2dcc55873f"
+        },
+        {
+            "_id": "6a0ca848eac282d778911c98",
+            "_tpl": "56d59856d2720bd8418b456a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b93cd16ab7c2dcc55873f"
+        },
+        {
+            "_id": "6a0ca85aeac282d778911c99",
+            "_tpl": "5a7ae0c351dfba0017554310",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b945716ab7c2dcc55874e"
+        },
+        {
+            "_id": "6a0ca869eac282d778911c9a",
+            "_tpl": "5b1fa9b25acfc40018633c01",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b945716ab7c2dcc55874e"
+        },
+        {
+            "_id": "6a0ca87ceac282d778911c9b",
+            "_tpl": "63088377b5cd696784087147",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b945716ab7c2dcc55874e"
+        },
+        {
+            "_id": "6a0ca8f0eac282d778911c9c",
+            "_tpl": "5d3eb3b0a4b93615055e84d2",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b945716ab7c2dcc55874e"
+        },
+        {
+            "_id": "6a0ca8fdeac282d778911c9d",
+            "_tpl": "5d67abc1a4b93614ec50137f",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b945716ab7c2dcc55874e"
+        },
+        {
+            "_id": "6a0ca968eac282d778911ca3",
+            "_tpl": "5fc22d7c187fea44d52eda44",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b95e816ab7c2dcc558774"
+        },
+        {
+            "_id": "6a0ca986eac282d778911ca4",
+            "_tpl": "5de652c31b7e3716273428be",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b964516ab7c2dcc55877c"
+        },
+        {
+            "_id": "6a0ca99aeac282d778911ca5",
+            "_tpl": "5bfea6e90db834001b7347f3",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b964516ab7c2dcc55877c"
+        },
+        {
+            "_id": "6a0ca9a8eac282d778911ca6",
+            "_tpl": "588892092459774ac91d4b11",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b971016ab7c2dcc558787"
+        },
+        {
+            "_id": "6a0ca9bbeac282d778911ca7",
+            "_tpl": "5df24cf80dee1b22f862e9bc",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b971016ab7c2dcc558787"
+        },
+        {
+            "_id": "6a0ca9d1eac282d778911ca8",
+            "_tpl": "55801eed4bdc2d89578b4588",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b971016ab7c2dcc558787"
+        },
+        {
+            "_id": "6a0ca9e2eac282d778911ca9",
+            "_tpl": "673cab3e03c6a20581028bc1",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b97bb16ab7c2dcc558794"
+        },
+        {
+            "_id": "6a0ca9f9eac282d778911caa",
+            "_tpl": "627e14b21713922ded6f2c15",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b97bb16ab7c2dcc558794"
+        },
+        {
+            "_id": "6a0caa32eac282d778911cab",
+            "_tpl": "67b49e7335dec48e3e05e057",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b9b4e16ab7c2dcc5587ce"
+        },
+        {
+            "_id": "6a0d3bf9659a09f6c356de4c",
+            "_tpl": "67d0576f29f580ebc10efd08",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0d21c5d47f367b5bed547a"
+        },
+        {
+            "_id": "6a0d3c07659a09f6c356de4d",
+            "_tpl": "67dc2648ba5b79876906a166",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0d21c5d47f367b5bed547a"
+        },
+        {
+            "_id": "6a0d3c13659a09f6c356de4e",
+            "_tpl": "67dc255ee3028a8b120efc48",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0d21c5d47f367b5bed547a"
+        },
+        {
+            "_id": "6a0d3c34659a09f6c356de50",
+            "_tpl": "67dc212493ce32834b0fa446",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0d21c5d47f367b5bed547a"
+        },
+        {
+            "_id": "6a0d3c41659a09f6c356de51",
+            "_tpl": "67d41936f378a36c4706eeb9",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0d21c5d47f367b5bed547a"
+        },
+        {
+            "_id": "6a0d3c83659a09f6c356de52",
+            "_tpl": "69c36c0a382b750bcdc01658",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0d22f0d47f367b5bed548b"
+        },
+        {
+            "_id": "6a0d3c97659a09f6c356de53",
+            "_tpl": "69c36c0a382b750bcdc01658",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0d22f0d47f367b5bed548b"
+        },
+        {
+            "_id": "6a0d3ca6659a09f6c356de54",
+            "_tpl": "6765d79148caecc924f38301",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0d2447d47f367b5bed5496"
+        },
+        {
+            "_id": "6a0d3cad659a09f6c356de55",
+            "_tpl": "679de71c3b47fe7f7537f7ff",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0d2447d47f367b5bed5496"
+        },
+        {
+            "_id": "6a0d3cb7659a09f6c356de56",
+            "_tpl": "679d31ae779c471efb063dba",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0d2447d47f367b5bed5496"
+        },
+        {
+            "_id": "6a0d3cc1659a09f6c356de57",
+            "_tpl": "67e343112c5ed0143e3c74eb",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            },
+            "unlockedOn": "success",
+            "questID": "6a0d2447d47f367b5bed5496"
+        },
+        {
+            "_id": "6ac41902c4d33f6d9c59f35b",
+            "_tpl": "5c46fbd72e2216398b5a8c9c",
+            "upd": {
+                "FireMode": {
+                    "FireMode": "single"
+                },
+                "Foldable": {
+                    "Folded": false
+                },
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999999
+            },
+            "parentId": "hideout",
+            "slotId": "hideout"
+        },
+        {
+            "_id": "6ac41902c4d33f6d9c59f35c",
+            "_tpl": "5c471be12e221602b66cd9ac",
+            "parentId": "6ac41902c4d33f6d9c59f35b",
+            "slotId": "mod_pistol_grip"
+        },
+        {
+            "_id": "6ac41902c4d33f6d9c59f35d",
+            "_tpl": "5c471c442e221602b542a6f8",
+            "parentId": "6ac41902c4d33f6d9c59f35b",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "6ac41902c4d33f6d9c59f35e",
+            "_tpl": "5c471b5d2e221602b21d4e14",
+            "parentId": "6ac41902c4d33f6d9c59f35b",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "6ac41902c4d33f6d9c59f35f",
+            "_tpl": "5c471cb32e221602b177afaa",
+            "parentId": "6ac41902c4d33f6d9c59f35b",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "6ac41902c4d33f6d9c59f360",
+            "_tpl": "5c471bfc2e221602b21d4e17",
+            "parentId": "6ac41902c4d33f6d9c59f35f",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "6ac41902c4d33f6d9c59f361",
+            "_tpl": "5c471ba12e221602b3137d76",
+            "parentId": "6ac41902c4d33f6d9c59f360",
+            "slotId": "mod_sight_front"
+        },
+        {
+            "_id": "6ac41902c4d33f6d9c59f362",
+            "_tpl": "5c471c842e221615214259b5",
+            "parentId": "6ac41902c4d33f6d9c59f35f",
+            "slotId": "mod_gas_block"
+        },
+        {
+            "_id": "6ac41902c4d33f6d9c59f363",
+            "_tpl": "5c471c2d2e22164bef5d077f",
+            "parentId": "6ac41902c4d33f6d9c59f35b",
+            "slotId": "mod_mount_001"
+        },
+        {
+            "_id": "6ac41902c4d33f6d9c59f364",
+            "_tpl": "5c471c6c2e221602b66cd9ae",
+            "parentId": "6ac41902c4d33f6d9c59f363",
+            "slotId": "mod_handguard"
+        },
+        {
+            "_id": "6ac41902c4d33f6d9c59f365",
+            "_tpl": "5c471b7e2e2216152006e46c",
+            "parentId": "6ac41902c4d33f6d9c59f363",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "6ac41902c4d33f6d9c59f366",
+            "_tpl": "5c471bd12e221602b4129c3a",
+            "parentId": "6ac41902c4d33f6d9c59f35b",
+            "slotId": "mod_reciever"
+        },
+        {
+            "_id": "6ac4196fc4d33f6d9c59f367",
+            "_tpl": "5aafa857e5b5b00018480968",
+            "upd": {
+                "Repairable": {
+                    "Durability": 100,
+                    "MaxDurability": 100
+                },
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999999
+            },
+            "parentId": "hideout",
+            "slotId": "hideout"
+        },
+        {
+            "_id": "6ac4196fc4d33f6d9c59f368",
+            "_tpl": "64b9e2037fdfb81df81e3c25",
+            "parentId": "6ac4196fc4d33f6d9c59f367",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "6ac4196fc4d33f6d9c59f369",
+            "_tpl": "5aaf8e43e5b5b00015693246",
+            "parentId": "6ac4196fc4d33f6d9c59f367",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "6ac4196fc4d33f6d9c59f36a",
+            "_tpl": "5ab24ef9e5b5b00fe93c9209",
+            "parentId": "6ac4196fc4d33f6d9c59f369",
+            "slotId": "mod_mount"
+        },
+        {
+            "_id": "6ac4196fc4d33f6d9c59f36b",
+            "_tpl": "5aaf9d53e5b5b00015042a52",
+            "parentId": "6ac4196fc4d33f6d9c59f367",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "6ac4196fc4d33f6d9c59f36c",
+            "_tpl": "5aafa1c2e5b5b00015042a56",
+            "parentId": "6ac4196fc4d33f6d9c59f36b",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "6ac4196fc4d33f6d9c59f36d",
+            "_tpl": "5aafa49ae5b5b00015042a58",
+            "parentId": "6ac4196fc4d33f6d9c59f36c",
+            "slotId": "mod_sight_front"
+        },
+        {
+            "_id": "6ac4196fc4d33f6d9c59f36e",
+            "_tpl": "5abcbb20d8ce87001773e258",
+            "parentId": "6ac4196fc4d33f6d9c59f367",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "6a0ca930eac282d778911ca0",
+            "_tpl": "6176aca650224f204c1da3fb",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999,
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b957816ab7c2dcc558768"
+        },
+        {
+            "_id": "6ac459c6fd8feff944069201",
+            "_tpl": "6193dcd0f8ee7e52e4210a28",
+            "parentId": "6a0ca930eac282d778911ca0",
+            "slotId": "mod_pistol_grip"
+        },
+        {
+            "_id": "6ac459c6fd8feff944069202",
+            "_tpl": "617131a4568c120fdd29482d",
+            "parentId": "6a0ca930eac282d778911ca0",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "6ac459c6fd8feff944069203",
+            "_tpl": "617153016c780c1e710c9a2f",
+            "parentId": "6a0ca930eac282d778911ca0",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "6ac459c6fd8feff944069204",
+            "_tpl": "617155ee50224f204c1da3cd",
+            "parentId": "6ac459c6fd8feff944069203",
+            "slotId": "mod_stock_000"
+        },
+        {
+            "_id": "6ac459c6fd8feff944069205",
+            "_tpl": "61715e7e67085e45ef140b33",
+            "parentId": "6ac459c6fd8feff944069204",
+            "slotId": "mod_stock_000"
+        },
+        {
+            "_id": "6ac459c6fd8feff944069206",
+            "_tpl": "61713a8fd92c473c770214a4",
+            "parentId": "6a0ca930eac282d778911ca0",
+            "slotId": "mod_reciever"
+        },
+        {
+            "_id": "6ac459c6fd8feff944069207",
+            "_tpl": "61713cc4d8e3106d9806c109",
+            "parentId": "6ac459c6fd8feff944069206",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "6ac459c6fd8feff944069208",
+            "_tpl": "61714eec290d254f5e6b2ffc",
+            "parentId": "6ac459c6fd8feff944069207",
+            "slotId": "mod_scope_000"
+        },
+        {
+            "_id": "6ac459c6fd8feff944069209",
+            "_tpl": "61714b2467085e45ef140b2c",
+            "parentId": "6ac459c6fd8feff944069207",
+            "slotId": "mod_scope_001"
+        },
+        {
+            "_id": "6ac459c6fd8feff94406920a",
+            "_tpl": "58d399e486f77442e0016fe7",
+            "parentId": "6ac459c6fd8feff944069209",
+            "slotId": "mod_scope"
+        },
+        {
+            "_id": "6ac459c6fd8feff94406920b",
+            "_tpl": "61702be9faa1272e431522c3",
+            "parentId": "6ac459c6fd8feff944069206",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "6ac459c6fd8feff94406920c",
+            "_tpl": "61713308d92c473c770214a0",
+            "parentId": "6ac459c6fd8feff94406920b",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "6ac459c6fd8feff94406920d",
+            "_tpl": "6171367e1cb55961fa0fdb36",
+            "parentId": "6ac459c6fd8feff94406920c",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "6ac459c6fd8feff94406920e",
+            "_tpl": "61702f1b67085e45ef140b26",
+            "parentId": "6ac459c6fd8feff94406920b",
+            "slotId": "mod_gas_block"
+        },
+        {
+            "_id": "6ac459c6fd8feff94406920f",
+            "_tpl": "61703001d92c473c77021497",
+            "parentId": "6ac459c6fd8feff944069206",
+            "slotId": "mod_handguard"
+        },
+        {
+            "_id": "6ac459c6fd8feff944069210",
+            "_tpl": "619386379fb0c665d5490dbe",
+            "parentId": "6ac459c6fd8feff94406920f",
+            "slotId": "mod_foregrip"
+        },
+        {
+            "_id": "6ac459c6fd8feff944069211",
+            "_tpl": "5bb20e49d4351e3bac1212de",
+            "parentId": "6ac459c6fd8feff944069206",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "6ac459c6fd8feff944069212",
+            "_tpl": "61702d8a67085e45ef140b24",
+            "parentId": "6a0ca930eac282d778911ca0",
+            "slotId": "mod_charge"
+        },
+        {
+            "_id": "6a0ca946eac282d778911ca1",
+            "_tpl": "5df8ce05b11454561e39243b",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999,
+                "FireMode": {
+                    "FireMode": "single"
+                }
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b957816ab7c2dcc558768"
+        },
+        {
+            "_id": "6ac459f3fd8feff944069228",
+            "_tpl": "55d4b9964bdc2d1d4e8b456e",
+            "parentId": "6a0ca946eac282d778911ca1",
+            "slotId": "mod_pistol_grip"
+        },
+        {
+            "_id": "6ac459f3fd8feff944069229",
+            "_tpl": "5df8f541c41b2312ea3335e3",
+            "parentId": "6a0ca946eac282d778911ca1",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "6ac459f3fd8feff94406922a",
+            "_tpl": "5649be884bdc2d79388b4577",
+            "parentId": "6a0ca946eac282d778911ca1",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "6ac459f3fd8feff94406922b",
+            "_tpl": "5ae30c9a5acfc408fb139a03",
+            "parentId": "6ac459f3fd8feff94406922a",
+            "slotId": "mod_stock_000"
+        },
+        {
+            "_id": "6ac459f3fd8feff94406922c",
+            "_tpl": "5df8e4080b92095fd441e594",
+            "parentId": "6a0ca946eac282d778911ca1",
+            "slotId": "mod_reciever"
+        },
+        {
+            "_id": "6ac459f3fd8feff94406922d",
+            "_tpl": "5df917564a9f347bc92edca3",
+            "parentId": "6ac459f3fd8feff94406922c",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "6ac459f3fd8feff94406922e",
+            "_tpl": "5dfa3cd1b33c0951220c079b",
+            "parentId": "6ac459f3fd8feff94406922d",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "6ac459f3fd8feff94406922f",
+            "_tpl": "5dfa3d45dfc58d14537c20b0",
+            "parentId": "6ac459f3fd8feff94406922d",
+            "slotId": "mod_gas_block"
+        },
+        {
+            "_id": "6ac459f3fd8feff944069230",
+            "_tpl": "5df916dfbb49d91fb446d6b9",
+            "parentId": "6ac459f3fd8feff94406922c",
+            "slotId": "mod_handguard"
+        },
+        {
+            "_id": "6ac459f3fd8feff944069231",
+            "_tpl": "5dfa3d950dee1b22f862eae0",
+            "parentId": "6ac459f3fd8feff944069230",
+            "slotId": "mod_sight_front"
+        },
+        {
+            "_id": "6ac459f3fd8feff944069232",
+            "_tpl": "5dfa3d7ac41b2312ea33362a",
+            "parentId": "6ac459f3fd8feff94406922c",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "6ac459f3fd8feff944069233",
+            "_tpl": "5df8e053bb49d91fb446d6a6",
+            "parentId": "6a0ca946eac282d778911ca1",
+            "slotId": "mod_charge"
+        },
+        {
+            "_id": "6a0ca955eac282d778911ca2",
+            "_tpl": "5a367e5dc4a282000e49738f",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999,
+                "Repairable": {
+                    "Durability": 100,
+                    "MaxDurability": 100
+                }
+            },
+            "unlockedOn": "success",
+            "questID": "6a0b957816ab7c2dcc558768"
+        },
+        {
+            "_id": "6ac45a08fd8feff944069243",
+            "_tpl": "5a339805c4a2826c6e06d73d",
+            "parentId": "6a0ca955eac282d778911ca2",
+            "slotId": "mod_pistol_grip"
+        },
+        {
+            "_id": "6ac45a08fd8feff944069244",
+            "_tpl": "5a3501acc4a282000d72293a",
+            "parentId": "6a0ca955eac282d778911ca2",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "6ac45a08fd8feff944069245",
+            "_tpl": "5a33ca0fc4a282000d72292f",
+            "parentId": "6a0ca955eac282d778911ca2",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "6ac45a08fd8feff944069246",
+            "_tpl": "5a33cae9c4a28232980eb086",
+            "parentId": "6ac45a08fd8feff944069245",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "6ac45a08fd8feff944069247",
+            "_tpl": "5a329052c4a28200741e22d3",
+            "parentId": "6a0ca955eac282d778911ca2",
+            "slotId": "mod_handguard"
+        },
+        {
+            "_id": "6ac45a08fd8feff944069248",
+            "_tpl": "5a34fae7c4a2826c6e06d760",
+            "parentId": "6a0ca955eac282d778911ca2",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "6ac45a08fd8feff944069249",
+            "_tpl": "5a34fd2bc4a282329a73b4c5",
+            "parentId": "6ac45a08fd8feff944069248",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "6ac45a08fd8feff94406924a",
+            "_tpl": "5a34fbadc4a28200741e230a",
+            "parentId": "6ac45a08fd8feff944069248",
+            "slotId": "mod_gas_block"
+        }
+    ],
+    "barter_scheme": {
+        "6a0ca220eac282d778911c79": [
+            [
+                {
+                    "count": 16000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca235eac282d778911c7a": [
+            [
+                {
+                    "count": 17000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca251eac282d778911c7b": [
+            [
+                {
+                    "count": 25000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca267eac282d778911c7c": [
+            [
+                {
+                    "count": 20000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca27ceac282d778911c7d": [
+            [
+                {
+                    "count": 45000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca294eac282d778911c7e": [
+            [
+                {
+                    "count": 47000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca2a8eac282d778911c7f": [
+            [
+                {
+                    "count": 75000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca2c7eac282d778911c80": [
+            [
+                {
+                    "count": 20000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca2ddeac282d778911c81": [
+            [
+                {
+                    "count": 15000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca2ebeac282d778911c82": [
+            [
+                {
+                    "count": 18000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca308eac282d778911c83": [
+            [
+                {
+                    "count": 10000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca33ceac282d778911c84": [
+            [
+                {
+                    "count": 10000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca353eac282d778911c85": [
+            [
+                {
+                    "count": 17000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca36beac282d778911c86": [
+            [
+                {
+                    "count": 17000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca38eeac282d778911c87": [
+            [
+                {
+                    "count": 31000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca3a6eac282d778911c88": [
+            [
+                {
+                    "count": 27000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca3bceac282d778911c89": [
+            [
+                {
+                    "count": 23000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca3ddeac282d778911c8a": [
+            [
+                {
+                    "count": 60000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca3f0eac282d778911c8b": [
+            [
+                {
+                    "count": 50000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca5e6eac282d778911c8d": [
+            [
+                {
+                    "count": 50000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca610eac282d778911c8e": [
+            [
+                {
+                    "count": 9000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca725eac282d778911c8f": [
+            [
+                {
+                    "count": 19000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca76eeac282d778911c90": [
+            [
+                {
+                    "count": 6000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca791eac282d778911c91": [
+            [
+                {
+                    "count": 42000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca7a8eac282d778911c92": [
+            [
+                {
+                    "count": 5000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca7caeac282d778911c93": [
+            [
+                {
+                    "count": 12000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca7f1eac282d778911c94": [
+            [
+                {
+                    "count": 6000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca7ffeac282d778911c95": [
+            [
+                {
+                    "count": 8000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca826eac282d778911c96": [
+            [
+                {
+                    "count": 10000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca837eac282d778911c97": [
+            [
+                {
+                    "count": 8000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca848eac282d778911c98": [
+            [
+                {
+                    "count": 7000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca85aeac282d778911c99": [
+            [
+                {
+                    "count": 8000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca869eac282d778911c9a": [
+            [
+                {
+                    "count": 15000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca87ceac282d778911c9b": [
+            [
+                {
+                    "count": 9000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca8f0eac282d778911c9c": [
+            [
+                {
+                    "count": 15000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca8fdeac282d778911c9d": [
+            [
+                {
+                    "count": 15000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca968eac282d778911ca3": [
+            [
+                {
+                    "count": 100000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca986eac282d778911ca4": [
+            [
+                {
+                    "count": 10000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca99aeac282d778911ca5": [
+            [
+                {
+                    "count": 20000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca9a8eac282d778911ca6": [
+            [
+                {
+                    "count": 43000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca9bbeac282d778911ca7": [
+            [
+                {
+                    "count": 27000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca9d1eac282d778911ca8": [
+            [
+                {
+                    "count": 25000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca9e2eac282d778911ca9": [
+            [
+                {
+                    "count": 50000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca9f9eac282d778911caa": [
+            [
+                {
+                    "count": 50000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0caa32eac282d778911cab": [
+            [
+                {
+                    "count": 8000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0d3bf9659a09f6c356de4c": [
+            [
+                {
+                    "count": 100000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0d3c07659a09f6c356de4d": [
+            [
+                {
+                    "count": 6000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0d3c13659a09f6c356de4e": [
+            [
+                {
+                    "count": 3000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0d3c34659a09f6c356de50": [
+            [
+                {
+                    "count": 2500,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0d3c41659a09f6c356de51": [
+            [
+                {
+                    "count": 2000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0d3c83659a09f6c356de52": [
+            [
+                {
+                    "count": 57000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0d3c97659a09f6c356de53": [
+            [
+                {
+                    "count": 26000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0d3ca6659a09f6c356de54": [
+            [
+                {
+                    "count": 2000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0d3cad659a09f6c356de55": [
+            [
+                {
+                    "count": 2000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0d3cb7659a09f6c356de56": [
+            [
+                {
+                    "count": 2000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0d3cc1659a09f6c356de57": [
+            [
+                {
+                    "count": 2000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6ac41902c4d33f6d9c59f35b": [
+            [
+                {
+                    "count": 120000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6ac4196fc4d33f6d9c59f367": [
+            [
+                {
+                    "count": 89000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca930eac282d778911ca0": [
+            [
+                {
+                    "count": 195000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca946eac282d778911ca1": [
+            [
+                {
+                    "count": 210000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6a0ca955eac282d778911ca2": [
+            [
+                {
+                    "count": 215000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ]
     },
-    {
-      "_id": "6a0ca235eac282d778911c7a",
-      "_tpl": "5a7828548dc32e5a9c28b516",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b8c6616ab7c2dcc5586d5"
-    },
-    {
-      "_id": "6a0ca251eac282d778911c7b",
-      "_tpl": "5e848cc2988a8701445df1e8",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b8d9216ab7c2dcc5586df"
-    },
-    {
-      "_id": "6a0ca267eac282d778911c7c",
-      "_tpl": "576165642459773c7a400233",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b8d9216ab7c2dcc5586df"
-    },
-    {
-      "_id": "6a0ca27ceac282d778911c7d",
-      "_tpl": "66ffa9b66e19cc902401c5e8",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b8d9216ab7c2dcc5586df"
-    },
-    {
-      "_id": "6a0ca294eac282d778911c7e",
-      "_tpl": "67124dcfa3541f2a1f0e788b",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b8d9216ab7c2dcc5586df"
-    },
-    {
-      "_id": "6a0ca2a8eac282d778911c7f",
-      "_tpl": "674fe9a75e51f1c47c04ec23",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b8e9f16ab7c2dcc5586f0"
-    },
-    {
-      "_id": "6a0ca2c7eac282d778911c80",
-      "_tpl": "66992b349950f5f4cd06029f",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b8f4516ab7c2dcc5586f8"
-    },
-    {
-      "_id": "6a0ca2ddeac282d778911c81",
-      "_tpl": "57d14d2524597714373db789",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b8f4516ab7c2dcc5586f8"
-    },
-    {
-      "_id": "6a0ca2ebeac282d778911c82",
-      "_tpl": "57f3c6bd24597738e730fa2f",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b8f4516ab7c2dcc5586f8"
-    },
-    {
-      "_id": "6a0ca308eac282d778911c83",
-      "_tpl": "5d2f0d8048f0356c925bc3b0",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b902116ab7c2dcc558705"
-    },
-    {
-      "_id": "6a0ca33ceac282d778911c84",
-      "_tpl": "59f9cabd86f7743a10721f46",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b902116ab7c2dcc558705"
-    },
-    {
-      "_id": "6a0ca353eac282d778911c85",
-      "_tpl": "5de7bd7bfd6b4e6e2276dc25",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b902116ab7c2dcc558705"
-    },
-    {
-      "_id": "6a0ca36beac282d778911c86",
-      "_tpl": "5e00903ae9dc277128008b87",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b902116ab7c2dcc558705"
-    },
-    {
-      "_id": "6a0ca38eeac282d778911c87",
-      "_tpl": "62e14904c2699c0ec93adc47",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b90bf16ab7c2dcc558714"
-    },
-    {
-      "_id": "6a0ca3a6eac282d778911c88",
-      "_tpl": "5fc3e272f8b6a877a729eac5",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b90bf16ab7c2dcc558714"
-    },
-    {
-      "_id": "6a0ca3bceac282d778911c89",
-      "_tpl": "668e71a8dadf42204c032ce1",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b90bf16ab7c2dcc558714"
-    },
-    {
-      "_id": "6a0ca3ddeac282d778911c8a",
-      "_tpl": "5cc82d76e24e8d00134b4b83",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b913c16ab7c2dcc558721"
-    },
-    {
-      "_id": "6a0ca3f0eac282d778911c8b",
-      "_tpl": "5ba26383d4351e00334c93d9",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b913c16ab7c2dcc558721"
-    },
-    {
-      "_id": "6a0ca5e6eac282d778911c8d",
-      "_tpl": "5bd70322209c4d00d7167b8f",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b913c16ab7c2dcc558721"
-    },
-    {
-      "_id": "6a0ca610eac282d778911c8e",
-      "_tpl": "61a4c8884f95bc3b2c5dc96f",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b929616ab7c2dcc55872f"
-    },
-    {
-      "_id": "6a0ca725eac282d778911c8f",
-      "_tpl": "58948c8e86f77409493f7266",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b913c16ab7c2dcc558721"
-    },
-    {
-      "_id": "6a0ca76eeac282d778911c90",
-      "_tpl": "624c2e8614da335f1e034d8c",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b929616ab7c2dcc55872f"
-    },
-    {
-      "_id": "6a0ca791eac282d778911c91",
-      "_tpl": "669fa39b48fc9f8db6035a0c",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b929616ab7c2dcc55872f"
-    },
-    {
-      "_id": "6a0ca7a8eac282d778911c92",
-      "_tpl": "5448bd6b4bdc2dfc2f8b4569",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b929616ab7c2dcc55872f"
-    },
-    {
-      "_id": "6a0ca7caeac282d778911c93",
-      "_tpl": "5abccb7dd8ce87001773e277",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b929616ab7c2dcc55872f"
-    },
-    {
-      "_id": "6a0ca7f1eac282d778911c94",
-      "_tpl": "5e81c3cbac2bb513793cdc75",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b93cd16ab7c2dcc55873f"
-    },
-    {
-      "_id": "6a0ca7ffeac282d778911c95",
-      "_tpl": "5f36a0e5fbf956000b716b65",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b93cd16ab7c2dcc55873f"
-    },
-    {
-      "_id": "6a0ca826eac282d778911c96",
-      "_tpl": "6193a720f8ee7e52e42109ed",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b93cd16ab7c2dcc55873f"
-    },
-    {
-      "_id": "6a0ca837eac282d778911c97",
-      "_tpl": "602a9740da11d6478d5a06dc",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b93cd16ab7c2dcc55873f"
-    },
-    {
-      "_id": "6a0ca848eac282d778911c98",
-      "_tpl": "56d59856d2720bd8418b456a",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b93cd16ab7c2dcc55873f"
-    },
-    {
-      "_id": "6a0ca85aeac282d778911c99",
-      "_tpl": "5a7ae0c351dfba0017554310",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b945716ab7c2dcc55874e"
-    },
-    {
-      "_id": "6a0ca869eac282d778911c9a",
-      "_tpl": "5b1fa9b25acfc40018633c01",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b945716ab7c2dcc55874e"
-    },
-    {
-      "_id": "6a0ca87ceac282d778911c9b",
-      "_tpl": "63088377b5cd696784087147",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b945716ab7c2dcc55874e"
-    },
-    {
-      "_id": "6a0ca8f0eac282d778911c9c",
-      "_tpl": "5d3eb3b0a4b93615055e84d2",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b945716ab7c2dcc55874e"
-    },
-    {
-      "_id": "6a0ca8fdeac282d778911c9d",
-      "_tpl": "5d67abc1a4b93614ec50137f",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b945716ab7c2dcc55874e"
-    },
-    {
-      "_id": "6a0ca90beac282d778911c9e",
-      "_tpl": "5c46fbd72e2216398b5a8c9c",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b951416ab7c2dcc55875e"
-    },
-    {
-      "_id": "6a0ca91aeac282d778911c9f",
-      "_tpl": "5aafa857e5b5b00018480968",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b951416ab7c2dcc55875e"
-    },
-    {
-      "_id": "6a0ca930eac282d778911ca0",
-      "_tpl": "6176aca650224f204c1da3fb",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b957816ab7c2dcc558768"
-    },
-    {
-      "_id": "6a0ca946eac282d778911ca1",
-      "_tpl": "5df8ce05b11454561e39243b",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b957816ab7c2dcc558768"
-    },
-    {
-      "_id": "6a0ca955eac282d778911ca2",
-      "_tpl": "5a367e5dc4a282000e49738f",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b957816ab7c2dcc558768"
-    },
-    {
-      "_id": "6a0ca968eac282d778911ca3",
-      "_tpl": "5fc22d7c187fea44d52eda44",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b95e816ab7c2dcc558774"
-    },
-    {
-      "_id": "6a0ca986eac282d778911ca4",
-      "_tpl": "5de652c31b7e3716273428be",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b964516ab7c2dcc55877c"
-    },
-    {
-      "_id": "6a0ca99aeac282d778911ca5",
-      "_tpl": "5bfea6e90db834001b7347f3",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b964516ab7c2dcc55877c"
-    },
-    {
-      "_id": "6a0ca9a8eac282d778911ca6",
-      "_tpl": "588892092459774ac91d4b11",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b971016ab7c2dcc558787"
-    },
-    {
-      "_id": "6a0ca9bbeac282d778911ca7",
-      "_tpl": "5df24cf80dee1b22f862e9bc",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b971016ab7c2dcc558787"
-    },
-    {
-      "_id": "6a0ca9d1eac282d778911ca8",
-      "_tpl": "55801eed4bdc2d89578b4588",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b971016ab7c2dcc558787"
-    },
-    {
-      "_id": "6a0ca9e2eac282d778911ca9",
-      "_tpl": "673cab3e03c6a20581028bc1",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b97bb16ab7c2dcc558794"
-    },
-    {
-      "_id": "6a0ca9f9eac282d778911caa",
-      "_tpl": "627e14b21713922ded6f2c15",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b97bb16ab7c2dcc558794"
-    },
-    {
-      "_id": "6a0caa32eac282d778911cab",
-      "_tpl": "67b49e7335dec48e3e05e057",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0b9b4e16ab7c2dcc5587ce"
-    },
-    {
-      "_id": "6a0d3bf9659a09f6c356de4c",
-      "_tpl": "67d0576f29f580ebc10efd08",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0d21c5d47f367b5bed547a"
-    },
-    {
-      "_id": "6a0d3c07659a09f6c356de4d",
-      "_tpl": "67dc2648ba5b79876906a166",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0d21c5d47f367b5bed547a"
-    },
-    {
-      "_id": "6a0d3c13659a09f6c356de4e",
-      "_tpl": "67dc255ee3028a8b120efc48",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0d21c5d47f367b5bed547a"
-    },
-    {
-      "_id": "6a0d3c34659a09f6c356de50",
-      "_tpl": "67dc212493ce32834b0fa446",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0d21c5d47f367b5bed547a"
-    },
-    {
-      "_id": "6a0d3c41659a09f6c356de51",
-      "_tpl": "67d41936f378a36c4706eeb9",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0d21c5d47f367b5bed547a"
-    },
-    {
-      "_id": "6a0d3c83659a09f6c356de52",
-      "_tpl": "69c36c0a382b750bcdc01658",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0d22f0d47f367b5bed548b"
-    },
-    {
-      "_id": "6a0d3c97659a09f6c356de53",
-      "_tpl": "69c36c0a382b750bcdc01658",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0d22f0d47f367b5bed548b"
-    },
-    {
-      "_id": "6a0d3ca6659a09f6c356de54",
-      "_tpl": "6765d79148caecc924f38301",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0d2447d47f367b5bed5496"
-    },
-    {
-      "_id": "6a0d3cad659a09f6c356de55",
-      "_tpl": "679de71c3b47fe7f7537f7ff",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0d2447d47f367b5bed5496"
-    },
-    {
-      "_id": "6a0d3cb7659a09f6c356de56",
-      "_tpl": "679d31ae779c471efb063dba",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0d2447d47f367b5bed5496"
-    },
-    {
-      "_id": "6a0d3cc1659a09f6c356de57",
-      "_tpl": "67e343112c5ed0143e3c74eb",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999
-      },
-      "unlockedOn": "success",
-      "questID": "6a0d2447d47f367b5bed5496"
+    "loyal_level_items": {
+        "6a0ca220eac282d778911c79": 1,
+        "6a0ca235eac282d778911c7a": 1,
+        "6a0ca251eac282d778911c7b": 1,
+        "6a0ca267eac282d778911c7c": 1,
+        "6a0ca27ceac282d778911c7d": 1,
+        "6a0ca294eac282d778911c7e": 1,
+        "6a0ca2a8eac282d778911c7f": 1,
+        "6a0ca2c7eac282d778911c80": 1,
+        "6a0ca2ddeac282d778911c81": 1,
+        "6a0ca2ebeac282d778911c82": 1,
+        "6a0ca308eac282d778911c83": 1,
+        "6a0ca33ceac282d778911c84": 1,
+        "6a0ca353eac282d778911c85": 1,
+        "6a0ca36beac282d778911c86": 1,
+        "6a0ca38eeac282d778911c87": 1,
+        "6a0ca3a6eac282d778911c88": 1,
+        "6a0ca3bceac282d778911c89": 1,
+        "6a0ca3ddeac282d778911c8a": 1,
+        "6a0ca3f0eac282d778911c8b": 1,
+        "6a0ca5e6eac282d778911c8d": 1,
+        "6a0ca610eac282d778911c8e": 1,
+        "6a0ca725eac282d778911c8f": 1,
+        "6a0ca76eeac282d778911c90": 1,
+        "6a0ca791eac282d778911c91": 1,
+        "6a0ca7a8eac282d778911c92": 1,
+        "6a0ca7caeac282d778911c93": 1,
+        "6a0ca7f1eac282d778911c94": 1,
+        "6a0ca7ffeac282d778911c95": 1,
+        "6a0ca826eac282d778911c96": 1,
+        "6a0ca837eac282d778911c97": 1,
+        "6a0ca848eac282d778911c98": 1,
+        "6a0ca85aeac282d778911c99": 1,
+        "6a0ca869eac282d778911c9a": 1,
+        "6a0ca87ceac282d778911c9b": 1,
+        "6a0ca8f0eac282d778911c9c": 1,
+        "6a0ca8fdeac282d778911c9d": 1,
+        "6a0ca968eac282d778911ca3": 1,
+        "6a0ca986eac282d778911ca4": 1,
+        "6a0ca99aeac282d778911ca5": 1,
+        "6a0ca9a8eac282d778911ca6": 1,
+        "6a0ca9bbeac282d778911ca7": 1,
+        "6a0ca9d1eac282d778911ca8": 1,
+        "6a0ca9e2eac282d778911ca9": 1,
+        "6a0ca9f9eac282d778911caa": 1,
+        "6a0caa32eac282d778911cab": 1,
+        "6a0d3bf9659a09f6c356de4c": 1,
+        "6a0d3c07659a09f6c356de4d": 1,
+        "6a0d3c13659a09f6c356de4e": 1,
+        "6a0d3c34659a09f6c356de50": 1,
+        "6a0d3c41659a09f6c356de51": 1,
+        "6a0d3c83659a09f6c356de52": 1,
+        "6a0d3c97659a09f6c356de53": 1,
+        "6a0d3ca6659a09f6c356de54": 1,
+        "6a0d3cad659a09f6c356de55": 1,
+        "6a0d3cb7659a09f6c356de56": 1,
+        "6a0d3cc1659a09f6c356de57": 1,
+        "6ac41902c4d33f6d9c59f35b": 1,
+        "6ac4196fc4d33f6d9c59f367": 1,
+        "6a0ca930eac282d778911ca0": 1,
+        "6a0ca946eac282d778911ca1": 1,
+        "6a0ca955eac282d778911ca2": 1
     }
-  ],
-  "barter_scheme": {
-    "6a0ca220eac282d778911c79": [
-      [
-        {
-          "count": 16000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca235eac282d778911c7a": [
-      [
-        {
-          "count": 17000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca251eac282d778911c7b": [
-      [
-        {
-          "count": 25000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca267eac282d778911c7c": [
-      [
-        {
-          "count": 20000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca27ceac282d778911c7d": [
-      [
-        {
-          "count": 45000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca294eac282d778911c7e": [
-      [
-        {
-          "count": 47000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca2a8eac282d778911c7f": [
-      [
-        {
-          "count": 75000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca2c7eac282d778911c80": [
-      [
-        {
-          "count": 20000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca2ddeac282d778911c81": [
-      [
-        {
-          "count": 15000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca2ebeac282d778911c82": [
-      [
-        {
-          "count": 18000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca308eac282d778911c83": [
-      [
-        {
-          "count": 10000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca33ceac282d778911c84": [
-      [
-        {
-          "count": 10000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca353eac282d778911c85": [
-      [
-        {
-          "count": 17000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca36beac282d778911c86": [
-      [
-        {
-          "count": 17000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca38eeac282d778911c87": [
-      [
-        {
-          "count": 31000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca3a6eac282d778911c88": [
-      [
-        {
-          "count": 27000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca3bceac282d778911c89": [
-      [
-        {
-          "count": 23000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca3ddeac282d778911c8a": [
-      [
-        {
-          "count": 60000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca3f0eac282d778911c8b": [
-      [
-        {
-          "count": 50000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca5e6eac282d778911c8d": [
-      [
-        {
-          "count": 50000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca610eac282d778911c8e": [
-      [
-        {
-          "count": 9000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca725eac282d778911c8f": [
-      [
-        {
-          "count": 19000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca76eeac282d778911c90": [
-      [
-        {
-          "count": 6000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca791eac282d778911c91": [
-      [
-        {
-          "count": 42000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca7a8eac282d778911c92": [
-      [
-        {
-          "count": 5000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca7caeac282d778911c93": [
-      [
-        {
-          "count": 12000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca7f1eac282d778911c94": [
-      [
-        {
-          "count": 6000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca7ffeac282d778911c95": [
-      [
-        {
-          "count": 8000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca826eac282d778911c96": [
-      [
-        {
-          "count": 10000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca837eac282d778911c97": [
-      [
-        {
-          "count": 8000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca848eac282d778911c98": [
-      [
-        {
-          "count": 7000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca85aeac282d778911c99": [
-      [
-        {
-          "count": 8000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca869eac282d778911c9a": [
-      [
-        {
-          "count": 15000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca87ceac282d778911c9b": [
-      [
-        {
-          "count": 9000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca8f0eac282d778911c9c": [
-      [
-        {
-          "count": 15000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca8fdeac282d778911c9d": [
-      [
-        {
-          "count": 15000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca90beac282d778911c9e": [
-      [
-        {
-          "count": 43000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca91aeac282d778911c9f": [
-      [
-        {
-          "count": 31000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca930eac282d778911ca0": [
-      [
-        {
-          "count": 31000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca946eac282d778911ca1": [
-      [
-        {
-          "count": 26000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca955eac282d778911ca2": [
-      [
-        {
-          "count": 42000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca968eac282d778911ca3": [
-      [
-        {
-          "count": 100000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca986eac282d778911ca4": [
-      [
-        {
-          "count": 10000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca99aeac282d778911ca5": [
-      [
-        {
-          "count": 20000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca9a8eac282d778911ca6": [
-      [
-        {
-          "count": 43000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca9bbeac282d778911ca7": [
-      [
-        {
-          "count": 27000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca9d1eac282d778911ca8": [
-      [
-        {
-          "count": 25000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca9e2eac282d778911ca9": [
-      [
-        {
-          "count": 50000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0ca9f9eac282d778911caa": [
-      [
-        {
-          "count": 50000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0caa32eac282d778911cab": [
-      [
-        {
-          "count": 8000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0d3bf9659a09f6c356de4c": [
-      [
-        {
-          "count": 100000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0d3c07659a09f6c356de4d": [
-      [
-        {
-          "count": 6000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0d3c13659a09f6c356de4e": [
-      [
-        {
-          "count": 3000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0d3c34659a09f6c356de50": [
-      [
-        {
-          "count": 2500,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0d3c41659a09f6c356de51": [
-      [
-        {
-          "count": 2000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0d3c83659a09f6c356de52": [
-      [
-        {
-          "count": 57000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0d3c97659a09f6c356de53": [
-      [
-        {
-          "count": 26000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0d3ca6659a09f6c356de54": [
-      [
-        {
-          "count": 2000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0d3cad659a09f6c356de55": [
-      [
-        {
-          "count": 2000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0d3cb7659a09f6c356de56": [
-      [
-        {
-          "count": 2000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ],
-    "6a0d3cc1659a09f6c356de57": [
-      [
-        {
-          "count": 2000,
-          "_tpl": "5449016a4bdc2d6f028b456f"
-        }
-      ]
-    ]
-  },
-  "loyal_level_items": {
-    "6a0ca220eac282d778911c79": 1,
-    "6a0ca235eac282d778911c7a": 1,
-    "6a0ca251eac282d778911c7b": 1,
-    "6a0ca267eac282d778911c7c": 1,
-    "6a0ca27ceac282d778911c7d": 1,
-    "6a0ca294eac282d778911c7e": 1,
-    "6a0ca2a8eac282d778911c7f": 1,
-    "6a0ca2c7eac282d778911c80": 1,
-    "6a0ca2ddeac282d778911c81": 1,
-    "6a0ca2ebeac282d778911c82": 1,
-    "6a0ca308eac282d778911c83": 1,
-    "6a0ca33ceac282d778911c84": 1,
-    "6a0ca353eac282d778911c85": 1,
-    "6a0ca36beac282d778911c86": 1,
-    "6a0ca38eeac282d778911c87": 1,
-    "6a0ca3a6eac282d778911c88": 1,
-    "6a0ca3bceac282d778911c89": 1,
-    "6a0ca3ddeac282d778911c8a": 1,
-    "6a0ca3f0eac282d778911c8b": 1,
-    "6a0ca5e6eac282d778911c8d": 1,
-    "6a0ca610eac282d778911c8e": 1,
-    "6a0ca725eac282d778911c8f": 1,
-    "6a0ca76eeac282d778911c90": 1,
-    "6a0ca791eac282d778911c91": 1,
-    "6a0ca7a8eac282d778911c92": 1,
-    "6a0ca7caeac282d778911c93": 1,
-    "6a0ca7f1eac282d778911c94": 1,
-    "6a0ca7ffeac282d778911c95": 1,
-    "6a0ca826eac282d778911c96": 1,
-    "6a0ca837eac282d778911c97": 1,
-    "6a0ca848eac282d778911c98": 1,
-    "6a0ca85aeac282d778911c99": 1,
-    "6a0ca869eac282d778911c9a": 1,
-    "6a0ca87ceac282d778911c9b": 1,
-    "6a0ca8f0eac282d778911c9c": 1,
-    "6a0ca8fdeac282d778911c9d": 1,
-    "6a0ca90beac282d778911c9e": 1,
-    "6a0ca91aeac282d778911c9f": 1,
-    "6a0ca930eac282d778911ca0": 1,
-    "6a0ca946eac282d778911ca1": 1,
-    "6a0ca955eac282d778911ca2": 1,
-    "6a0ca968eac282d778911ca3": 1,
-    "6a0ca986eac282d778911ca4": 1,
-    "6a0ca99aeac282d778911ca5": 1,
-    "6a0ca9a8eac282d778911ca6": 1,
-    "6a0ca9bbeac282d778911ca7": 1,
-    "6a0ca9d1eac282d778911ca8": 1,
-    "6a0ca9e2eac282d778911ca9": 1,
-    "6a0ca9f9eac282d778911caa": 1,
-    "6a0caa32eac282d778911cab": 1,
-    "6a0d3bf9659a09f6c356de4c": 1,
-    "6a0d3c07659a09f6c356de4d": 1,
-    "6a0d3c13659a09f6c356de4e": 1,
-    "6a0d3c34659a09f6c356de50": 1,
-    "6a0d3c41659a09f6c356de51": 1,
-    "6a0d3c83659a09f6c356de52": 1,
-    "6a0d3c97659a09f6c356de53": 1,
-    "6a0d3ca6659a09f6c356de54": 1,
-    "6a0d3cad659a09f6c356de55": 1,
-    "6a0d3cb7659a09f6c356de56": 1,
-    "6a0d3cc1659a09f6c356de57": 1
-  }
 }
